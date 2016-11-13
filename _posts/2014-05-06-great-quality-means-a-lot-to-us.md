@@ -3,6 +3,8 @@ layout: post
 title:  "Great quality means a lot to us"
 date:   2014-05-05 20:37:53 +0800
 author: Andy Budd
+category: test2
+tags: [Hosting]
 ---
 
 ![computers]({{site.url}}/images/blog-people.jpg)
