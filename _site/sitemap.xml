@@ -31,16 +31,10 @@
 <loc>http://localhost:4000/archive.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/index-alternative.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/portfolio-item.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/portfolio.html</loc>
@@ -50,9 +44,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/page2/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/doc/documentation.html</loc>
-<lastmod>2014-05-15T23:24:28-04:00</lastmod>
 </url>
 </urlset>
