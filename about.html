@@ -2,84 +2,13 @@
 layout: default
 title: About
 section_id: about
-bars:
-  - title: Web design
-    percent: 84
-  - title: Web development
-    percent: 95
-  - title: Site management
-    percent: 70
-  - title: Branding
-    percent: 61
-members:
-  - image: member-1.png
-    name: Shirley Adkins
-    position: Founder &amp; Designer
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-      - name: vimeo
-        link: #
-        color: yellow
-      - name: mail
-        link: #
-        color: yellow
-  - image: member-2.png
-    name: Uriel Garrett
-    position: Director &amp; Project Manager
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-  - image: member-3.png
-    name: Dulce Welch
-    position: Designer &amp; Art Director
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-      - name: mail
-        link: #
-        color: yellow
-  - image: member-4.png
-    name: Stephanie Morse
-    position: Developer
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: vimeo
-        link: #
-        color: yellow
-      - name: mail
-        link: #
-        color: yellow
 ---
 
 <div class='full'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <i class='icon-users'></i>
-      <h2>Who we are</h2>
-      <p>We are happy to know you are happy</p>
+      <h2>Who is {{ site.name }}</h2>
+      <p>Small Business helping Small Business</p>
       <p class='shortline'></p>
     </div>
     <div class='spacing'></div>
@@ -87,87 +16,21 @@ members:
   </div>
   <div class='row'>
     <div class='medium-6 large-6 columns'>
-      <p>
-        <span class='drop-letters'>We</span>
-        are est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.
+      <p style="font-size: larger;">
+        <span class='drop-letters'>L</span>
+        ampApps was a small web development company located in Charleston, SC. A one man shop that provided other small businesses with development, hosting, email, and local SEO services at a fair price for many years. I prided myself on customer service.
       </p>
-      <p>Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Nihil quia et omnis blanditiis eius suscipit quos.</p>
+      <p style="font-size: larger;">I know the challenges for a small business to navigate the complexities of establishing and maintaining a professional web presence. This often leads to small start ups to do it themselves, or pay to have it done by someone else.</p>
     </div>
     <div class='medium-6 large-6 columns'>
-      <ul class='bars'>
-        {% for bar in page.bars %}
-          <li>
-            <h4>
-              {{bar.title}}
-              <strong>{{bar.percent}}%</strong>
-            </h4>
-            <p class='highlighted' data-percent='{{bar.percent}}'></p>
-          </li>
-        {% endfor %}
-      </ul>
+      <p style="font-size: larger;">
+        My goal is to share what I have learned helping others with their websites, email, and local SEO, often using high quality free or low cost services that I have used in my business. I often leveraged open source products in my business, passing along savings to my clients.
+      </p>
+      <p style="font-size: larger;">Not everything is free and quality can cost money. Somethings can not be jeopardized especially when it comes to financial transactions on the Internet. This website extends what I have learned to you in hopes that you benefit from it.</p>
     </div>
   </div>
 </div>
 
-
-
-<div class='members'>
-  <div class='full no-padding'>
-    <div class='row'>
-      {% for member in page.members %}
-        {% if forloop.first %}
-          {% assign active_class = "active" %}
-        {% else %}
-          {% assign active_class = "" %}
-        {% endif %}
-        <div class='medium-3 large-3 columns'>
-          <div class='member centered-text {{active_class}}'>
-            <img src='{{site.url}}/images/{{member.image}}'>
-            <h3>{{member.name}}</h3>
-            <p class='position'>{{member.position}}</p>
-            <p>
-              {{member.desc}}
-            </p>
-            <div class='socials'>
-              {% for social in member.socials %}
-                <a href='{{social.link}}'>
-                  <i class='icon-{{social.name}} {{social.color}}'></i>
-                </a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class='three spacing'></div>
-
-    <div class='row'>
-      {% for member in page.members %}
-        {% if forloop.first %}
-          {% assign active_class = "active" %}
-        {% else %}
-          {% assign active_class = "" %}
-        {% endif %}
-        <div class='medium-3 large-3 columns'>
-          <div class='member centered-text {{active_class}}'>
-            <img src='{{site.url}}/images/{{member.image}}'>
-            <h3>{{member.name}}</h3>
-            <p class='position'>{{member.position}}</p>
-            <p>
-              {{member.desc}}
-            </p>
-            <div class='socials'>
-              {% for social in member.socials %}
-                <a href='{{social.link}}'>
-                  <i class='icon-{{social.name}} {{social.color}}'></i>
-                </a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
 
     <div class='three spacing'></div>
     <div class='three spacing'></div>

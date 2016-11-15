@@ -7,7 +7,7 @@ services:
     - title: G Suite
       icon: mail
       desc:
-        G Suite includes Gmail and other Google services to help teams commnuicate. Simple to set up and manage. 
+        Google's <strong>G Suite</strong> includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
       linktext: Start Your Free Trial
       linktitle: G Suite by Google
       link: 
@@ -16,70 +16,49 @@ services:
     - title: Merchant Account
       icon: credit-card
       desc:
-        With free Authorize.net payment gateway. Accept credit cards online.
-      linktext: View Plans &amp Features
+        With free <strong>Authorize.net</strong> payment gateway. Accept credit cards online securely. Compatible with most shopping carts. No setup costs. 
+      linktext: View Plans &amp; Features
       linktitle: Merchant Account with Payment Gateway
       link: http://www.cdgcommerce.com/internet-services-authnet.php?R=1283
 
     - title: Shopping Cart
       icon: basket
       desc:
-        Ecwid seamlessly integrates into any website including Facebook. Manage your shop online and safely collect payments from customers.
-      linktext: View Plans &amp Features 
+        <strong>Ecwid</strong> seamlessly integrates into any website including Facebook. Manage your shop online and safely collect payments from customers.
+      linktext: View Plans &amp; Features 
       linktitle: ECWID Shopping Cart
       link: http://open.ecwid.com/j8sZ
 
     - title: Appointment Scheduling
       icon: calendar
       desc:
-        SuperSasS is an online appointment scheduling system with integrated payment options. Schedule classes, meeting rooms, seminars, event registration, or just about anything.
-      linktext: View Plans &amp Features
+        <strong>SuperSasS</strong> is an online appointment scheduling system with integrated payment options. Schedule classes, meeting rooms, seminars, event registration, or just about anything.
+      linktext: View Plans &amp; Features
       linktitle: SuperSaaS Scheduling
       link: http://www.supersaas.com/?af=40938-lampapps
 
     - title: Web Hosting Automation
       icon: lifebuoy
       desc:
-        WHMCS is the leading web hosting billing and automation platform including invoicing, customer management, knowledgebase, and help desk.
-      linktext: View Plans &amp Features
+        <strong>WHMCS</strong> is the leading web hosting billing and automation platform including invoicing, customer management, knowledgebase, and help desk.
+      linktext: View Plans &amp; Features
       linktitle: WHMCS
       link: http://www.whmcs.com/members/aff.php?aff=336
 
     - title: Web Design
       icon: layout
       desc:
-        Professional websites design for any website. The largest global community of creative designers providing themes and templates that you can use to start your website. 
-      linktext: View Plans &amp Features
+        Professional websites designs for any website. <strong>Themeforest</strong> is the largest global community of creative designers providing themes and templates that you can use to start your website. 
+      linktext: View Plans &amp; Features
       linktitle: Themeforest
       link: https://themeforest.net/
-
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      linktext: View Plans &amp Features
-      link:
-
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      linktext: View Plans &amp Features
-      link:
-
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      linktext: View Plans &amp Features
-      link:
 ---
 
 <div class='full'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <h2>Recommended services</h2>
-      <p>LampApps does not provide these services. We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design.</p>
+      <h2>Recommended Services</h2>
+      <p>{{ site.name }} does not provide these services. We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design.</p>
       <p class='shortline'></p>
     </div>
     <div class='two spacing'></div>
@@ -91,8 +70,8 @@ services:
         <div class='medium-4 large-4 columns icon-text'>
           <i class='icon-{{service.icon}} {{service.color}}'></i>
           <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-          <p><a href="{{service.link}}" title="{{service.linktitle}}" target="_blank" class="button">{{service.linktext}}</a>
+          <p style="text-align: justify;">{{service.desc}}</p>
+          <p style="text-align: center"><a href="{{service.link}}" title="{{service.linktitle}}" target="_blank" class="tiny button">{{service.linktext}}</a>
         </div>
       {% endfor %}
     </div>
@@ -100,4 +79,10 @@ services:
       <div class="spacing"></div>
     {% endunless %}
   {% endfor %}
+  <div class="row">
+    <div class="panel">
+    <h5>Disclaimer</h5>
+    <p>{{ site.name }} does not provide or support these services. In some cases {{ site.name }} is an affiliate and will receive compensation if you sign up and pay for their service. However, {{ site.name }} places quality and value of the services above any compensation {{ site.name }} may receive.</p>
+    </div>
+  </div>
 </div>
