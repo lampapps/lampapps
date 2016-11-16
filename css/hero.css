@@ -1,0 +1,39 @@
+.hero {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: url("/images/slide-1.jpg") no-repeat;
+  background-size: cover;
+  height: 50vh;
+      }
+  
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: center;}
+  .hero h1 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 9px 10px 4px;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+  @media only screen and (min-width: 40.063em) {
+    .hero h1 {
+      text-align: center;
+      font-size: 2.5rem; }
+    .hero p {
+      text-align: center; } }
