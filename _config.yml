@@ -1,6 +1,6 @@
 name: LampApps
 # Comment next line for local server
-url: "devlampapps.s3-website-us-east-1.amazonaws.com"
+url: "http://devlampapps.s3-website-us-east-1.amazonaws.com"
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
