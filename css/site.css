@@ -1,0 +1,86 @@
+.hero {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: url("/images/slide-1.jpg") no-repeat;
+  background-size: cover;
+  height: 60vh;
+  min-height: 300px;
+      }
+  
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: center;}
+  .hero h1 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 9px 10px 4px;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+  @media only screen and (min-width: 40.063em) {
+    .hero h1 {
+      text-align: center;
+      font-size: 2.5rem; }
+    .hero p {
+      text-align: center; } }
+
+
+/*footer*/
+
+.footer {
+  padding: 2rem 4rem;
+  background-color: #2c2e31;
+  color: #888f91;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footerleft {
+  text-align: center;
+}
+.footerright {
+  text-align: left;
+}
+
+.footer h4 {
+  color: #888f91;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #888f91;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid rgba(123, 123, 123, 0.28);
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
