@@ -16,10 +16,16 @@ section_id: blog
             {{ post.title }}
           </h3>
           <p>
-            By
-            <span class='author'>{{post.author}}</span><!--
-            |
-            <a href='single.html#comments'>Comments 6</a> -->
+            <!--<span class='author'>{{post.author}}</span>-->
+            <span class='month'>{{ post.date | date: "%B" }}</span>
+            <span class='date'>{{ post.date | date: "%d" }},</span>
+            <span class='date'>{{ post.date | date: "%Y" }}</span> - 
+            <a href='{{ post.url }}#disqus_thread'></a>
+            <br />
+            <span>{% if post.tags.size > 0 %}Tag{% if post.tags.size > 1 %}s{% endif %}:
+                    {{ post.tags | sort | join: ", " }}
+                  {% endif %}
+            </span>
           </p>
         </div>
         <div class='content'>
@@ -30,6 +36,8 @@ section_id: blog
     {% endfor %}
   </div>
   <div class="large-3 columns">
+  <!-- Go to www.addthis.com/dashboard to customize your tools  
+  Share this Page <span class="addthis_inline_share_toolbox"></span>-->
     <div class="post">
       <h3>Posts By Date</h3><hr />
         {% for post in site.posts %}
@@ -48,7 +56,7 @@ section_id: blog
         <hr />
     </div>
     <div class="post">
-      <h3>Posts By Tages</h3><hr />
+      <h3>Posts By Tag</h3><hr />
         {% for tag in site.tags %}
           <h3 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
           </h3>

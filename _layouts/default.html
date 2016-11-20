@@ -2,19 +2,17 @@
 <html class='no-js' lang='en'>
     <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>{{ page.title }}</title>
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-      <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/site.css' rel='stylesheet'>
       <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-
       <script src='{{ site.url }}/js/modernizr.js'></script>
-
     </head>
     <body>
       <div class='contain-to-grid sticky'>
@@ -22,8 +20,7 @@
           <ul class='title-area'>
             <li class='name'>
               <h1>
-                <img src='{{site.url}}/images/logo.png'>
-                <a href='/'>{{ site.name }}</a>
+                <a href='/'><img src='{{site.url}}/images/logo.png' alt="LampApps">&nbsp;{{ site.name }}</a>
               </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
@@ -38,7 +35,6 @@
                 {% else %}
                   {% assign active_class = "" %}
                 {% endif %}
-
                 {% if item.children %}
                   <li class="has-dropdown {{active_class}}">
                     <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
@@ -60,47 +56,42 @@
           </section>
         </nav>
       </div>
-
-
       {{ content }}
-
-
-<footer class="footer">
-  <div class="row full-width">
-    <div class="small-12 medium-3 large-4 columns footerleft">
-      <i class="fi-laptop"></i>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!</p>
-    </div>
-    <div class="small-12 medium-3 large-4 columns footerleft">
-      <i class="fi-html5"></i>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
-    </div>
-    <div class="small-6 medium-3 large-2 columns footerright">
-      <h4>Work With Me</h4>
-      <ul class="footer-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/About">About</a></li>
-        <li><a href="/tos">Terms of Service</a></li>
-      </ul>
-    </div>
-    <div class="small-6 medium-3 large-2 columns footerright">
-      <h4>Follow Me</h4>
-      <ul class="footer-links">
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Dribbble</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
+      <footer class="footer">
+        <div class="row full-width">
+          <div class="small-12 medium-3 large-4 columns footerleft">
+            <i class="fi-laptop"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!</p>
+          </div>
+          <div class="small-12 medium-3 large-4 columns footerleft">
+            <i class="fi-html5"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
+          </div>
+          <div class="small-6 medium-3 large-2 columns footerright">
+            <h4>Work With Me</h4>
+            <ul class="footer-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/tos.html">Terms of Service</a></li>
+              <li><a href="/privacypolicy.html"> Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="small-6 medium-3 large-2 columns footerright">
+            <h4>Follow Me</h4>
+            <ul class="footer-links">
+            <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+            <span class="addthis_inline_follow_toolbox"></span>
+            </ul>
+          </div>
+        </div>
+      </footer>
       <script src='{{ site.url }}/js/jquery.min.js'></script>
       <script src='{{ site.url }}/js/foundation.min.js'></script>
+      <script src='{{ site.url }}/js/app.js'></script>
       <!--<script src='{{ site.url }}/js/jquery.countTo.js'></script>
       <script src='{{ site.url }}/js/jquery.appear.js'></script>-->
-      <script src='{{ site.url }}/js/app.js'></script>
+      <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54af51b3029c09d0"></script> 
+      <script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>
     </body>
 </html>

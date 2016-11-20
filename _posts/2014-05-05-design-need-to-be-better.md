@@ -4,6 +4,7 @@ title:  "Design need to be better"
 date:   2014-05-05 20:37:53 +0800
 author: Andy Budd
 category: test
+tags: [Hosting]
 ---
 
 ![computers]({{site.url}}/images/children.jpg)

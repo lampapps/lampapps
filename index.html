@@ -3,26 +3,20 @@ layout: default
 title: LampApps &gt; home
 section_id: home
 ---
-
 {% include hero.html %}
-
-
-
 <div class='full'>
-  <div class='row'>
- <div class='large-10 small-centered columns'>
-      <div class='special-title centered-text'>
-        <h2>Helping small businesses navigate the internet</h2>
-        <p>There are many low cost (even free) online services that businesses of any size can use. LampApps goal is to showcase these services and show the average person how to maximize their online presence at the lowest cost. </p>
-         <p class='shortline'></p>
-      </div>
-     
- </div>
-<br />
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
+  	<div class='row'>
+		 <div class='large-10 small-centered columns'>
+		      <div class='special-title centered-text'>
+		        <h2>Helping small businesses navigate the internet</h2>
+		        <p>There are many low cost (even free) online services that businesses of any size can use. LampApps goal is to showcase these services and show the average person how to maximize their online presence at the lowest cost. </p>
+		         <p class='shortline'></p>
+		      </div>  
+		 </div>
+		<div class="two spacing"></div>
+	  {% assign post = site.posts.first %}
+	  {% assign content = post.content %}
+	  {% include post_detail.html %}
+	</div>
 </div>
-</div>
-
 {% include clients.html %}

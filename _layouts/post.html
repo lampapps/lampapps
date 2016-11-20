@@ -1,8 +1,8 @@
 ---
 layout: blog
 section_id: blog
+# Used for single full blog post
 ---
-
 <div class='post'>
   <div class='timestamp left text-center'>
     <span class='month'>{{ page.date | date: "%h" }}</span>
@@ -12,15 +12,43 @@ section_id: blog
     <h3>
       {{ page.title }}
     </h3>
-    <p>
-      By
-      <span class='author'>{{ page.author }}</span> <!--
-      |
-      <a href='{{page.url}}#comments'>Comments 6</a> -->
-    </p>
+      <p>
+        <!--<span class='author'>{{post.author}}</span>-->
+        Posted: 
+        <span class='month'>{{ page.date | date: "%B" }}</span>
+        <span class='date'>{{ page.date | date: "%d" }},</span>
+        <span class='date'>{{ page.date | date: "%Y" }}</span> - 
+        <a href='{{ site.url }}{{ page.url }}#disqus_thread'></a>
+        <br />
+        <span>{% if page.tags.size > 0 %}Tag{% if page.tags.size > 1 %}s{% endif %}:
+                {{ page.tags | sort | join: ", " }}
+              {% endif %}
+        </span>
+      </p>
   </div>
   <div class='content'>
     {{ content }}
+          <hr >
+          <div class='spacing'></div>
+          <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+          <div class="addthis_inline_share_toolbox"></div>
   </div>
 </div>
 <!-- Comments Go here-->
+<!-- <div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = '{{ site.url }}{{ page.url }}';
+this.page.identifier = '{{ page.id }}';
+this.page.title ='{{ page.title }}';
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//lampapps.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+ -->

@@ -7,6 +7,6 @@
 - name: Services
   path: services.html
   section_id: services
-- name: About
-  path: about.html
-  section_id: about
+- name: Tools
+  path: tools.html
+  section_id: tools

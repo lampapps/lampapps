@@ -1,0 +1,56 @@
+---
+layout: default
+title: Resources
+section_id: tools
+categories:
+  - name: Graphics
+  - name: SEO
+  - name: Email
+---
+<div class='full'><!--full-->
+  <div class='row'><!--Row-->
+    <div class='special-title centered-text'>
+      <h2>Tools</h2>
+      <p>{{ site.name }} does not provide or support these products and services. We recommend these web development tools, either online or downloaded to your computer, to help you create and maintain your web presence.</p>
+      <p class='shortline'></p>
+      <div class="two spacing"></div>
+    </div>
+  </div><!--Row-->
+  <div class='row'><!--Row-->
+    <div class='gallery-wrapper large-12 columns'>
+      <ul class='sub-nav' id='filter'>
+        {% for category in page.categories %}
+          <li>
+            <a data-cat='{{ category.name | downcase | replace: ' ', '-' }}' href='#{{category.name}}'>{{category.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+        {% for entry in site.data.tools %}
+         <div class="two spacing"></div>
+          <span class="anchor" id="{{ entry.category }}"></span>
+          <h2>{{ entry.category }}</h2>
+            <div class="Table">
+              <div class="Table-row Table-header">
+                <div class="Table-row-item u-Flex-grow1">Website</div>
+                <div class="Table-row-item u-Flex-grow7">Description</div>
+                <div class="Table-row-item">Cost</div>
+              </div>
+                {% for vendor in entry.vendors %} 
+              <div class="Table-row">  
+                  <div class="Table-row-item u-Flex-grow1" data-header="Website"><a href="{{ vendor.href }}" target="_blank"><strong>{{ vendor.title }}</strong></a></div>
+                  <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
+                  <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
+              </div>
+                {% endfor %}
+            </div><!--Table-->
+        {% endfor %}
+              <div class="two spacing"></div>
+    </div><!--Gallery Wrapper-->
+  </div><!--Row-->
+  <div class="row">
+    <div class="panel">
+    <h5>Note</h5>
+    <p>{{ site.name }} does not provide or support these services. In some cases {{ site.name }} is an affiliate and will receive compensation if you sign up and pay for their service. However, {{ site.name }} places quality and value of the services above any compensation {{ site.name }} may receive.</p>
+    </div>
+  </div>
+</div><!--full-->
