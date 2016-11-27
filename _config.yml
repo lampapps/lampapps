@@ -30,7 +30,7 @@ exclude:
   #- "rev-manifest.json"
 
 # Plugins
-gems: ["jekyll-sitemap", "jekyll-paginate"]
+gems: ["jekyll-sitemap", "jekyll-paginate", "sass"]
 
 # Conversion
 #incremental:      true
@@ -38,6 +38,9 @@ gems: ["jekyll-sitemap", "jekyll-paginate"]
 # Serving
 url: "http://devlampapps.s3-website-us-east-1.amazonaws.com"
 # baseurl:  "" # does not include hostname
+
+sass:
+  style: compressed
 
 # Outputting
 excerpt_separator: <!--more-->

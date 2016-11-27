@@ -1,22 +1,115 @@
 ---
 layout: default
-title: LampApps &gt; home
+metadesc: "Showing the small business owner how to maximize their online presence at the lowest cost. Guiding you through the steps and recommending low cost solutions."
+title: A Small Business Owner's Guide to Building an Online Presence
 section_id: home
+services:
+  -
+    - title: G Suite
+      icon: "mail"
+      desc:
+        Google's <strong>G Suite</strong> includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
+      linktext: Start Your Free Trial
+      linktitle: G Suite by Google
+      link: 
+        https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
+        
+    - title: Merchant Account
+      icon: "credit-card"
+      desc:
+        With free <strong>Authorize.net</strong> payment gateway. Accept credit cards online securely. Compatible with most shopping carts. No setup costs. 
+      linktext: View Plans &amp; Features
+      linktitle: Merchant Account with Payment Gateway
+      link: http://www.cdgcommerce.com/internet-services-authnet.php?R=1283
+
+    - title: Shopping Cart
+      icon: "basket"
+      desc:
+        <strong>Ecwid</strong> seamlessly integrates into any website including Facebook. Manage your shop online and safely collect payments from customers.
+      linktext: View Plans &amp; Features 
+      linktitle: ECWID Shopping Cart
+      link: http://open.ecwid.com/j8sZ
+
+    - title: Appointment Scheduling
+      icon: "calendar"
+      desc:
+        <strong>SuperSasS</strong> is an online appointment scheduling system with integrated payment options. Schedule classes, meeting rooms, seminars, event registration, or just about anything.
+      linktext: View Plans &amp; Features
+      linktitle: SuperSaaS Scheduling
+      link: http://www.supersaas.com/?af=40938-lampapps
+
+    - title: Web Hosting Automation
+      icon: "lifebuoy"
+      desc:
+        <strong>WHMCS</strong> is the leading web hosting billing and automation platform including invoicing, customer management, knowledgebase, and help desk.
+      linktext: View Plans &amp; Features
+      linktitle: WHMCS
+      link: http://www.whmcs.com/members/aff.php?aff=336
+
+    - title: Web Design
+      icon: "file-code"
+      desc:
+        Professional websites designs for any website. <strong>Themeforest</strong> is the largest global community of creative designers providing themes and templates that you can use to start your website. 
+      linktext: View Plans &amp; Features
+      linktitle: Themeforest
+      link: https://themeforest.net/?ref=lampapps
 ---
 {% include hero.html %}
 <div class='full'>
-  	<div class='row'>
-		 <div class='large-10 small-centered columns'>
-		      <div class='special-title centered-text'>
-		        <h2>Helping small businesses navigate the internet</h2>
-		        <p>There are many low cost (even free) online services that businesses of any size can use. LampApps goal is to showcase these services and show the average person how to maximize their online presence at the lowest cost. </p>
-		         <p class='shortline'></p>
-		      </div>  
-		 </div>
-		<div class="two spacing"></div>
-	  {% assign post = site.posts.first %}
-	  {% assign content = post.content %}
-	  {% include post_detail.html %}
-	</div>
-</div>
-{% include clients.html %}
+  	<!--Welcome Title Block-->
+    <div class='row'><!--Welcome Title Block-->
+  		      <div class='special-title centered-text'>
+  		        <h2>Helping Small Businesses Navigate the Internet</h2>
+  		        <p>{{ site.name }} goal is to show the average small business owner how to maximize their online presence at the lowest cost. We do this by guiding you through the steps and recommending many low cost (even free) online services that businesses of any size can use. </p>
+  		         <p class='shortline'></p>
+  		      </div>  
+    		   <div class="two spacing"></div>
+    </div>
+    <!--Lastest Blog Post-->
+    <div class='row'><!--Lastest Blog Post-->
+            <div class="large-9 columns">
+            	  {% assign post = site.posts.first %}
+            	  {% assign content = post.content %}
+            	  {% include post_detail.html %}
+            </div>
+            <!--Right Column of Posts by Tag-->
+            <div class="large-3 columns">
+                <div class="post">
+                    <h3>Posts By Tag</h3><hr />
+                      {% for tag in site.tags %}
+                        <h3 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
+                        </h3>
+                        {% for post in tag[1] %}
+                          <span style="line-height: 1.5;"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span><br />
+                        {% endfor %}
+                        <hr />
+                      {% endfor %}
+                </div>
+            </div> 
+    <hr />
+    </div>
+  <!--Recommended Services-->
+	  <div class='row'>
+	     <div class='special-title centered-text'>
+  	      <h2>Recommended Services</h2>
+  	      <p>{{ site.name }} does not provide or support these services. We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design.</p>
+  	      <p class='shortline'></p>
+	    </div>
+    	<div class='two spacing'></div>
+    </div>
+  	{% for row in page.services %}
+    <div class="row">
+          {% for service in row %}
+            <div class='medium-4 large-4 columns icon-text'>
+              <i class='icon-{{ service.icon }}'></i>
+              <h3>{{service.title}}</h3>
+              <p style="text-align: justify;">{{service.desc}}</p>
+              <p style="text-align: center"><a href="{{service.link}}" title="{{service.linktitle}}" target="_blank" class="tiny button" rel="nofollow">{{service.linktext}}</a>
+            </div>
+          {% endfor %}
+    </div>
+          {% unless forloop.last %}
+      <div class="spacing"></div>
+          {% endunless %}
+    {% endfor %}
+</div><!--Full-->

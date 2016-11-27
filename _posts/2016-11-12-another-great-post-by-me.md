@@ -1,5 +1,6 @@
 ---
 layout: post
+metadesc: "This is a test post of the blog"
 title:  "Another Great Post by Me"
 date:   2016-11-12 20:37:53 +0500
 author: Jim Ferry

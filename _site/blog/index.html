@@ -3,15 +3,18 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="canonical" href="http://localhost:4000/blog/">
+      <meta name="description" content="">
       <title>Blog</title>
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+      <!--
       <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='http://localhost:4000/css/framework.css' rel='stylesheet'>
       <link href='http://localhost:4000/css/syntax.css' rel='stylesheet'>
-      <link href='http://localhost:4000/css/style.css' rel='stylesheet'>
       <link href='http://localhost:4000/css/fontello.css' rel='stylesheet'>
       <link href='http://localhost:4000/css/site.css' rel='stylesheet'>
-      <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+      -->
+      <link href='http://localhost:4000/css/style.css' rel='stylesheet'>
       <script src='http://localhost:4000/js/modernizr.js'></script>
     </head>
     <body>
@@ -19,9 +22,7 @@
         <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
           <ul class='title-area'>
             <li class='name'>
-              <h1>
                 <a href='/'><img src='http://localhost:4000/images/logo.png' alt="LampApps">&nbsp;LampApps</a>
-              </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
               <a href='#'>Menu</a>
@@ -46,15 +47,19 @@
               
                 
                 
-                  <li class="">
-                    <a href="http://localhost:4000/services.html">Services</a>
-                  </li>
-                
-              
-                
-                
-                  <li class="">
-                    <a href="http://localhost:4000/tools.html">Tools</a>
+                  <li class="has-dropdown ">
+                    <a href="http://localhost:4000/tools.html">Resources</a>
+                    <ul class='dropdown'>
+                      
+                        <li>
+                          <a href="http://localhost:4000/tools.html">Tools</a>
+                        </li>
+                      
+                        <li>
+                          <a href="http://localhost:4000/reference.html">References</a>
+                        </li>
+                      
+                    </ul>
                   </li>
                 
               
@@ -66,7 +71,7 @@
   <div class='row'>
     <div class='special-title centered-text'>
       <h2>Our Blog</h2>
-      <p>We are passionate about web design &amp; development</p>
+      <p>A Small Business Owner's Guide to Creating a Website</p>
       <p class='shortline'></p>
     </div>
     <div class='spacing'></div>
@@ -84,10 +89,11 @@
         </div>
         <div class='info'>
           <h3>
-            Another Great Post by Me
+            <a href='/2016/11/12/another-great-post-by-me.html' style="color: #333333;">Another Great Post by Me</a>
           </h3>
           <p>
             <!--<span class='author'>Jim Ferry</span>-->
+            Posted: 
             <span class='month'>November</span>
             <span class='date'>12,</span>
             <span class='date'>2016</span> - 
@@ -122,10 +128,11 @@
         </div>
         <div class='info'>
           <h3>
-            Welcome to LampApps!
+            <a href='/2016/11/11/welcome-to-jekyll-copy.html' style="color: #333333;">Welcome to LampApps!</a>
           </h3>
           <p>
             <!--<span class='author'>Jim Ferry</span>-->
+            Posted: 
             <span class='month'>November</span>
             <span class='date'>11,</span>
             <span class='date'>2016</span> - 
@@ -161,10 +168,11 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
         </div>
         <div class='info'>
           <h3>
-            Great quality means a lot to us
+            <a href='/2014/05/05/great-quality-means-a-lot-to-us.html' style="color: #333333;">Great quality means a lot to us</a>
           </h3>
           <p>
             <!--<span class='author'>Andy Budd</span>-->
+            Posted: 
             <span class='month'>May</span>
             <span class='date'>05,</span>
             <span class='date'>2014</span> - 
@@ -199,10 +207,11 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
         </div>
         <div class='info'>
           <h3>
-            Design need to be better
+            <a href='/2014/05/05/design-need-to-be-better.html' style="color: #333333;">Design need to be better</a>
           </h3>
           <p>
             <!--<span class='author'>Andy Budd</span>-->
+            Posted: 
             <span class='month'>May</span>
             <span class='date'>05,</span>
             <span class='date'>2014</span> - 
@@ -237,10 +246,11 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
         </div>
         <div class='info'>
           <h3>
-            This is a title for your post
+            <a href='/2014/05/01/this-is-a-title-for-your-post.html' style="color: #333333;">This is a title for your post</a>
           </h3>
           <p>
             <!--<span class='author'>Andy Budd</span>-->
+            Posted: 
             <span class='month'>May</span>
             <span class='date'>01,</span>
             <span class='date'>2014</span> - 
@@ -268,22 +278,20 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
     
   </div>
   <div class="large-3 columns">
-  <!-- Go to www.addthis.com/dashboard to customize your tools  
-  Share this Page <span class="addthis_inline_share_toolbox"></span>-->
     <div class="post">
       <h3>Posts By Date</h3><hr />
         
           
             <h3 style="margin-bottom: 0.1rem;">2016 Nov</h3>
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
         
           
             
             
             
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2016/11/11/welcome-to-jekyll-copy.html">Welcome to LampApps!</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2016/11/11/welcome-to-jekyll-copy.html">Welcome to LampApps!</a></span><br />
         
           
             
@@ -293,21 +301,21 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
               <h3 style="margin-bottom: 0.1rem;">2014 May</h3>
             
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2014/05/05/great-quality-means-a-lot-to-us.html">Great quality means a lot to us</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2014/05/05/great-quality-means-a-lot-to-us.html">Great quality means a lot to us</a></span><br />
         
           
             
             
             
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2014/05/05/design-need-to-be-better.html">Design need to be better</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2014/05/05/design-need-to-be-better.html">Design need to be better</a></span><br />
         
           
             
             
             
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2014/05/01/this-is-a-title-for-your-post.html">This is a title for your post</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2014/05/01/this-is-a-title-for-your-post.html">This is a title for your post</a></span><br />
         
           
             
@@ -317,7 +325,7 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
               <h3 style="margin-bottom: 0.1rem;">2014 Apr</h3>
             
           
-          <span style="line-height: 1.5;">&middot;&nbsp;<a href="/2014/04/19/welcome-to-jekyll.html">Welcome to Jekyll!</a></span><br />
+          <span style="line-height: 1.5;"><a href="/2014/04/19/welcome-to-jekyll.html">Welcome to Jekyll!</a></span><br />
         
         <hr />
     </div>
@@ -327,24 +335,24 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
           <h3 style="margin-bottom: 0.1rem;" id="hosting">Hosting
           </h3>
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2016/11/11/welcome-to-jekyll-copy.html">Welcome to LampApps!</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2016/11/11/welcome-to-jekyll-copy.html">Welcome to LampApps!</a></span><br />
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2014/05/05/great-quality-means-a-lot-to-us.html">Great quality means a lot to us</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2014/05/05/great-quality-means-a-lot-to-us.html">Great quality means a lot to us</a></span><br />
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2014/05/05/design-need-to-be-better.html">Design need to be better</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2014/05/05/design-need-to-be-better.html">Design need to be better</a></span><br />
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2014/05/01/this-is-a-title-for-your-post.html">This is a title for your post</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2014/05/01/this-is-a-title-for-your-post.html">This is a title for your post</a></span><br />
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2014/04/19/welcome-to-jekyll.html">Welcome to Jekyll!</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2014/04/19/welcome-to-jekyll.html">Welcome to Jekyll!</a></span><br />
           
           <hr />
         
           <h3 style="margin-bottom: 0.1rem;" id="seo">SEO
           </h3>
           
-            <span style="line-height: 1.5;">&middot;&nbsp;<a class="post-title" href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
+            <span style="line-height: 1.5;"><a class="post-title" href="/2016/11/12/another-great-post-by-me.html">Another Great Post by Me</a></span><br />
           
           <hr />
         
@@ -369,16 +377,12 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
 </div>
       <footer class="footer">
         <div class="row full-width">
-          <div class="small-12 medium-3 large-4 columns footerleft">
-            <i class="fi-laptop"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!</p>
-          </div>
-          <div class="small-12 medium-3 large-4 columns footerleft">
-            <i class="fi-html5"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
+          <div class="small-12 medium-3 large-8 columns footerleft">
+            <i class="icon-megaphone"></i>
+            <p>LampApps goal is to provide you the resources and tools to create a professional online presence at a low cost. Recommendations of products or services are based on our experience using these products/services or research. LampApps does not provide or support any products or services. However, LampApps may be an affiliate of these companies and may receive compensation if you pay for their products or services. LampApps places quality and value of the services we recommend above any compensation we may receive.</p>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
-            <h4>Work With Me</h4>
+            <h4>About</h4>
             <ul class="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about.html">About</a></li>
@@ -387,11 +391,11 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
             </ul>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
-            <h4>Follow Me</h4>
-            <ul class="footer-links">
+            <h4>Follow</h4>
+            <div class="footer-links">
             <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-            <span class="addthis_inline_follow_toolbox"></span>
-            </ul>
+            <div class="addthis_inline_follow_toolbox"></div>
+            </div>
           </div>
         </div>
       </footer>

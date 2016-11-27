@@ -6,10 +6,11 @@
     </div>
     <div class='info'>
       <h3>
-        {{ post.title }}
+        <a href='{{post.url}}' style="color: #333333;">{{ post.title }}</a>
       </h3>
           <p>
             <!--<span class='author'>{{post.author}}</span>-->
+            Posted: 
             <span class='month'>{{ post.date | date: "%B" }}</span>
             <span class='date'>{{ post.date | date: "%d" }},</span>
             <span class='date'>{{ post.date | date: "%Y" }}</span> - 

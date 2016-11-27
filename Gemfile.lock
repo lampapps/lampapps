@@ -49,6 +49,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-sitemap
+  sass
 
 RUBY VERSION
    ruby 2.3.1p112

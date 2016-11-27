@@ -80,7 +80,7 @@
   color: #888f91;
 }
 .footer i {
-  font-size: 100px;
+  font-size: 60px;
 }
 
 .footerleft {
@@ -95,7 +95,7 @@
   font-size: 1em;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 2.5rem;
+  margin-top: 1.3rem;
   margin-bottom: 10px;
 }
 .footer p, .footer a {
@@ -107,7 +107,7 @@
 @media only screen and (min-width: 40.063em) {
   .footer .columns:nth-child(n+2) {
     border-left: 1px solid rgba(123, 123, 123, 0.28);
-    min-height: 280px;
+    min-height: 200px;
   }
 }
 .footer-links {

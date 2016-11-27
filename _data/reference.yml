@@ -1,34 +1,25 @@
-- category: "Graphics"
+- category: "HTML/CSS"
   vendors:
     - title: Optimizilla
       desc: This online image optimizer uses a smart combination of the best optimization and lossy compression algorithms to shrink JPEG and PNG images to the minimum possible size while keeping the required level of quality.
       href: http://optimizilla.com/
-      cost: "Free"
     - title: Gimp
       desc: "GIMP is a image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software.
 Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins." 
       href: https://www.gimp.org/
       cost: "Free"
 
-- category: "Email"
+- category: "Development"
   vendors:
-    - title: "Gmail"
+    - title: "Webmaster Guidelines"
       desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
-      href: https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
-      cost: "$5 per month"
-      rating: 5 Stars
+      href: https://support.google.com/webmasters/answer/35769?hl=en&ref_topic=6002025
     - title: "Rack Space"
       desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
       href: https://www.rackspace.com/en-us/email-hosting
-      cost: "$2 per Month"
 
 - category: "SEO"
   vendors:
     - title: "AddThis"
       desc: "Add social media share buttons to your website" 
       href: https://www.addthis.com/
-      cost: "Free Plan"
-    - title: "SEORCH"
-      desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank." 
-      href: http://seorch.eu/
-      cost: "Free Plan"

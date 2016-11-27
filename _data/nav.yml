@@ -4,9 +4,11 @@
 - name: Blog
   path: blog/
   section_id: blog
-- name: Services
-  path: services.html
-  section_id: services
-- name: Tools
+- name: Resources
   path: tools.html
-  section_id: tools
+  section_id: resources
+  children:
+    - name: Tools
+      path: tools.html
+    - name: References
+      path: reference.html

@@ -3,15 +3,18 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+      <meta name="description" content="{{ page.metadesc }}">
       <title>{{ page.title }}</title>
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+      <!--
       <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/site.css' rel='stylesheet'>
-      <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+      -->
+      <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
       <script src='{{ site.url }}/js/modernizr.js'></script>
     </head>
     <body>
@@ -19,9 +22,7 @@
         <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
           <ul class='title-area'>
             <li class='name'>
-              <h1>
-                <a href='/'><img src='{{site.url}}/images/logo.png' alt="LampApps">&nbsp;{{ site.name }}</a>
-              </h1>
+                <a href='/'><img src='{{ site.url }}/images/logo.png' alt="LampApps">&nbsp;{{ site.name }}</a>
             </li>
             <li class='toggle-topbar menu-icon'>
               <a href='#'>Menu</a>
@@ -48,7 +49,7 @@
                   </li>
                 {% else %}
                   <li class="{{active_class}}">
-                    <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                    <a href="{{ site.url }}/{{ item.path }}">{{ item.name }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -59,16 +60,12 @@
       {{ content }}
       <footer class="footer">
         <div class="row full-width">
-          <div class="small-12 medium-3 large-4 columns footerleft">
-            <i class="fi-laptop"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!</p>
-          </div>
-          <div class="small-12 medium-3 large-4 columns footerleft">
-            <i class="fi-html5"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
+          <div class="small-12 medium-3 large-8 columns footerleft">
+            <i class="icon-megaphone"></i>
+            <p>{{ site.name }} goal is to provide you the resources and tools to create a professional online presence at a low cost. Recommendations of products or services are based on our experience using these products/services or research. {{ site.name }} does not provide or support any products or services. However, {{ site.name }} may be an affiliate of these companies and may receive compensation if you pay for their products or services. {{ site.name }} places quality and value of the services we recommend above any compensation we may receive.</p>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
-            <h4>Work With Me</h4>
+            <h4>About</h4>
             <ul class="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about.html">About</a></li>
@@ -77,11 +74,11 @@
             </ul>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
-            <h4>Follow Me</h4>
-            <ul class="footer-links">
+            <h4>Follow</h4>
+            <div class="footer-links">
             <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-            <span class="addthis_inline_follow_toolbox"></span>
-            </ul>
+            <div class="addthis_inline_follow_toolbox"></div>
+            </div>
           </div>
         </div>
       </footer>
