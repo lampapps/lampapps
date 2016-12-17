@@ -1,0 +1,36 @@
+- category: "Email"
+  vendors:
+    - title: "Gmail"
+      desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
+      href: https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
+      cost: "$5 per month"
+    - title: "Rack Space"
+      desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
+      href: https://www.rackspace.com/en-us/email-hosting
+      cost: "$2 per Month"
+
+- category: "SEO"
+  vendors:
+    - title: "AddThis"
+      desc: "Add social media share buttons to your website" 
+      href: https://www.addthis.com/
+      cost: "Free Plan"
+    - title: "Buffer"
+      desc:  ""
+      href: https://buffer.com/
+      cost: "Free Plan"
+    - title: "Social Pilot"
+      desc: "" 
+      href: "https://socialpilot.co/"
+      cost: "Free Plan"
+    - title: "Hootsuite"
+      desc: "" 
+      href: "https://hootsuite.com"
+      cost: "Free Plan"
+
+- category: "Graphics"
+  vendors:
+    - title: Public Domian Images
+      desc: "A source for public domain images that can be freely downloaded and used on you website. Please make sure to follow any license restrictions that may apply." 
+      href: http://www.publicdomainpictures.net
+      cost: "Free"

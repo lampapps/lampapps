@@ -1,87 +1,49 @@
 ---
 layout: default
-title: Services
-section_id: services
-services:
-  -
-    - title: G Suite
-      icon: mail
-      desc:
-        Google's <strong>G Suite</strong> includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
-      linktext: Start Your Free Trial
-      linktitle: G Suite by Google
-      link: 
-        https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
-        
-    - title: Merchant Account
-      icon: credit-card
-      desc:
-        With free <strong>Authorize.net</strong> payment gateway. Accept credit cards online securely. Compatible with most shopping carts. No setup costs. 
-      linktext: View Plans &amp; Features
-      linktitle: Merchant Account with Payment Gateway
-      link: http://www.cdgcommerce.com/internet-services-authnet.php?R=1283
-
-    - title: Shopping Cart
-      icon: basket
-      desc:
-        <strong>Ecwid</strong> seamlessly integrates into any website including Facebook. Manage your shop online and safely collect payments from customers.
-      linktext: View Plans &amp; Features 
-      linktitle: ECWID Shopping Cart
-      link: http://open.ecwid.com/j8sZ
-
-    - title: Appointment Scheduling
-      icon: calendar
-      desc:
-        <strong>SuperSasS</strong> is an online appointment scheduling system with integrated payment options. Schedule classes, meeting rooms, seminars, event registration, or just about anything.
-      linktext: View Plans &amp; Features
-      linktitle: SuperSaaS Scheduling
-      link: http://www.supersaas.com/?af=40938-lampapps
-
-    - title: Web Hosting Automation
-      icon: lifebuoy
-      desc:
-        <strong>WHMCS</strong> is the leading web hosting billing and automation platform including invoicing, customer management, knowledgebase, and help desk.
-      linktext: View Plans &amp; Features
-      linktitle: WHMCS
-      link: http://www.whmcs.com/members/aff.php?aff=336
-
-    - title: Web Design
-      icon: layout
-      desc:
-        Professional websites designs for any website. <strong>Themeforest</strong> is the largest global community of creative designers providing themes and templates that you can use to start your website. 
-      linktext: View Plans &amp; Features
-      linktitle: Themeforest
-      link: https://themeforest.net/
+metadesc: "Online services that small business owners can use to maximize their web presence at the lowest cost."
+title: Online resources that small business owners can use to maximize their web presence at the lowest cost
+section_id: resources
+categories:
+  - name: Email
+  - name: SEO
+  - name: Graphics
 ---
-<div class='full'>
-  <div class='row'>
+<div class='full'><!--full-->
+  <div class='row'><!--Row-->
     <div class='special-title centered-text'>
-      <h2>Recommended Services</h2>
-      <p>{{ site.name }} does not provide or suport these services. We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design.</p>
+      <h2>Services</h2>
+      <p>{{ site.name }} does not provide or support these products and services. We recommend these web development tools, either online or downloaded to your computer, to help you create and maintain your web presence.</p>
       <p class='shortline'></p>
+      <div class="two spacing"></div>
     </div>
-    <div class='two spacing'></div>
-  </div>
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-4 large-4 columns icon-text'>
-          <i class='icon-{{service.icon}}'></i>
-          <h3>{{service.title}}</h3>
-          <p style="text-align: justify;">{{service.desc}}</p>
-          <p style="text-align: center"><a href="{{service.link}}" title="{{service.linktitle}}" target="_blank" class="tiny button">{{service.linktext}}</a>
-        </div>
-      {% endfor %}
-    </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-    <div class="row">
-      <div class="panel">
-      <h5>Note</h5>
-      <p>{{ site.name }} does not provide or support these services. In some cases {{ site.name }} is an affiliate and will receive compensation if you sign up and pay for their service. However, {{ site.name }} places quality and value of the services above any compensation {{ site.name }} may receive.</p>
-      </div>
-    </div>
-</div>
-<div class="three spacing"></div>
+  </div><!--Row-->
+  <div class='row'><!--Row-->
+    <div class='large-12 columns'>
+      <ul class="tags centered-text">
+        {% for category in page.categories %}
+          <li><a class="tag" href='#{{category.name}}'>{{category.name}}</a></li>
+        {% endfor %}
+      </ul>
+        {% for entry in site.data.services %}
+         <div class="two spacing"></div>
+          <span class="anchor" id="{{ entry.category }}"></span>
+          <h3>{{ entry.category }}</h3>
+            <div class="Table">
+              <div class="Table-row Table-header">
+                <div class="Table-row-item u-Flex-grow1">Website</div>
+                <div class="Table-row-item u-Flex-grow7">Description</div>
+                <div class="Table-row-item">Cost</div>
+              </div>
+                {% for vendor in entry.vendors %} 
+              <div class="Table-row">  
+                  <div class="Table-row-item u-Flex-grow1" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
+                  <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
+                  <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
+              </div>
+                {% endfor %}
+            </div><!--Table-->
+        {% endfor %}
+              <div class="two spacing"></div>
+    </div><!--Gallery Wrapper-->
+  </div><!--Row-->
+</div><!--full-->

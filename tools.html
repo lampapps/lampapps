@@ -7,6 +7,8 @@ categories:
   - name: Graphics
   - name: SEO
   - name: Email
+  - name: Network
+  - name: Development
 ---
 <div class='full'><!--full-->
   <div class='row'><!--Row-->
@@ -19,17 +21,15 @@ categories:
   </div><!--Row-->
   <div class='row'><!--Row-->
     <div class='gallery-wrapper large-12 columns'>
-      <ul class='sub-nav' id='filter'>
+      <ul class="tags centered-text">
         {% for category in page.categories %}
-          <li>
-            <a data-cat='{{ category.name | downcase | replace: ' ', '-' }}' href='#{{category.name}}'>{{category.name}}</a>
-          </li>
+          <li><a class="tag" href='#{{category.name}}'>{{category.name}}</a></li>
         {% endfor %}
       </ul>
         {% for entry in site.data.tools %}
          <div class="two spacing"></div>
           <span class="anchor" id="{{ entry.category }}"></span>
-          <h2>{{ entry.category }}</h2>
+          <h3>{{ entry.category }}</h3>
             <div class="Table">
               <div class="Table-row Table-header">
                 <div class="Table-row-item u-Flex-grow1">Website</div>

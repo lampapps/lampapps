@@ -1,149 +1,188 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-27T02:52:14-05:00</updated><id>http://localhost:4000//</id><title type="html">LampApps</title><subtitle>Site description</subtitle><entry><title type="html">Another Great Post by Me</title><link href="http://localhost:4000/2016/11/12/another-great-post-by-me.html" rel="alternate" type="text/html" title="Another Great Post by Me" /><published>2016-11-12T10:37:53-05:00</published><updated>2016-11-12T10:37:53-05:00</updated><id>http://localhost:4000/2016/11/12/another-great-post-by-me</id><content type="html" xml:base="http://localhost:4000/2016/11/12/another-great-post-by-me.html">&lt;!-- ![computers](http://localhost:4000/images/blog-people.jpg) --&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-16T22:28:30-05:00</updated><id>http://localhost:4000//</id><title type="html">LampApps</title><subtitle>Site description</subtitle><entry><title type="html">Start Here</title><link href="http://localhost:4000/2016/12/03/Start-Here.html" rel="alternate" type="text/html" title="Start Here" /><published>2016-12-03T12:00:00-05:00</published><updated>2016-12-03T12:00:00-05:00</updated><id>http://localhost:4000/2016/12/03/Start-Here</id><content type="html" xml:base="http://localhost:4000/2016/12/03/Start-Here.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/website-design.jpg&quot; alt=&quot;Starting a Small Business Website&quot; title=&quot;Starting A Small Business Website&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
+&lt;p&gt;In keeping with my goal of &lt;strong&gt;Helping Small Businesses Navigate the Internet&lt;/strong&gt; this first post will explain the main parts required to get your small business online. There are many ways of doing this, but I want to show how you can do it yourself at a low cost while still preserving the professional appearance and functionality your business needs to stand out from the competition as well as rank well with the search engines.&lt;/p&gt;
 
-&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The clients I worked with were often just starting their business and did not have the budget for an expensive website. The recommendations and steps I will show you may look intimidating at first. This is not going to be a &lt;em&gt;20 minute - click a few buttons&lt;/em&gt; instant online website promo that you may have seen on TV. Those do not provide the professional results you want.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h3 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit&lt;/p&gt;
+&lt;p&gt;As dangerous as that may be, I am going to make several assumptions about you, the small business owner, as we go forward.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Tempora commodi quia deserunt porro excepturi&lt;/li&gt;
-  &lt;li&gt;Placeat in quae tempore pariatur sit aut qui nemo&lt;/li&gt;
-  &lt;li&gt;Rem quod sequi nobis possimus sequi dolorem est ab&lt;/li&gt;
+  &lt;li&gt;You need a simple website to showcase the services you provide locally.&lt;/li&gt;
+  &lt;li&gt;You have some computer skills. Or have someone in your family or business who does.&lt;/li&gt;
+  &lt;li&gt;You do not have thousands of dollars to pay a web design firm.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;this-is-a-small-title&quot;&gt;This is a small title&lt;/h4&gt;
+&lt;p&gt;These three assumptions are very important. Let me explain. We will build a website to showcase services, not sell products online. These are two completely different things. Selling products online requires far more functionality including collecting payments. In future posts I will show you how to add that functionality to your website, but for now, we are going to put together an “Online Brochure” so that potential customers can find you, learn about you, and contact you.&lt;/p&gt;
 
-&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;</content><author><name>Jim Ferry</name></author><category term="test" /><category term="SEO" /><category term="Hosting" /><summary type="html">Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
+&lt;p&gt;I am assuming that you are comfortable working on computers. If you struggle sending an email, this may not be the thing for you. I will break things down to their simplest form, and each article has a comment section where you can ask questions.&lt;/p&gt;
 
-Esse labore voluptate nam dolorum veniam numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste
+&lt;p&gt;I am always looking for free or low cost &lt;a href=&quot;http://localhost:4000/services.html&quot;&gt;services&lt;/a&gt; and &lt;a href=&quot;http://localhost:4000/tools.html&quot;&gt;tools&lt;/a&gt; on the Internet. We will use many of these to build your website. To give you an idea of the costs, here is what this website cost to build and maintain:&lt;/p&gt;
 
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Domain Name&lt;/td&gt;
+      &lt;td&gt;$12&lt;/td&gt;
+      &lt;td&gt;Annually&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Template&lt;/td&gt;
+      &lt;td&gt;$26&lt;/td&gt;
+      &lt;td&gt;One time&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Email&lt;/td&gt;
+      &lt;td&gt;$2&lt;/td&gt;
+      &lt;td&gt;Monthly&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hosting&lt;/td&gt;
+      &lt;td&gt;$1&lt;/td&gt;
+      &lt;td&gt;Monthly&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-  “Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”</summary></entry><entry><title type="html">Welcome to LampApps!</title><link href="http://localhost:4000/2016/11/11/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="Welcome to LampApps!" /><published>2016-11-11T11:49:53-05:00</published><updated>2016-11-11T11:49:53-05:00</updated><id>http://localhost:4000/2016/11/11/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/2016/11/11/welcome-to-jekyll-copy.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+&lt;p&gt;That is a one time cost of $26 and then $4 dollars a month to keep it going. And this is hosted at Amazon, a very robust secure enterprise grade hosting service. Not at a slow shared server farm like GoDaddy. My costs will go up as I get more traffic, but I am OK with that.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;I will say that the major cost of web development is the labor. I put many long hours into this project. Developers can charge $50 an hour or more. But if you are willing to put in the labor, you will save thousands of dollars.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;After we are done getting the basic web site and email set up, I will post articles where you can learn how to add more functionality to your website. Even if you do not end up doing the work yourself, these articles will give you a better understanding of the basics so when your developer makes recommendations you will understand the level of work and associated costs that go with it. If you do hire a developer, please heed my advice about &lt;a href=&quot;http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name.html&quot;&gt;domain names&lt;/a&gt;.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h3 id=&quot;the-basic-parts-needed-to-get-online&quot;&gt;The Basic Parts Needed to get Online&lt;/h3&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jim Ferry</name></author><category term="test2" /><category term="Hosting" /><summary type="html">You’ll find this post in your _posts directory - edit this post and re-build (or run with the -w switch) to see your changes!
-To add new posts, simply add a file in the _posts directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-def print_hi(name)
-  puts &quot;Hi, #{name}&quot;
-end
-print_hi('Tom')
-#=&amp;gt; prints 'Hi, Tom' to STDOUT.</summary></entry><entry><title type="html">Great quality means a lot to us</title><link href="http://localhost:4000/2014/05/05/great-quality-means-a-lot-to-us.html" rel="alternate" type="text/html" title="Great quality means a lot to us" /><published>2014-05-05T08:37:53-04:00</published><updated>2014-05-05T08:37:53-04:00</updated><id>http://localhost:4000/2014/05/05/great-quality-means-a-lot-to-us</id><content type="html" xml:base="http://localhost:4000/2014/05/05/great-quality-means-a-lot-to-us.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog-people.jpg&quot; alt=&quot;computers&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
-
-&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!--more--&gt;
-
-&lt;h3 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit&lt;/p&gt;
+&lt;p&gt;The minimum components you need to establish your web presence are:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Tempora commodi quia deserunt porro excepturi&lt;/li&gt;
-  &lt;li&gt;Placeat in quae tempore pariatur sit aut qui nemo&lt;/li&gt;
-  &lt;li&gt;Rem quod sequi nobis possimus sequi dolorem est ab&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name.html&quot;&gt;Domain Name&lt;/a&gt; - your address on the Internet, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Hosting - a system of web services that serves your website out to the Internet.&lt;/li&gt;
+  &lt;li&gt;Content - all the layout and text that people see when they visit your website.&lt;/li&gt;
+  &lt;li&gt;Email - not to be overlooked, you need a professional email address.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;this-is-a-small-title&quot;&gt;This is a small title&lt;/h4&gt;
+&lt;p&gt;The details of each are covered in a separate article, But in general, your content includes all the formatting, images, and words your customers will see. All this is uploaded to your account at a hosting company of your choice. When a customer types your domain name into a browser, or more likely, finds your business using a search engine, they are directed to your account at the hosting company and see your content displayed on their computer or mobile device. This happens in a fraction of a second.&lt;/p&gt;
 
-&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;</content><author><name>Andy Budd</name></author><category term="test2" /><category term="Hosting" /><summary type="html">Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
+&lt;p&gt;Email is also dependent on your domain name, but is handled very differently. I will show you how to setup a basic email account and provide tips on using it effectively.&lt;/p&gt;
 
-Esse labore voluptate nam dolorum veniam numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste
+&lt;p&gt;I recommend you start with the &lt;a href=&quot;http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name.html&quot;&gt;domain name&lt;/a&gt; article, then hosting, content, and finally email. But it’s your choice.&lt;/p&gt;
 
+&lt;p&gt;I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.&lt;/p&gt;</content><author><name>LampApps</name></author><category term="Development" /><category term="Hosting" /><category term="Email" /><category term="Domain Name" /><category term="Design" /><summary type="html">In keeping with my goal of Helping Small Businesses Navigate the Internet this first post will explain the main parts required to get your small business online. There are many ways of doing this, but I want to show how you can do it yourself at a low cost while still preserving the professional appearance and functionality your business needs to stand out from the competition as well as rank well with the search engines.
 
-  “Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”</summary></entry><entry><title type="html">Design need to be better</title><link href="http://localhost:4000/2014/05/05/design-need-to-be-better.html" rel="alternate" type="text/html" title="Design need to be better" /><published>2014-05-05T08:37:53-04:00</published><updated>2014-05-05T08:37:53-04:00</updated><id>http://localhost:4000/2014/05/05/design-need-to-be-better</id><content type="html" xml:base="http://localhost:4000/2014/05/05/design-need-to-be-better.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/children.jpg&quot; alt=&quot;computers&quot; /&gt;&lt;/p&gt;
+The clients I worked with were often just starting their business and did not have the budget for an expensive website. The recommendations and steps I will show you may look intimidating at first. This is not going to be a 20 minute - click a few buttons instant online website promo that you may have seen on TV. Those do not provide the professional results you want.</summary></entry><entry><title type="html">Static Website Hosting</title><link href="http://localhost:4000/2016/11/12/Static-Website-Hosting.html" rel="alternate" type="text/html" title="Static Website Hosting" /><published>2016-11-12T12:00:00-05:00</published><updated>2016-11-12T12:00:00-05:00</updated><id>http://localhost:4000/2016/11/12/Static-Website-Hosting</id><content type="html" xml:base="http://localhost:4000/2016/11/12/Static-Website-Hosting.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/website-hosting.jpg&quot; alt=&quot;Website Hosting for a Small Business Website&quot; title=&quot;Website Hosting for a Small Business Website&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
-
-&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Website hosting companies provide services that allow you to get your website published online. This includes the actual servers that host your website, service for sending and receiving email, domain name registration, and other networking&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h3 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h3&gt;
+&lt;div class=&quot;videoWrapper&quot;&gt;
+&lt;iframe width=&quot;600&quot; height=&quot;338&quot; src=&quot;https://www.youtube.com/embed/g9NbuTcos18?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name>LampApps</name></author><category term="Development" /><category term="Hosting" /><summary type="html">Website hosting companies provide services that allow you to get your website published online. This includes the actual servers that host your website, service for sending and receiving email, domain name registration, and other networking</summary></entry><entry><title type="html">Find the Right Hosting Service</title><link href="http://localhost:4000/2016/11/12/How-to-Find-a-Right-Hosting-Service.html" rel="alternate" type="text/html" title="Find the Right Hosting Service" /><published>2016-11-12T12:00:00-05:00</published><updated>2016-11-12T12:00:00-05:00</updated><id>http://localhost:4000/2016/11/12/How-to-Find-a-Right-Hosting-Service</id><content type="html" xml:base="http://localhost:4000/2016/11/12/How-to-Find-a-Right-Hosting-Service.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/website-hosting.jpg&quot; alt=&quot;Website Hosting for a Small Business Website&quot; title=&quot;Website Hosting for a Small Business Website&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit&lt;/p&gt;
+&lt;p&gt;Website hosting companies provide services that allow you to get your website published online. This includes the actual servers that host your website, service for sending and receiving email, domain name registration, and other networking requirements to get your website up and running. They do not provide the content of your website or provide the labor to build and maintain your website. Hosting services come in many different sizes and varieties. Choosing the right hosting company and hosting plan is not easy unless you understand a little about how hosting works and what they are offering. You need a reputable service, but you may not need all the services they are offering. I will explain some of the geek speak, and break down the things you need to know in order to choose a quality hosting company and select the proper hosting plan for your website.&lt;/p&gt;
+
+&lt;p&gt;I think you will be surprised to learn that you can find quality hosting services at a low cost.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;If you have not read the article &lt;a href=&quot;http://localhost:4000/2016/12/03/Start-Here.html&quot;&gt;Start Here&lt;/a&gt; I encourage you to do so. There you will learn that I am focusing on building a basic “Brochure” type website that simply informs the reader about your small business and lets them connect with you. There is little to no interaction or functionality other than viewing several pages and filling out a contact form.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-do-hosting-companies-provide&quot;&gt;What do Hosting Companies provide?&lt;/h3&gt;
+
+&lt;p&gt;Most run of the mill web hosting companies that you will find provide a wide range of services. You will find that their basic hosting plans provide many services bundled under one account, such as domain name, web server, scripting language, email, database, backups, etc… You may be tempted to do that but understand that the low prices you are seeing are for low rent shared hosting. You could move up to a Virtual Private Server (VPS), but then you are responsible for the management of that server, or you have to pay an additional cost for someone to manage it for you. But why pay for services you don’t need. I will explain two of the most popular hosting types then give you a third option that I think you will like. We won’t go into dedicated hosting as that is beyond what you will need for a small business website.&lt;/p&gt;
+
+&lt;h4 id=&quot;shared-server&quot;&gt;Shared Server&lt;/h4&gt;
+
+&lt;p&gt;Think of the hosting company as the landlord of a large warehouse. For a few dollars a month the “landlord” lets anyone use the warehouse. You get your own secure locker to put your stuff in and your own mailbox but the warehouse only has one water pipe and one electricity meter for everyone. The more people using the warehouse the less access to resources each person has. If too many people need water at the same time the pressure drops to a trickle. If the demand for power is too high, the system will overload and shut down. The “landlord” hopes that everyone will use the resources in moderation. But, there are always a few greedy tenants that take far more than their share, resulting in degraded service for everyone.&lt;/p&gt;
+
+&lt;p&gt;That is basically shared hosting. The server is the warehouse. The locker is your folder on the server where you store your website content and email. The water is the bandwidth allowing data in and out to the Internet and the electricity is the processing power of the server. The server shares the database, memory and processor (CPU) with all the websites assigned to it. There are physical limitations to the server. The hope is that most websites will under utilize the server resources, and only a few will use more than the average website, thus never exceeding the server’s limitations. Just remember, the hosting company will maintain the server, but you have to maintain the website files that are in your account on that server.&lt;/p&gt;
+
+&lt;h4 id=&quot;virtual-private-server-vps&quot;&gt;Virtual Private Server (VPS)&lt;/h4&gt;
+
+&lt;p&gt;Now think of an apartment building. Each small apartment in the building has it’s own separate water and electricity connection. You do not have to share these with your neighbors. The landlord supplies all the apartments with the resources up to the set limit agreed upon when you sign up. No one else can weasel in to your resources even if your not using them. VPS servers use a technology called virtualization to setup individual virtual servers on one large physical server. In addition to your website on the VPS, you are responsible to maintain the server or you have to pay more to have someone do it for you.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-third-option-for-basic-websites&quot;&gt;A Third Option for Basic Websites&lt;/h4&gt;
+
+&lt;p&gt;Amazon Web Services (AWS) offers reliable, scalable, and inexpensive cloud computing services. They break down each service that the common hosting companies bundle into separate offerings. One such service is Simple Storage Service (S3). As its name implies you can store files in the cloud using this serves. But it can also host static websites. Static just means that the server does not need to process any data, no database, no email, and no code can be run on S3. S3 justs serves simple web pages out to the Internet. Add a few other basic services AWS offers and you are running a full fledge, yet simple website, for dollars a month. Best part is that it is professional enterprise level hosting solution. As with the other options, you have to maintain your website content, but Amazon maintains the S3 service. This is the hosting I recommended for your small business “Brochure” website.&lt;/p&gt;
+
+&lt;h3 id=&quot;hosting-plans&quot;&gt;Hosting Plans&lt;/h3&gt;
+
+&lt;p&gt;The average small business website would not use more than 100 megabytes (MB) of storage space, excluding email. Most companies offer unmetered band width so that is not a concern. Most entry level shared hosting plan can only handle about 10,000 visitors per month before they get overloaded. If you are comparing hosting options, please remember that you should serve your website using a security certificate (SSL) and a Content Delivery Network (CDN). Once you add these in you will find the costs increase. The eye catching prices you see are not what you want. You will also find that email takes far more disk space that the website. Having your email managed by Google’s &lt;a href=&quot;https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&amp;amp;utm_medium=referralbutton1&amp;amp;utm_campaign=apps-referral-program&amp;amp;utm_content=%3Chttps://goo.gl/nCwWpT%3E&quot;&gt;G Suite&lt;/a&gt; or other option like &lt;a href=&quot;https://www.zoho.com/mail/zohomail-pricing2.html&quot;&gt;ZoHo&lt;/a&gt; may be far better than combining it with with your website. Again, pay for only what you need. Why pay for all the bundled services when you don’t need them. Select ala cart from companies that do the best job at the lowest costs.&lt;/p&gt;
+
+&lt;p&gt;If you choose to go with eh common hosting plans, start as small as possible, you can easily move if needed. I highly recommend that you choose a company that uses cPanel to manage your web hosting services. cPanel is very common so if you choose to move form one host to another it makes it very easy. GoDaddy does not use cPanel. THey also limit your ability to manage your account compared to other hosting providers. But if you want to keep it simple, follow my articles to build a static website at Amazon S3.&lt;/p&gt;</content><author><name>LampApps</name></author><category term="Development" /><category term="Hosting" /><summary type="html">Website hosting companies provide services that allow you to get your website published online. This includes the actual servers that host your website, service for sending and receiving email, domain name registration, and other networking requirements to get your website up and running. They do not provide the content of your website or provide the labor to build and maintain your website. Hosting services come in many different sizes and varieties. Choosing the right hosting company and hosting plan is not easy unless you understand a little about how hosting works and what they are offering. You need a reputable service, but you may not need all the services they are offering. I will explain some of the geek speak, and break down the things you need to know in order to choose a quality hosting company and select the proper hosting plan for your website.
+
+I think you will be surprised to learn that you can find quality hosting services at a low cost.</summary></entry><entry><title type="html">Whats in a Domain Name</title><link href="http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name.html" rel="alternate" type="text/html" title="Whats in a Domain Name" /><published>2016-11-11T12:00:00-05:00</published><updated>2016-11-11T12:00:00-05:00</updated><id>http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name</id><content type="html" xml:base="http://localhost:4000/2016/11/11/Whats-in-a-Domain-Name.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/domain-name.jpg&quot; alt=&quot;Starting a Small Business Website&quot; title=&quot;Starting A Small Business Website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A domain name is your trademark on the Internet. It is the human readable address used to find your website, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;freshapples.com&lt;/code&gt;. It is what you want people to remember and what you want people to find when they search on the Internet. As important as it is, you do not need to spend a lot of money to obtain one. It can be as little as $12 a year. It is easy to register your domain name, but not very easy to choose the right one. This article will describe how they work, how to choose one, and how to register one for your website and email.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;what-is-a-domain-name&quot;&gt;What is a Domain Name&lt;/h3&gt;
+
+&lt;p&gt;You may have heard that an Internet address is just a bunch of numbers. That is essentially true. But humans can’t interpret those easily, so a system was developed to translate the numbers into words that you and I can read and remember easily. You can reach a website by typing into the browser’s address bar the numbers (known as an IP address) or the domain name. For example: &lt;a href=&quot;http://104.43.142.34&quot;&gt;104.43.142.34&lt;/a&gt; will take you to the same website as &lt;a href=&quot;https://www.microsoft.com&quot;&gt;microsoft.com&lt;/a&gt;. When you type in the domain name a service call Domain Name System (DNS) translates the name into the number and sends you to the right place. This all takes place in  milliseconds.&lt;/p&gt;
+
+&lt;p&gt;When you register a domain name it is yours to keep as long as you keep your registration current. The number is assigned to the hosting provider that owns the server that hosts your website. This allows the domain name owner to change the physical location of their website or email without changing their “trademark” on the Internet. Your email and website can even be at separate hosting services as we will demonstrate later.&lt;/p&gt;
+
+&lt;p&gt;It is important to understand that there are thousands of people who are willing to take your money to host your site and register your domain name. There is an entire industry of resellers out there (I was one). Some are great, some, not so much. I have personally seen a small business loose their domain name because the developer of their website registered it for them. The developer never told the customer where it was registered or when it would expire. When that developer disappeared, so did the domain name, email and website. Their business was wiped off the Internet in one day. It can be very difficult to get back. It can take weeks and costs hundreds of dollars if it can be done at all.&lt;/p&gt;
+
+&lt;p&gt;If you control your domain name yourself and your hosting provider disappears, or you decide to change providers, you can reestablish everything at another service in a short time without disruption of your website and email. I prefer to register my domain names with reputable, accredited registrars separate from where my website and email are hosted. I will cover this more below under registering a domain name.&lt;/p&gt;
+
+&lt;p&gt;Your domain name should be registered in your name. Only those your trust should have access to it. It is as important to your business as the keys to the front door of your store.&lt;/p&gt;
+
+&lt;h3 id=&quot;choosing-a-domain-name&quot;&gt;Choosing a Domain Name&lt;/h3&gt;
+
+&lt;p&gt;Your domain name can be the name of your business like &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; or can describe your business like &lt;code class=&quot;highlighter-rouge&quot;&gt;charlestonlocksmith.com&lt;/code&gt;. Either way is fine, but here are some considerations to help you decide.&lt;/p&gt;
+
+&lt;p&gt;Is your business name available? If it is, grab it quick. Even if you do not use it, no one else can as long as you own it. A domain name registration should not cost you more than $15 per year for a .com, .net , or .org unless the domain you want is considered a “Premium Domain Name” (more on that later). Many businesses register their business name with all three top level domains (.com, .net, and .org) just to protect their trademark.&lt;/p&gt;
+
+&lt;p&gt;If your business name is not available, you could modify it slightly. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;tomslandscaping.com&lt;/code&gt; may not be available, but &lt;code class=&quot;highlighter-rouge&quot;&gt;tomslandscapingsc.com&lt;/code&gt; is. I added &lt;code class=&quot;highlighter-rouge&quot;&gt;sc&lt;/code&gt; to the end for the state of South Carolina. This works if the other Tom’s Landscaping Company is not in the same state. You could also add the city or region as long as it does not make the domain name too long.&lt;/p&gt;
+
+&lt;p&gt;Keep your domain name short. The easier it is to remember the better. One of the most expensive domain names ever sold cost $10,000,000. It was one word with three letters before the “.com”. Started with an S, ended with a X. Obviously, I will not link to it.&lt;/p&gt;
+
+&lt;p&gt;Don’t get fancy with words. For example &lt;code class=&quot;highlighter-rouge&quot;&gt;bikes4sale.com&lt;/code&gt;. Unless you own both &lt;code class=&quot;highlighter-rouge&quot;&gt;bikesforsale.com&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;bikes4sale.com&lt;/code&gt; you may send your customers to your competitors website. You can use a dash to separate words within a domain name. For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;charleston-locksmith.com&lt;/code&gt; but I recommend against it as it will often get left out when conveying it verbally, such as when sharing your email address. Remember, your domain name is part of your email too.&lt;/p&gt;
+
+&lt;p&gt;If you decide to buy a domain name that describes your business, use one, two or maybe three key words. Again, the shorter the better. &lt;code class=&quot;highlighter-rouge&quot;&gt;charlestonlocksmith.com&lt;/code&gt; is a great example of a domain name for a local locksmith in Charleston. Customers will use those two words to search for that service in Charleston. We want to optimize our website for the search engines. The domain name is part of that. More on search engine optimization, also known as SEO, in a future post.&lt;/p&gt;
+
+&lt;p&gt;You will find that most of the great domain names are taken. &lt;code class=&quot;highlighter-rouge&quot;&gt;charlestonlocksmith.com&lt;/code&gt; is already registered and, at the time of this writing, is being offered for sale for $599. This is an example of a “Premium Domain Name”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hint: Premium domain names may cost more to obtain, but once you own it, the cost of renewing the registration is only the basic cost of registration. Typically, less than $15 per year for a .com, .net, or .org. The importance of your domain name can not be understated. A premium domain name may pay off in the long run as it will capture more business on the Internet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Within the last year or so, the landscape of domain names has changed. No longer do you have to select a .com, .net, or .org domain name. You can register .lawyer, .consulting, .dentist, and dozens more. More top level domains, as they are called, are being added all the time. The jury is still out on how people will accept these. I talked to one local small business owner who said he purchased one for his business but the bank could not accept it when he applied for a business account, as their system only accepted .com, .net, or .org.  I think this a rare exception and will quickly be fixed. I personally have invested in these new domain names. They may cost a little more money, up to $29 or more annually.&lt;/p&gt;
+
+&lt;h3 id=&quot;registering-a-domain-name&quot;&gt;Registering a Domain Name&lt;/h3&gt;
+
+&lt;p&gt;As I eluded to earlier, where you register your domain name is important. Not only in cost, but in securing your trademark on the Internet. There are several big names in the industry in the United States. I am not a big fan of GoDaddy.com. They are missing some key features that I would expect. The other big name in the industry is Enom. They cater to resellers but their service is full featured and easy to use for anyone. I used their service for my web development company. Google is also in the domain registrar business. Several features that cost extra with other companies are provided for free with Google. These include the ability to hide your personal information from the public. Although they may not have deals or discounts advertised as the others do, their price is fair. A .com domain is just $12 per year. Compare the extras you get for free and I think you come out ahead.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hint: You will probable be using more than one Google service along the way. If you already have a Google Account, then you can sign in and use that. However, you may want to create a new one just for your business keeping your personal email and other documents separate from your business. You will have a chance to do that when you purchase a domain name with Google.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To start the process at &lt;a href=&quot;https://domains.google.com/&quot;&gt;Google’s Domain Name Registration page&lt;/a&gt;. There you can start your search for a new domain name. Once you enter it, you will see something like this image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/googledomain.jpg&quot; alt=&quot;Registering a Domain Name with Google&quot; title=&quot;Registering a Domain Name with Google&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The returned results will let you know if the name you want is available or not. If it is, you can place it in your basket and purchase it. If not, you can see suggestions for similar names. See the &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Extension&lt;/code&gt; link? There you can find all the new top level domains that are now available. Play around with variations of your business name or key words describing your business until you find one you like and then buy it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hint: If you already own a domain name elsewhere and want to transfer it to Google you can follow the same process. You will see the opposing arrow icon to start the transfer process. Transferring a domain can take days to a week or more. In addition, you cannot transfer a domain name again without waiting 90 days. So if you recently registered a new domain name you will have to wait to transfer it. That is not a issue, you can still set everything up now and transfer it later. It will not result in any downtime for your website or email.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Once your registration is completed you can return to &lt;a href=&quot;https://domains.google.com/&quot;&gt;Google Domains&lt;/a&gt; and manage your new domain name.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/domain-manager.jpg&quot; alt=&quot;Google Domain Manager&quot; title=&quot;Google Domain Manager&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Tempora commodi quia deserunt porro excepturi&lt;/li&gt;
-  &lt;li&gt;Placeat in quae tempore pariatur sit aut qui nemo&lt;/li&gt;
-  &lt;li&gt;Rem quod sequi nobis possimus sequi dolorem est ab&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Setup Auto Renew. This is very important. Also, make sure your credit card stays up to date. This will prevent your registration from expiring.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Go to Settings and make your information private. It is free with Google, others can cost up to $8 for this service.&lt;/li&gt;
+  &lt;li&gt;Make sure your personal contact information is correct.&lt;/li&gt;
+  &lt;li&gt;Resist the urge to click on the Build website buttons. Google wants you to buy into Wix or other third party website builders they promote. Rarely do they look professional when done, even if they do, they will will not let you optimize your site they way your need to. Stay with me here. Don’t do it!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;this-is-a-small-title&quot;&gt;This is a small title&lt;/h4&gt;
+&lt;p&gt;Leave everything else alone for now. We will connect your new website to this domain name later using DNS. If you choose another registrar that is OK too. The basic steps to connect to your new website will be same. Google is a great choice, but not the only one.&lt;/p&gt;
 
-&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;</content><author><name>Andy Budd</name></author><category term="test" /><category term="Hosting" /><summary type="html">Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
-
-Esse labore voluptate nam dolorum veniam numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste
-
-
-  “Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”</summary></entry><entry><title type="html">This is a title for your post</title><link href="http://localhost:4000/2014/05/01/this-is-a-title-for-your-post.html" rel="alternate" type="text/html" title="This is a title for your post" /><published>2014-05-01T08:37:53-04:00</published><updated>2014-05-01T08:37:53-04:00</updated><id>http://localhost:4000/2014/05/01/this-is-a-title-for-your-post</id><content type="html" xml:base="http://localhost:4000/2014/05/01/this-is-a-title-for-your-post.html">&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
-
-&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!--more--&gt;
-
-&lt;h3 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;</content><author><name>Andy Budd</name></author><category term="test" /><category term="Hosting" /><summary type="html">Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
-
-Esse labore voluptate nam dolorum veniam numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste
-
-
-  “Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor”</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2014/04/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2014-04-19T12:49:53-04:00</published><updated>2014-04-19T12:49:53-04:00</updated><id>http://localhost:4000/2014/04/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2014/04/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>jekyll</name></author><category term="test" /><category term="Hosting" /><summary type="html">You’ll find this post in your _posts directory - edit this post and re-build (or run with the -w switch) to see your changes!
-To add new posts, simply add a file in the _posts directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-def print_hi(name)
-  puts &quot;Hi, #{name}&quot;
-end
-print_hi('Tom')
-#=&amp;gt; prints 'Hi, Tom' to STDOUT.</summary></entry></feed>
+&lt;p&gt;I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.&lt;/p&gt;</content><author><name>LampApps</name></author><category term="Development" /><category term="Domain Name" /><summary type="html">A domain name is your trademark on the Internet. It is the human readable address used to find your website, for example freshapples.com. It is what you want people to remember and what you want people to find when they search on the Internet. As important as it is, you do not need to spend a lot of money to obtain one. It can be as little as $12 a year. It is easy to register your domain name, but not very easy to choose the right one. This article will describe how they work, how to choose one, and how to register one for your website and email.</summary></entry></feed>

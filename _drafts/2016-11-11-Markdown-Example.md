@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-04-19 16:49:53
-author: jekyll
+title:  "Example Markdown"
+date:   2016-11-11 16:49:53
+author: LampApps
 category: test
-tags: [Hosting]
+tags: [Hosting, Email]
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -21,6 +21,33 @@ print_hi('Tom')
 {% endhighlight %}
 
 <!--more-->
+
+> "Block Quote - Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor"
+
+### H3 This is a sub-heading
+
+Horizontal Rule
+
+- - -
+
+EM = *single asterisks*
+
+Strong = **double asterisks**
+
+
+Unordered list
+
+* Tempora commodi quia deserunt porro excepturi
+* Placeat in quae tempore pariatur sit aut qui nemo
+* Rem quod sequi nobis possimus sequi dolorem est ab
+
+Ordered List
+
+1. First
+2. second
+3. third
+
+#### H4 This is a small title
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 

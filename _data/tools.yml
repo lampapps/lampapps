@@ -10,25 +10,42 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
       href: https://www.gimp.org/
       cost: "Free"
 
-- category: "Email"
-  vendors:
-    - title: "Gmail"
-      desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
-      href: https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
-      cost: "$5 per month"
-      rating: 5 Stars
-    - title: "Rack Space"
-      desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
-      href: https://www.rackspace.com/en-us/email-hosting
-      cost: "$2 per Month"
-
 - category: "SEO"
   vendors:
-    - title: "AddThis"
-      desc: "Add social media share buttons to your website" 
-      href: https://www.addthis.com/
-      cost: "Free Plan"
     - title: "SEORCH"
       desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank." 
       href: http://seorch.eu/
       cost: "Free Plan"
+    - title: "GTmetrix"
+      desc: "GTmetrix gives you insight on how well your site loads and provides actionable recommendations on how to optimize it." 
+      href: "https://gtmetrix.com/"
+      cost: "Free Plan"
+    - title: "Pingdom"
+      desc: "Pingdom makes it easy to monitor your websites and servers. Get alerts when your website is down and insights to its performance and functionality." 
+      href: "https://tools.pingdom.com/"
+      cost: "Free Plan"
+
+- category: "Email"
+  vendors:
+    - title: "Thunderbird"
+      desc: "Thunderbird is a free email application that’s easy to set up and customize" 
+      href: "https://www.mozilla.org/en-US/thunderbird/"
+      cost: "Free"
+
+- category: "Network"
+  vendors:
+    - title: MX Tool Box
+      desc: "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly."
+      href: http://mxtoolbox.com/
+      cost: "Free"
+    - title: DNS Propagation Checker
+      desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records." 
+      href: https://www.whatsmydns.net/
+      cost: "Free"
+
+- category: "Development"
+  vendors:
+    - title: Fontello
+      desc: "A icon font generator. An easy way to create a custom icon font for your site. Select images from their large collection, and make a webfont pack with one click."
+      href: http://fontello.com/
+      cost: "Free"

@@ -7,8 +7,8 @@
       <meta name="description" content="{{ page.metadesc }}">
       <title>{{ page.title }}</title>
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-      <!--
       <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <!--
       <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
       <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
@@ -22,7 +22,9 @@
         <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
           <ul class='title-area'>
             <li class='name'>
-                <a href='/'><img src='{{ site.url }}/images/logo.png' alt="LampApps">&nbsp;{{ site.name }}</a>
+              <h1>
+                <a href='/'><img src='{{ site.url }}/images/logo.png' title="{{ site.name }}" alt="{{ site.name }}">&nbsp;{{ site.name }}</a>
+              </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
               <a href='#'>Menu</a>
@@ -60,9 +62,14 @@
       {{ content }}
       <footer class="footer">
         <div class="row full-width">
-          <div class="small-12 medium-3 large-8 columns footerleft">
-            <i class="icon-megaphone"></i>
-            <p>{{ site.name }} goal is to provide you the resources and tools to create a professional online presence at a low cost. Recommendations of products or services are based on our experience using these products/services or research. {{ site.name }} does not provide or support any products or services. However, {{ site.name }} may be an affiliate of these companies and may receive compensation if you pay for their products or services. {{ site.name }} places quality and value of the services we recommend above any compensation we may receive.</p>
+          <div class="small-12 medium-3 large-4 columns footerleft">
+            <h4>Discloser</h4>
+            <p>{{ site.name }} may be an affiliate of companies we refer our readers to and may receive compensation if you pay for their products or services. We place quality and value of the services above any compensation we may receive.</p>
+          </div>
+          <div class="small-12 medium-3 large-4 columns footerleft">
+          <h4>Note</h4>
+            <p>Recommendations of products or services are based on our experience using these products and services or research of their features and customer support. {{ site.name }} does not provide or support any products or services we recommend. </p>
+            <p class="copyright">Copyright 2017 {{ site.name }}</p>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
             <h4>About</h4>
