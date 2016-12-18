@@ -31,16 +31,13 @@ This simply means it does not depend on any special scripts or databases on the 
 
 #### Steps
 
->Note: I will be using the domain name `example.com` to demonstrate how to set this up. You should substitute your domain name, do not use `example.com`.
+>I will be using the domain name `example.com` to demonstrate how to set this up. You should substitute your domain name, do not use `example.com`. You may prefer to follow the [AWS instructions][awssetupstatic].
 
 1. If you do not have a Amazon Web Service account you will need to [create one][aws]. They offer a free tier that you will be able to use for the first year.
-
-> You may prefer to follow the [AWS instructions][awssetupstatic].
 
 2. Navigate to the S3 management console and create two buckets:
 * `example.com`
 * `www.example.com`
-
 > Why two? Because you want to be able to access your website using example.com and www.example.com.
 
 3. Open the `example.com` bucket `Properties` panel:
@@ -48,13 +45,13 @@ This simply means it does not depend on any special scripts or databases on the 
 * for the Index Document, enter: `index.html`
 * for the Error Document, enter: `error.html`
 * click 'Save'
+<br /><br />
 
-4. Open the bucket `www.example.com` bucket `Properties` panel:
+4. Open the `www.example.com` bucket `Properties` panel:
 * click `Redirect all requests to another host name`
 * redirect all requets to `example.com`
 * click `Save`
-
-> Why redirect? You will host your website in the `example.com` bucket, but using `www.example.com` has become common place. So we want to catch anyone using that address and send them to `example.com`.
+> Why redirect? You will host your website in the `example.com` bucket, but using `www.example.com` has become common place. So we want to catch anyone using that url and send them to `example.com`.
 
 
 
