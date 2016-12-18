@@ -23,7 +23,7 @@ This simply means it does not depend on any special scripts or databases on the 
 
 ### Setting up Amazon S3
 
-[Savjee] has a very good video tutorial on how to setup Amazon S3 for a static website. Please watch his short tutorial then continue below to step through the process where I will fill in some of the details you will need.
+[Savjee] has a very good video tutorial on how to setup Amazon S3 for a static website. Please watch his short tutorial then continue below to step through the entire process where I will fill in some of the additional steps you will need.
 
 {% include youtubeplayer.html id="g9NbuTcos18" %}
 
@@ -31,26 +31,30 @@ This simply means it does not depend on any special scripts or databases on the 
 
 #### Steps
 
->Note: I will be using example.com to explain how to set this up. You should substitute your domain name, not example.com
+>Note: I will be using the domain name `example.com` to demonstrate how to set this up. You should substitute your domain name, do not use `example.com`.
 
-1. If you do not have a Amazon Web Service account you will need to [create one][aws]. They offer a free tier that will be able to use for the first year.
+1. If you do not have a Amazon Web Service account you will need to [create one][aws]. They offer a free tier that you will be able to use for the first year.
+
+> You may prefer to follow the [AWS instructions][awssetupstatic].
 
 2. Navigate to the S3 management console and create two buckets:
+* `example.com`
+* `www.example.com`
 
-* example.com
-* www.example.com
+> Why two? Because you want to be able to access your website using example.com and www.example.com.
 
-Why two? Because you want to be able to access your website using example.com and www.example.com.
+3. Open the `example.com` bucket `Properties` panel:
+* click `Enable static website hosting`
+* for the Index Document, enter: `index.html`
+* for the Error Document, enter: `error.html`
+* click 'Save'
 
-3. Upload two files to the example.com bucket. We need this to test that it works.
+4. Open the bucket `www.example.com` bucket `Properties` panel:
+* click `Redirect all requests to another host name`
+* redirect all requets to `example.com`
+* click `Save`
 
->Tip: If you do not yet know what a html file is you can use this [html file][examplefile]. Cut and paste the text into a file on your computer. Rename it index.html
-
-
-
-
-
-
+> Why redirect? You will host your website in the `example.com` bucket, but using `www.example.com` has become common place. So we want to catch anyone using that address and send them to `example.com`.
 
 
 
@@ -58,5 +62,5 @@ Why two? Because you want to be able to access your website using example.com an
 [Savjee]: https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ
 [aws]: https://aws.amazon.com/free/
 [examplefile]: /documents/example.txt
-
+[awssetupstatic]: http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks
 
