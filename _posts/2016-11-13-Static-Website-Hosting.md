@@ -40,18 +40,44 @@ This simply means it does not depend on any special scripts or databases on the 
 * `www.example.com`
 > Why two? Because you want to be able to access your website using example.com and www.example.com.
 
-3. Open the `example.com` bucket `Properties` panel:
+3. Open the `www.example.com` bucket `Properties` panel:
+* click `Redirect all requests to another host name`
+* redirect all requets to `example.com`
+* click `Save`
+> Why redirect? You will host your website in the `example.com` bucket, but using `www.example.com` has become common place. So we want to catch anyone using that url and send them to `example.com`.
+
+4. Open the `example.com` bucket `Properties` panel:
 * click `Enable static website hosting`
 * for the Index Document, enter: `index.html`
 * for the Error Document, enter: `error.html`
 * click 'Save'
 <br /><br />
 
-4. Open the `www.example.com` bucket `Properties` panel:
-* click `Redirect all requests to another host name`
-* redirect all requets to `example.com`
-* click `Save`
-> Why redirect? You will host your website in the `example.com` bucket, but using `www.example.com` has become common place. So we want to catch anyone using that url and send them to `example.com`.
+5. Add a bucket policy that makes the `example.com` bucket's content publicly available
+* In the bucket's `Properties` panel, click the `Permissions`
+* Click `Add Bucket Policy`
+* Copy and paste the following bucket policy, and then paste it in the Bucket Policy Editor.
+{% highlight json %}
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+	"Sid":"PublicReadForGetBucketObjects",
+        "Effect":"Allow",
+	  "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::example-bucket/*"
+      ]
+    }
+  ]
+}
+{% endhighlight %}
+
+
+In the policy, replace example-bucket with the name of your bucket.
+
+Click Save.
+
+
 
 
 
