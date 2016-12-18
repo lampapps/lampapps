@@ -22,6 +22,14 @@ print_hi('Tom')
 
 <!--more-->
 
+| ------------- |:-------------:|:--------:|
+| Domain Name   | $12			| Annually |
+| Template     	| $26      		| One time |
+| Email 		| $0		    | Monthly  |
+| Hosting 		| $2		    | Monthly  |
+
+
+
 > "Block Quote - Provident nihil sint ducimus quasi dignissimos vero esse quisquam. Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor"
 
 ### H3 This is a sub-heading

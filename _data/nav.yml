@@ -5,11 +5,6 @@
   path: blog/
   section_id: blog
 - name: Resources
-  path: services.html
+  path: resources.html
   section_id: resources
-  children:
-    - name: Services
-      path: services.html
-    - name: Tools
-      path: tools.html
 

@@ -1,32 +1,32 @@
 ---
 layout: default
-metadesc: "Online tools that small business owners can use to maximize their web presence at the lowest cost. {{site.name}} provides provides links to excellent online tools that can be used free or at low cost."
-title: Online tools that small business owners can use to maximize their web presence at the lowest cost
+metadesc: "Online services that small business owners can use to maximize their web presence at the lowest cost."
+title: Online resources that small business owners can use to maximize their web presence at the lowest cost
 section_id: resources
 categories:
+  - name: Email
   - name: Graphics
   - name: SEO
-  - name: Email
-  - name: Network
+  - name: Networking
   - name: Development
 ---
 <div class='full'><!--full-->
   <div class='row'><!--Row-->
     <div class='special-title centered-text'>
-      <h2>Tools</h2>
-      <p>{{ site.name }} does not provide or support these products and services. We recommend these web development tools, either online or downloaded to your computer, to help you create and maintain your web presence.</p>
+      <h2>Resources</h2>
+      <p>{{ site.name }} does not provide or support these products and services. We recommend these web development resources, either online or downloaded to your computer, to help you create and maintain your web presence.</p>
       <p class='shortline'></p>
       <div class="two spacing"></div>
     </div>
   </div><!--Row-->
   <div class='row'><!--Row-->
-    <div class='gallery-wrapper large-12 columns'>
+    <div class='large-12 columns'>
       <ul class="tags centered-text">
         {% for category in page.categories %}
           <li><a class="tag" href='#{{category.name}}'>{{category.name}}</a></li>
         {% endfor %}
       </ul>
-        {% for entry in site.data.tools %}
+        {% for entry in site.data.resources %}
          <div class="two spacing"></div>
           <span class="anchor" id="{{ entry.category }}"></span>
           <h3>{{ entry.category }}</h3>
@@ -36,14 +36,16 @@ categories:
                 <div class="Table-row-item u-Flex-grow7">Description</div>
                 <div class="Table-row-item">Cost</div>
               </div>
-                {% for vendor in entry.vendors %} 
+                {% for vendor in entry.vendors %}
               <div class="Table-row">  
+                  <span class="anchor" id="{{ vendor.title }}"></span>
                   <div class="Table-row-item u-Flex-grow1" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
                   <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
                   <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
               </div>
                 {% endfor %}
             </div><!--Table-->
+            <div class="text-center"><a href="#top">Go to top</a></div>
         {% endfor %}
               <div class="two spacing"></div>
     </div><!--Gallery Wrapper-->

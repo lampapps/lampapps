@@ -14,15 +14,15 @@ A domain name is your trademark on the Internet. It is the human readable addres
 
 ### What is a Domain Name
 
-You may have heard that an Internet address is just a bunch of numbers. That is essentially true. But humans can't interpret those easily, so a system was developed to translate the numbers into words that you and I can read and remember easily. You can reach a website by typing into the browser's address bar the numbers (known as an IP address) or the domain name. For example: [104.43.142.34][msip] will take you to the same website as [microsoft.com][microsoft]. When you type in the domain name a service call Domain Name System (DNS) translates the name into the number and sends you to the right place. This all takes place in  milliseconds.
+You may have heard that an Internet address is just a bunch of numbers. That is essentially true. But humans can't interpret those easily, so a system was developed to translate the numbers into words that you and I can read and remember easily. You can reach a website by typing into the browser's address bar the numbers (known as an IP address) or the domain name. For example: [104.43.142.34][msip] will take you to the same website as [microsoft.com][microsoft]. When you type in the domain name a service called Domain Name System (DNS) translates the name into the number and sends you to the right place. This all takes place in  milliseconds.
 
 When you register a domain name it is yours to keep as long as you keep your registration current. The number is assigned to the hosting provider that owns the server that hosts your website. This allows the domain name owner to change the physical location of their website or email without changing their "trademark" on the Internet. Your email and website can even be at separate hosting services as we will demonstrate later. 
 
 It is important to understand that there are thousands of people who are willing to take your money to host your site and register your domain name. There is an entire industry of resellers out there (I was one). Some are great, some, not so much. I have personally seen a small business loose their domain name because the developer of their website registered it for them. The developer never told the customer where it was registered or when it would expire. When that developer disappeared, so did the domain name, email and website. Their business was wiped off the Internet in one day. It can be very difficult to get back. It can take weeks and costs hundreds of dollars if it can be done at all.
 
-If you control your domain name yourself and your hosting provider disappears, or you decide to change providers, you can reestablish everything at another service in a short time without disruption of your website and email. I prefer to register my domain names with reputable, accredited registrars separate from where my website and email are hosted. I will cover this more below under registering a domain name.
+Your domain name should be registered in your name. Only those you trust should have access to it. It is as important to your business as the keys to the front door of your store. If you control your domain name yourself and your hosting provider disappears, or you decide to change providers, you can reestablish everything at another service in a short time without disruption of your website and email. I prefer to register my domain names with reputable, accredited registrars separate from where my website and email are hosted. I will cover this more below under registering a domain name.
 
-Your domain name should be registered in your name. Only those your trust should have access to it. It is as important to your business as the keys to the front door of your store.
+
 
 ### Choosing a Domain Name
 
@@ -50,7 +50,7 @@ As I eluded to earlier, where you register your domain name is important. Not on
 
 > Hint: You will probable be using more than one Google service along the way. If you already have a Google Account, then you can sign in and use that. However, you may want to create a new one just for your business keeping your personal email and other documents separate from your business. You will have a chance to do that when you purchase a domain name with Google.
 
-To start the process at [Google's Domain Name Registration page][googledomain]. There you can start your search for a new domain name. Once you enter it, you will see something like this image.
+Start the process at [Google's Domain Name Registration page][googledomain]. There you can search for a new domain name. Once you enter it, you will see something like this image.
 
 ![Registering a Domain Name with Google]({{site.url}}/images/googledomain.jpg "Registering a Domain Name with Google")
 
@@ -71,6 +71,8 @@ Make sure to:
 
 Leave everything else alone for now. We will connect your new website to this domain name later using DNS. If you choose another registrar that is OK too. The basic steps to connect to your new website will be same. Google is a great choice, but not the only one.
 
+Next step is to learn more about [hosting services][hostinglearn]. Or, go right to setting up an [Amazon S3][hostingsetup] service to host your static website.
+
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter. 
 
 
@@ -78,3 +80,5 @@ I would love to hear from you. Please leave your comments below. You can also sh
 [msip]: http://104.43.142.34
 [microsoft]: https://www.microsoft.com
 [googledomain]: https://domains.google.com/
+[hostinglearn]: {{ site.url }}{% post_url 2016-11-12-Choose-the-Best-Hosting-Service %}
+[hostingsetup]: {{ site.url }}{% post_url 2016-11-13-Static-Website-Hosting %}

@@ -65,34 +65,34 @@ services:
   		      </div>  
     		   <div class="two spacing"></div>
     </div>
-    <!--Lastest Blog Post-->
-    <div class='row'><!--Lastest Blog Post-->
+    <div class='row'><!--Main Content-->
             <div class="large-9 columns">
-            	  {% assign post = site.posts.first %}
+            	  {% assign post = site.posts.last %}
             	  {% assign content = post.content %}
             	  {% include post_detail.html %}
             </div>
             <!--Right Column of Posts by Tag-->
             <div class="large-3 columns">
                 <div class="post">
-                    <h3>Posts By Tag</h3><hr />
+                    <h3>Latest Posts By Tag</h3><hr />
                       {% for tag in site.tags %}
                         <h3 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
                         </h3>
-                        {% for post in tag[1] %}
+                        {% for post in tag[1] limit:5 %}
                           <span style="line-height: 1.5;"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span><br />
                         {% endfor %}
                         <hr />
                       {% endfor %}
+                      <span><a href="/blog/">All Posts</a></span>
                 </div>
             </div> 
-    <hr />
+            <hr />
     </div>
   <!--Recommended Services-->
 	  <div class='row'>
 	     <div class='special-title centered-text'>
   	      <h2>Recommended Services</h2>
-  	      <p>{{ site.name }} does not provide or support these services. We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design.</p>
+  	      <p>We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design. {{ site.name }} does not provide or support these services.</p>
   	      <p class='shortline'></p>
 	    </div>
     	<div class='two spacing'></div>

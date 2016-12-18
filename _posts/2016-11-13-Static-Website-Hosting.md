@@ -7,16 +7,56 @@ category: Development
 tags: [Hosting]
 ---
 
-![Website Hosting for a Small Business Website]({{site.url}}/images/website-hosting.jpg "Website Hosting for a Small Business Website")
+![Amazon S3 Website Hosting for Small Business]({{site.url}}/images/aws.jpg "Amazon S3 Website Hosting for Small Business")
 
-Website hosting companies provide services that allow you to get your website published online. This includes the actual servers that host your website, service for sending and receiving email, domain name registration, and other networking 
+### What is Amazon S3?
+
+Amazon Simple Storage Service (S3) is a cloud based storage service with a simple web based management console to store and retrieve any amount of data from anywhere on the web. It is very reliable as it is designed to deliver 99.999999999% uptime. It is very secure. It allows you to store large amounts of data at a very low cost. Since your website has very little data, your cost should be negligible. If fact, the first year will be free.
+
+And best of all, it can also host static web sites.
 
 <!--more-->
 
+### What is a Static Website?
+
+This simply means it does not depend on any special scripts or databases on the server to work. Many websites require a database to manage the content. These databases then require a script running on the server to allow the web page to dynamically render the web pages each time. This requires additional processing power and extra security to handle. Static web pages can still have animation and functionality. These are handled by the user's browser instead of the server. You can also use third party resources to plug into the static website. That is how the comments section of this website work. This website is hosted at Amazon S3.
+
+### Setting up Amazon S3
+
+[Savjee] has a very good video tutorial on how to setup Amazon S3 for a static website. Please watch his short tutorial then continue below to step through the process where I will fill in some of the details you will need.
+
 {% include youtubeplayer.html id="g9NbuTcos18" %}
 
+<div class='two spacing'></div>
 
-[starthere]: {{ site.url }}{% post_url 2016-13-03-Start-Here %}
+#### Steps
 
-[zoho]: https://www.zoho.com/mail/zohomail-pricing2.html
+>Note: I will be using example.com to explain how to set this up. You should substitute your domain name, not example.com
+
+1. If you do not have a Amazon Web Service account you will need to [create one][aws]. They offer a free tier that will be able to use for the first year.
+
+2. Navigate to the S3 management console and create two buckets:
+
+* example.com
+* www.example.com
+
+Why two? Because you want to be able to access your website using example.com and www.example.com.
+
+3. Upload two files to the example.com bucket. We need this to test that it works.
+
+>Tip: If you do not yet know what a html file is you can use this [html file][examplefile]. Cut and paste the text into a file on your computer. Rename it index.html
+
+
+
+
+
+
+
+
+
+
+[Savjee]: https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ
+[aws]: https://aws.amazon.com/free/
+[examplefile]: /documents/example.txt
+
 
