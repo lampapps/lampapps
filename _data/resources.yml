@@ -38,9 +38,13 @@
 
 - category: "Graphics"
   vendors:
-    - title: Public Domian Images
-      desc: "A source for public domain images that can be freely downloaded and used on you website. Please make sure to follow any license restrictions that may apply." 
-      href: http://www.publicdomainpictures.net
+    - title: Pexels
+      desc: "Free stock photos you can use everywhere. Free for commercial use. No attribution required" 
+      href: https://pixabay.com/
+      cost: "Free"
+    - title: Pixabay
+      desc: "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required." 
+      href: https://www.pexels.com/
       cost: "Free"
     - title: Optimizilla
       desc: This online image optimizer uses a smart combination of the best optimization and lossy compression algorithms to shrink JPEG and PNG images to the minimum possible size while keeping the required level of quality.
@@ -51,6 +55,10 @@
 Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins." 
       href: https://www.gimp.org/
       cost: "Free"
+
+
+
+      
 
 - category: "Networking"
   vendors:

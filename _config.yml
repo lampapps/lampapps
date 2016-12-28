@@ -28,6 +28,7 @@ exclude:
   #- "package.json"
   - "README.md"
   #- "rev-manifest.json"
+  - "s3_website.yml"
 
 # Plugins
 gems: ["jekyll-sitemap", "jekyll-paginate", "sass"]
@@ -36,7 +37,7 @@ gems: ["jekyll-sitemap", "jekyll-paginate", "sass"]
 #incremental:      true
 
 # Serving
-url: "http://devlampapps.s3-website-us-east-1.amazonaws.com"
+url: "http://www.lampapps.com.s3-website-us-east-1.amazonaws.com"
 # baseurl:  "" # does not include hostname
 
 sass:
