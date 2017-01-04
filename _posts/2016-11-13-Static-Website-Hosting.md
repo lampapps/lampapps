@@ -1,26 +1,31 @@
 ---
 layout: post
 title:  "Static Website Hosting"
+metadesc: "Static HTML web hosting is the best choice for a small business websites on a budget. Learn how to set one up at Amazon Web Services using S3"
 date:   2016-11-12 12:00:00 -0500
 author: LampApps
-category: Development
+category: Quick-Start
 tags: [Hosting]
 ---
 
-![Amazon S3 Website Hosting for Small Business]({{site.url}}/images/aws.jpg "Amazon S3 Website Hosting for Small Business")
+![Amazon S3 Website Hosting for Small Business]({{site.url}}/images/static-web-hosting.jpg "Amazon S3 Website Hosting for Small Business")
 
 ### What is a Static Website?
 
-This simply means the website does not depend on any special scripts or databases on the server in order to render your website pages out to the Internet. Many websites require a database to manage the content. These databases also require a script running on the server to allow the web page to dynamically render a web page to load in the browser each time it is requested by a user. This requires additional processing power and extra security to handle. Static web pages can still have animation and functionality. These are handled by the user's browser instead of the server. You can also use third party resources to plug into the static website. That is how the comments section of this website work. This website is static and is hosted at Amazon S3.
+This simply means the website does not depend on any special scripts or databases running on the server in order to render your website pages out to the Internet. Many websites require a database to manage the content. These databases also require a script running on the server to allow the web page to dynamically render a web page to load in the browser each time the page is requested by a user. This requires additional processing power and extra security to handle. Static web pages can still have great functionality using third party services instead. That is how the comments section of this website work. This website is static and is hosted at Amazon S3.
+
+This article will step you through the process of setting up static website hosting at Amazon Web Serves (AWS) using Amazon Simple Storage Service (S3).
 
 
 <!--more-->
 
+{% include seriesmenu.html %}
+
 ### What is Amazon S3?
 
-Amazon Simple Storage Service (S3) is a cloud based storage service with a simple web based management console to store and retrieve any amount of data from anywhere on the web. It is very reliable as it is designed to deliver 99.999999999% uptime. It is very secure. It allows you to store large amounts of data at a very low cost. Since your website has very little data, your cost should be negligible. If fact, the first year will be free.
+Amazon Simple Storage Service (S3) is a cloud based storage service with a simple web based management console to store and retrieve any amount of data from anywhere on the web. It is very reliable as it is designed to deliver 99.9% uptime. It is very secure. It allows you to store large amounts of data at a very low cost. Since your website has very little data, your cost should be negligible. If fact, the first year will be [free][awsfree].
 
-And best of all, it can also host static web sites so you website will load fast, be very secure, and will handle a huge amount of traffic.
+And best of all, it can also host static web sites so your website will load fast, be very secure, and will handle a huge amount of traffic.
 
 ### Setting up Amazon S3 as a Static Website Host
 
@@ -32,11 +37,11 @@ And best of all, it can also host static web sites so you website will load fast
 
 #### Follow these Steps
 
->I will be using the domain name `www.example.com` to demonstrate how to set this up. You should substitute your domain name. You may also refer to the [AWS instructions][awssetupstatic].
+>I will be using the domain name `www.example.com` to demonstrate how to set this up. You should substitute your domain name. You may also refer to the [AWS instructions][awssetupstatic]. The AWS instructions have you placing your web pages in the  `example.com` bucket. The steps below have you placing them in the `www.example.com` bucket. Either will work.
 
-1. If you do not have a Amazon Web Service account you will need to [create one][aws]. They offer a free tier that you will be able to use at no cost for the first year.
+1. If you do not have a Amazon Web Service account you will need to [create one][aws].
 
-2. Once logged in, navigate to the S3 management console and create a bucket named exactly the same as your domain name with the `www` placed in front, for example: `www.example.com`. Select the region closest to you business. For those in the the USA, select **US Standard**. Make sure to click **Create**.
+2. Once logged in, navigate to the S3 management console and create a bucket named exactly the same as your domain name with the `www` placed in front, for example: `www.example.com`. Select the region closest to your business. For those in the the USA, select **US Standard**. Make sure to click **Create**.
 
 3. Open your new bucket and click on the **Properties** panel:
   * under **Static Website hosting** click **Enable static website hosting**
@@ -47,7 +52,7 @@ And best of all, it can also host static web sites so you website will load fast
 4. Add a bucket policy that makes the `www.example.com` bucket's content publicly available
   * in the bucket's **Properties** panel, click on **Permissions** to expand it's contents
   * click **Add Bucket Policy**
-  * copy and paste the bucket policy below (include first and last curly bracket), and then paste it in the Bucket Policy Editor
+  * copy and paste the bucket policy below (include the first and last curly bracket), and then paste it in the Bucket Policy Editor
   * replace `www.example.com` in the Resource line with your bucket title
   * click **Save**
   <br /><br />
@@ -65,7 +70,7 @@ And best of all, it can also host static web sites so you website will load fast
           ]
         }</pre>
 
-5. Now go back and create a second bucket **without** the `www` in front. For example: `example.com`. This called a naked domain. We do this because your customers may also use that to find your website. We want both the naked and www to work. Once your second bucket is created you will redirect all traffic to the www version.
+5. Now go back and create a second bucket **without** the `www` in front. For example: `example.com`. This is called a naked domain. We do this because your customers may also use that to find your website. We want both the naked and www to work. Once your second bucket is created you will redirect all traffic to the www version.
 * open your new bucket and click on the **Properties** panel
 * under **Static Website hosting** click **Redirect all requests to another host name**
 * redirect all request to your www bucket, for example `www.example.com`
@@ -77,7 +82,7 @@ You can test your website hosting by using the **Endpoint** listed under the **S
 
 Use this for testing until we point your domain name to your bucket.
 
-Next step is to setup your [create you website pages][create].
+Next step is to [select a HTML template][html].
 
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter. 
 
@@ -88,5 +93,6 @@ I would love to hear from you. Please leave your comments below. You can also sh
 [aws]: https://aws.amazon.com/free/
 [examplefile]: https://github.com/lampapps/example
 [awssetupstatic]: https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
-[create]: #
+[html]: {{ site.url }}{% post_url 2016-12-26-Select-a-HTML-Template %}
+[awsfree]: https://aws.amazon.com/free/
 

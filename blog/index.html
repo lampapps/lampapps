@@ -37,7 +37,7 @@ section_id: blog
     {% endfor %}
   </div>
   <div class="large-3 columns">
-    <div class="post">
+    <div>
       <h3>Posts By Date</h3><hr />
         {% for post in site.posts %}
           {% unless post.next %}
@@ -54,7 +54,12 @@ section_id: blog
         {% endfor %}
         <hr />
     </div>
-    <div class="post">
+    <!--Aff link -->
+    <div style="margin-bottom: 25px;">
+    <a href="https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=nCwWpT" target="_blank"><img src="/images/aff/GSuite.png" alt="G Suite Free Trial"/></a>
+    </div>
+    <!-- End -->
+    <div>
       <h3>Posts By Tag</h3><hr />
         {% for tag in site.tags %}
           <h3 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
@@ -65,5 +70,11 @@ section_id: blog
           <hr />
         {% endfor %}
     </div>
+    <!--aff link-->
+    <div style="margin-bottom: 25px;">
+    <a href="https://themeforest.net/?ref=lampapps" target="_blank" style="outline:none;border:0;"><img src="/images/aff/theme_forest_250x250.jpg" alt="Themeforest" border="0" /></a>
+    </div>
+    <!--end-->
   </div>
 </div>
+<script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

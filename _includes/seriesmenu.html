@@ -1,0 +1,15 @@
+<div class="post insertmenu">
+   <h3>{{ page.category }} Series</h3>
+   <p style="font-size: smaller;">This post is part of series of articles <br />designed to be followed in order</p>
+   <hr />
+   	<ol>
+		{% for post in site.categories.Quick-Start reversed %}
+			{% if post.title == page.title %}
+				<li><span style="line-height: 1.5;">{{ post.title }}</span></li>
+			{% else %}
+				<li><span style="line-height: 1.5;"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+		<hr />
+</div>

@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Choose the Best Hosting Service"
+metadesc: "There are many website hosting options to choose from, this article will give you a better understanding so you can choose the right plan for you."
 date:   2016-11-12 12:00:00 -0500
 author: LampApps
-category: Development
+category: Misc
 tags: [Hosting]
 ---
 
@@ -37,7 +38,7 @@ Amazon Web Services (AWS) offers reliable, scalable, and inexpensive cloud compu
 
 The average small business website would not use more than 100 megabytes (MB) of storage space, excluding email. Most companies offer unmetered bandwidth so that is not generally a concern for small websites. Most entry level shared hosting plan can only handle about 10,000 visitors per month before they get overloaded. If you are comparing hosting options, please remember that you should serve your website using a security certificate (SSL) and a Content Delivery Network (CDN). Once you add these in you will find the costs increase. The eye catching prices you see are not what you want. You will also find that email takes far more disk space than the website. Having your email managed by Google's [G Suite][gsuite] or other option like [ZoHo][zoho] may be far better than combining it with your website. Why pay for all the bundled services when you don't need them. Select ala cart from companies that do the best job at the lowest costs. Pay for only what you need. 
 
->Tip: If you choose to go with one of the common hosting plans, start as small as possible, you can move up if needed. I highly recommend that you choose a company that uses cPanel to manage your web hosting account. cPanel is very common in the industry so if you choose to move from one host to another it makes it very easy. GoDaddy does not use cPanel. But if you want to keep it simple, follow my articles to build a static website at Amazon S3.
+>If you choose to go with one of the common hosting plans, start as small as possible, you can move up if needed. I highly recommend that you choose a company that uses cPanel to manage your web hosting account. cPanel is very common in the industry so if you choose to move from one host to another it makes it very easy. GoDaddy does not use cPanel. But if you want to keep it simple, follow my articles to build a static website at Amazon S3.
 
 Next step is to setup your [hosting service][hosting].
 

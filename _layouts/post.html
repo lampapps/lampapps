@@ -24,17 +24,16 @@ section_id: blog
                 {{ page.tags | sort | join: ", " }}
               {% endif %}
         </span>
+        {% include share.html %}
       </p>
   </div>
   <div class='content'>
     {{ content }}
           <hr >
           <div class='spacing'></div>
-          <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-          <div class="addthis_inline_share_toolbox"></div>
   </div>
 </div>
-<!-- Comments Go here
+<!-- Comments Go here -->
 
 <div id="disqus_thread"></div>
 <script>
@@ -51,4 +50,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
--->
+<script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

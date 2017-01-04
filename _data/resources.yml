@@ -1,7 +1,7 @@
 - category: "Email"
   vendors:
     - title: "Gmail"
-      desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage. 
+      desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage.
       href: https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=%3Chttps://goo.gl/nCwWpT%3E
       cost: "$5 per month"
     - title: "Rack Space"
@@ -9,41 +9,41 @@
       href: https://www.rackspace.com/en-us/email-hosting
       cost: "$2 per Month"
     - title: "Thunderbird"
-      desc: "Thunderbird is a free email application that’s easy to set up and customize" 
+      desc: "Thunderbird is a free email client that’s easy to download, set up and customize. This is not an email services, just the software to send and receive email from your computer."
       href: "https://www.mozilla.org/en-US/thunderbird/"
       cost: "Free"
 
 - category: "SEO"
   vendors:
     - title: "AddThis"
-      desc: "Add social media share buttons to your website" 
+      desc: "Add social media share buttons to your website"
       href: https://www.addthis.com/
       cost: "Free Plan"
     - title: "Hootsuite"
-      desc: "" 
+      desc: ""
       href: "https://hootsuite.com"
       cost: "Free Plan"
     - title: "SEORCH"
-      desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank." 
+      desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank."
       href: http://seorch.eu/
       cost: "Free Plan"
     - title: "GTmetrix"
-      desc: "GTmetrix gives you insight on how well your site loads and provides actionable recommendations on how to optimize it." 
+      desc: "GTmetrix gives you insight on how well your site loads and provides actionable recommendations on how to optimize it."
       href: "https://gtmetrix.com/"
       cost: "Free Plan"
     - title: "Pingdom"
-      desc: "Pingdom makes it easy to monitor your websites and servers. Get alerts when your website is down and insights to its performance and functionality." 
+      desc: "Pingdom makes it easy to monitor your websites and servers. Get alerts when your website is down and insights to its performance and functionality."
       href: "https://tools.pingdom.com/"
       cost: "Free Plan"
 
 - category: "Graphics"
   vendors:
-    - title: Pexels
-      desc: "Free stock photos you can use everywhere. Free for commercial use. No attribution required" 
+    - title: Pixabay
+      desc: "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required."
       href: https://pixabay.com/
       cost: "Free"
-    - title: Pixabay
-      desc: "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required." 
+    - title: Pexels
+      desc: "Free stock photos you can use everywhere. Free for commercial use. No attribution required"
       href: https://www.pexels.com/
       cost: "Free"
     - title: Optimizilla
@@ -51,14 +51,9 @@
       href: http://optimizilla.com/
       cost: "Free"
     - title: Gimp
-      desc: "GIMP is a image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software.
-Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins." 
+      desc: "GIMP is a image editor available for Linux, OS X, and Windows. It is very similair to Photoshop. You can scale, crop, and edit images very easily wiht Gimp."
       href: https://www.gimp.org/
       cost: "Free"
-
-
-
-      
 
 - category: "Networking"
   vendors:
@@ -67,7 +62,7 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
       href: http://mxtoolbox.com/
       cost: "Free"
     - title: DNS Propagation Checker
-      desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records." 
+      desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records."
       href: https://www.whatsmydns.net/
       cost: "Free"
 
@@ -77,3 +72,15 @@ Whether you are a graphic designer, photographer, illustrator, or scientist, GIM
       desc: "A icon font generator. An easy way to create a custom icon font for your site. Select images from their large collection, and make a webfont pack with one click."
       href: http://fontello.com/
       cost: "Free"
+    - title: Atom
+      desc: "A full featured, cross browser text editor. It has a large following and is well supported. Includes file browser, auto completion, and syntax highlighting."
+      href: https://atom.io/
+      cost: "Free"
+    - title: Sublime Text
+      desc: "One of the best text editors out there. Easy to use, full featured. They provide an unlimited free trial."
+      href: https://www.sublimetext.com/
+      cost: "Free to try, $70 to buy"
+    - title: Cyberduck
+      desc: "Cyberduck is an open source FTP/SFTP (SSH Secure File Transfer), WebDAV and Amazon S3 browser."
+      href: https://cyberduck.io/
+      cost: "Free to try, $70 to buy"
