@@ -118,6 +118,22 @@ h1, h2, h3, h4 {
   .top-bar .name h1 a {font-size: 2rem;}
 }
 
+/*icon-text */
+.icon-text i {
+  color: #666666;
+  font-size: xx-large;
+  height: 36px;
+  width: 36px;
+  display: block;
+  text-align: center;
+  line-height: 2.1rem;
+  float: left;
+}
+
+.icon-text h3, .icon-text p {
+  margin-left: 60px;
+}
+
 /*special title */
 .special-title i {
   font-size: 50px;
