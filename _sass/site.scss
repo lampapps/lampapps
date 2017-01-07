@@ -1,16 +1,4 @@
 /* Theme Specific */
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: white;
-}
-input:-moz-placeholder, textarea:-moz-placeholder {
-  color: white;
-}
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: white;
-}
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: white;
-}
 
 h1, h2, h3, h4 {
   text-transform: uppercase;
@@ -298,6 +286,8 @@ textarea {
 
 .footer i {
   font-size: 30px;
+  margin-left: 15px;
+  line-height: 1.5em;
 }
 
 .footerleft {
@@ -374,10 +364,8 @@ textarea {
 .post {
   margin: 0 0 60px;
 }
-@media only screen and (min-width: 40.063em) {
-  .post .info, .post .content {
-    margin-left: 110px;
-  }
+.post .info, .post .content {
+  margin-left: 110px;
 }
 .post .info h3 {
   font-size: 24px;
@@ -448,57 +436,23 @@ textarea {
   color: #2A5DB0;
 }
 
-.timestamp {visibility: hidden; width: 0;}
-
-@media only screen and (min-width: 40.063em) {
-  .timestamp {
-    visibility: visible;
-    width: 80px;
-    border: 1px solid #666666;
-  }
-  .timestamp .month {
-    visibility: visible;
-    background: #666666;
-    color: white;
-    border-bottom: 1px solid #666666;
-    display: block;
-    padding: 5px 0;
-  }
-  .timestamp .date {
-    visibility: visible;
-    color: #666666;
-    display: block;
-    padding: 20px 0;
-    font-size: 36px;
-    font-weight: bold;
-  }
-  .comments-wrapper {
-    margin: 0 0 60px 110px;
-  }
+.timestamp {
+  width: 80px;
+  border: 1px solid #666666;
 }
-
-.comments-wrapper ul.comments {
-  margin: 0;
-}
-.comments-wrapper ul.comments li {
-  border-bottom: 1px solid #e9e9e9;
-  padding: 20px 0 0;
-  list-style: none;
-}
-.comments-wrapper ul.comments ul.children li {
-  border-bottom: none;
-  border-top: 1px solid #e9e9e9;
-}
-.comments-wrapper ul.comments .meta .avatar {
-  float: left;
-  padding: 5px 10px 0 0;
-}
-.comments-wrapper ul.comments .meta .name {
+.timestamp .month {
+  background: #666666;
+  color: white;
+  border-bottom: 1px solid #666666;
   display: block;
+  padding: 5px 0;
 }
-.comments-wrapper ul.comments .meta .datetime {
-  font-size: 0.875rem;
-  color: #999999;
+.timestamp .date {
+  color: #666666;
+  display: block;
+  padding: 20px 0;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 /*Home Page Hero*/
@@ -837,12 +791,4 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-/* Insert Menu in Blog body */
-@media only screen and (min-width: 40.063em) {
-  .insertmenu {
-    float: right; 
-    margin: 0 0 20px 60px;
-  }
 }

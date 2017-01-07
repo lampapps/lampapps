@@ -48,3 +48,5 @@ excerpt_separator: <!--more-->
 permalink: /:year/:month/:day/:title.html
 paginate: 3
 paginate_path: "blog/page:num"
+
+timezone: America/New_York
