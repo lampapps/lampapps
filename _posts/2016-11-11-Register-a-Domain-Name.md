@@ -6,8 +6,9 @@ date:   2016-11-11 12:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Domain Name]
+image: images/domain-name.jpg
 ---
-![Register a Domain Name]({{site.url}}/images/domain-name.jpg "Register a Domain Name")
+![Register a Domain Name]({{ site.url }}/{{ page.image }} "Register a Domain Name")
 
 A domain name is your trademark on the Internet. It is the human readable address used to find your website, for example `freshapples.com`. It is what you want people to remember and what you want people to find when they search on the Internet. As important as it is, you do not need to spend a lot of money to obtain one. It can be as little as $12 a year. It is easy to register your domain name, but not very easy to choose the right one. 
 
@@ -17,7 +18,7 @@ This article will describe how domain names work, how to choose one, and how to 
 
 {% include seriesmenu.html %}
 
-### What is a Domain Name
+### What is a Domain Name?
 
 You may have heard that an Internet address is just a bunch of numbers. That is essentially true. But humans can't interpret those easily, so a system was developed to translate the numbers into words that you and I can read and remember easily. You can reach a website by typing into the browser's address bar the numbers (known as an IP address) or the domain name. For example: [104.43.142.34][msip] will take you to the same website as [microsoft.com][microsoft]. When you type in the domain name a service called Domain Name System (DNS) translates the name into the number and sends you to the right place. This all takes place in  milliseconds.
 
@@ -82,8 +83,8 @@ I would love to hear from you. Please leave your comments below. You can also sh
 
 
 
-[msip]: http://104.43.142.34
-[microsoft]: https://www.microsoft.com
-[googledomain]: https://domains.google.com/
-[hostinglearn]: {{ site.url }}{% post_url 2016-11-12-Choose-the-Best-Hosting-Service %}
-[hostingsetup]: {{ site.url }}{% post_url 2016-11-13-Static-Website-Hosting %}
+[msip]: http://104.43.142.34 "IP address of Microsoft"
+[microsoft]: https://www.microsoft.com "Microsoft website"
+[googledomain]: https://domains.google.com/ "Get a Domain Name at Google Domains"
+[hostinglearn]: {{ site.url }}{% post_url 2016-11-12-Choose-the-Best-Hosting-Service %} "Choose a Website Hosting Provider"
+[hostingsetup]: {{ site.url }}{% post_url 2016-11-13-Static-Website-Hosting %} "Static Website Hosting at Amazon Web Services S3"

@@ -6,9 +6,10 @@ date:   2016-12-28 12:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Design]
+image: images/edit-html-template.jpg
 ---
 
-![Editing your Website Content]({{site.url}}/images/edit-html-template.jpg "Editing your Website Content")
+![Editing your Website Content]({{ site.url }}/{{ page.image }} "Editing your Website Content")
 
 Once you have selected and downloaded your template to a folder on your computer you will need to edit the content. You will be replacing the example text and images with your own. You will need to understand a little HTML to do this. But with the right text editor and some patience it will be easy to do. I have found the hardest part is to write good content for a website. You need original content (don't copy from another site). Your content should be focused on your services or products. Select two or three key words or phrases. Right them down and use them naturally in the context of your web pages. Don't stuff them in or over use them.
 
@@ -22,7 +23,7 @@ This article will focus on replacing the "filler" content that came with a websi
 
 This is really important. The text editor must have syntax highlighting and spell check. Syntax highlighting will color the code to match it's functionality. You will then be able to easily pick out the content you need to edit from the code that should not be touched. I can recommend two [text editors][texteditors]. Atom and Sublime Text.
 
-### Give You Template a Home on Your Computer
+### Give the Template a Home on Your Computer
 
 Place the downloaded template in a folder on your computer. Don't bury it too deep, you will access it frequently. If you template downloaded as a compressed file such as zip or gz you will need to unzip them and move them into the folder. Do not edit the files while still zipped. You should now see your files and folders within the folder you created for your template. Look for the `index.html` file. This is web page that will open by default when someone visits your site. Double click on it and it should open in your default web browser such as Internet Explorer or Chrome. A static website does not need a server to run. So if everything is set "out of the box" you will see your template as it will appear online. Make sure you have an Internet connection, as the template may need that to work properly.
 
@@ -43,6 +44,10 @@ Not all the content you need to change is displayed in the browser, however. But
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
 {% endhighlight %}
+
+<div style="margin-bottom: 25px; float: right; margin-left: 20px;">  
+<a href="https://www.amazon.com/Smarter-Way-Learn-HTML-CSS-ebook/dp/B00ULX5FT2/ref=as_li_ss_il?ie=UTF8&qid=1486319569&sr=8-2&keywords=learn+html&linkCode=li3&tag=lampapps-20&linkId=75a74f05f041e3dda03ec981bacf18e4" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ULX5FT2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=B00ULX5FT2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
 
 If you selected to edit between the `<title>` tags and the content in the description meta tag you are correct.
 
@@ -149,8 +154,8 @@ Next step is to [upload and test][upload] your website.
 
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.  
 
-[texteditors]: /resources.html#Development
-[w3schools]: http://www.w3schools.com/html/default.asp
-[graphics]: /resources.html#Graphics
-[upload]: {% post_url 2016-12-29-Upload-Your-Website %}
-[atag]: http://www.w3schools.com/tags/att_a_href.asp
+[texteditors]: /resources.html#Development "Website resources and tools"
+[w3schools]: http://www.w3schools.com/html/default.asp "Learn HTML at w3Schools"
+[graphics]: /resources.html#Graphics "Graphic tools and resources"
+[upload]: {% post_url 2016-12-29-Upload-Your-Website %} "How to upload your website to Amazon Web Services S3"
+[atag]: http://www.w3schools.com/tags/att_a_href.asp "The a tag reference guide a w3schools.com"

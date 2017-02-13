@@ -3,6 +3,8 @@ layout: default
 title: A Small Business Owner's Guide to Building a Website
 metadesc: "Helping the small business owner maximize their online presence at the lowest cost. Guiding you through the steps of building an effective website."
 section_id: home
+permalink: index.html
+image: images/website-design.jpg
 services:
   -
     - title: G Suite
@@ -12,7 +14,7 @@ services:
       linktext: Start Your Free Trial
       linktitle: G Suite by Google
       link: 
-        https://www.google.com/work/apps/business/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=nCwWpT
+        https://goo.gl/nCwWpT
         
     - title: Merchant Account
       icon: "credit-card"
@@ -59,40 +61,62 @@ services:
   	<!--Welcome Title Block-->
     <div class='row'><!--Welcome Title Block-->
   		      <div class='special-title centered-text'>
-  		        <h2>The Business Owner's Guide to Creating their Internet Presence</h2>
-  		        <p>{{ site.name }} goal is to show the average small business owner how to maximize their online presence at the lowest cost. We do this by guiding you through the steps of building a website, choosing an email service, and other low cost (even free) online services that businesses of any size can use. </p>
+  		        <h2>The Guide for Building a Business Website</h2>
+  		        <p>My goal is to show the average small business owner how to maximize their online presence at the lowest cost. I will guide you through the steps of building a website, choosing an email service, and other low cost (even free) online services that businesses of any size can use.</p>
   		         <p class='shortline'></p>
   		      </div>  
     		   <div class="two spacing"></div>
     </div>
     <div class='row'><!--Main Content-->
-            <div class="large-9 columns">
-            	  {% assign post = site.posts.last %}
-            	  {% assign content = post.content %}
-            	  {% include post_detail.html %}
+        <div class="large-9 columns">
+        	  {% assign post = site.posts.first %}
+        	  {% assign content = post.content %}
+        	  {% include post_detail.html %}
+
+            <div style="text-align: right; margin-bottom: 20px; margin-top: -50px">
+               <script type="text/javascript">
+                      amzn_assoc_ad_type = "banner";
+                amzn_assoc_marketplace = "amazon";
+                amzn_assoc_region = "US";
+                amzn_assoc_placement = "assoc_banner_placement_default";
+                amzn_assoc_campaigns = "kuft";
+                amzn_assoc_banner_type = "category";
+                amzn_assoc_isresponsive = "true";
+                amzn_assoc_banner_id = "19P4Y3M8FNN5JYX3PJ82";
+                amzn_assoc_tracking_id = "lampapps-20";
+                amzn_assoc_linkid = "15af62fc3c84dfc0c29c5db1e462c134";
+               </script>
+               <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
             </div>
-            <!--Right Column of Posts by Tag-->
-            <div class="large-3 columns">
-                <div class="post">
-                    <h3>Latest Posts By Tag</h3><hr />
-                      {% for tag in site.tags %}
-                        <h3 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
-                        </h3>
-                        {% for post in tag[1] limit:5 %}
-                          <span style="line-height: 1.5;"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span><br />
-                        {% endfor %}
-                        <hr />
-                      {% endfor %}
-                      <span><a href="/blog/">All Posts</a></span>
-                </div>
-            </div> 
-            <hr />
+            
+        </div>
+        <!--Right Column of Posts by Tag-->
+        <div class="large-3 columns">
+            <div class="post">
+              <h3>Posts By Tag</h3><hr />
+                {% for tag in site.tags %}
+                  <h4 style="margin-bottom: 0.1rem;" id="{{ tag[0] | slugify }}">{{ tag[0] }}
+                  </h4>
+                  {% for post in tag[1] %}
+                    <span><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span><br />
+                  {% endfor %}
+                  <hr />
+                {% endfor %}
+                  <span><a href="/blog/">All Posts</a></span>
+            </div>
+            <!-- Aff Link -->
+            <div style="margin-bottom: 25px; text-align: center;">     
+               <a href="https://www.amazon.com/Hosting-Static-Websites-AWS-Non-Geeks-ebook/dp/B00X8ERWM4/ref=as_li_ss_il?_encoding=UTF8&psc=1&refRID=6J76RSQQ3SX7QDP5NVXY&linkCode=li3&tag=lampapps-20&linkId=3c58f65c700997cb98b985d9b595f831" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00X8ERWM4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=B00X8ERWM4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            </div>
+            <!-- Aff end link -->
+        </div> 
+        <hr />
     </div>
   <!--Recommended Services-->
 	  <div class='row'>
 	     <div class='special-title centered-text'>
   	      <h2>Recommended Services</h2>
-  	      <p>We recommend services we use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design. {{ site.name }} does not provide or support these services.</p>
+  	      <p>I only recommend services I use or have otherwise found to be great value to anyone looking to manage a small business online, including hosting, SEO, credit card payment gateways, merchant services, Email, and website design. {{ site.name }} does not provide or support these services.</p>
   	      <p class='shortline'></p>
 	    </div>
     	<div class='two spacing'></div>

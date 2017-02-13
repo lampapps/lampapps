@@ -118,6 +118,42 @@ h1, h2, h3, h4 {
   .top-bar .name h1 a {font-size: 2rem;}
 }
 
+/* smart appear */
+.fadeinleft {
+  -webkit-transform: translateX(-40px);
+  -moz-transform: translateX(-40px);
+  -ms-transform: translateX(-40px);
+  -o-transform: translateX(-40px);
+  transform: translateX(-40px);
+  opacity: 0.3;
+  -webkit-transition: all 0.8s linear;
+  -moz-transition: all 0.8s linear;
+  -o-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.fadeinright {
+  -webkit-transform: translateX(40px);
+  -moz-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  -o-transform: translateX(40px);
+  transform: translateX(40px);
+  opacity: 0.3;
+  -webkit-transition: all 0.8s linear;
+  -moz-transition: all 0.8s linear;
+  -o-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.fadeinleft.appear, .fadeinright.appear {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
+
 /*icon-text */
 .icon-text i {
   color: #666666;
@@ -176,7 +212,7 @@ h1, h2, h3, h4 {
 }
 
 .footer i {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 15px;
   line-height: 1.5em;
 }
@@ -327,7 +363,7 @@ h1, h2, h3, h4 {
   position: relative;
   background: url("/images/hero-min.jpg") no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 40vh;
   min-height: 300px;
       }
   
@@ -651,6 +687,8 @@ h1, h2, h3, h4 {
 .tag:hover::after {
    border-left-color: #fcbf31; 
 }
+
+
 /* Youtube video */
 .videoWrapper {
   position: relative;
@@ -672,4 +710,41 @@ h1, h2, h3, h4 {
     float: right; 
     margin: 0 0 20px 60px;
   }
+}
+
+/* Framework Overrides */
+/* Top Menu */
+.top-bar-section ul li > a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.top-bar-section ul li.active > a {
+  color: #1a77bd;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    text-decoration: none;
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    color: #333333;
+    background-color: #e7e7e7;
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    text-decoration: none;
+  }
+  .no-js .top-bar-section ul li:active > a {
+    color: #1a77bd;
+  }
+/* Default Link Styles */
+a {
+  color: #1a77bd;
+}
+a:hover, a:focus {
+  color: #6f9be2;
+  text-decoration: underline;
+}
+
+/* Posts Memu */
+.post-title {
+  font-size: .8rem;
+  line-height: 1.5;
 }

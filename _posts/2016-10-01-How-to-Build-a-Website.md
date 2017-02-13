@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "How to Build a Website"
+title:  "Start Here to Build your Website"
 metadesc: "THis article will walk you through the steps of building a website for your small to medium size business. We focus on high performance at low cost."
 date:   2016-10-01 12:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Hosting, Email, Domain Name, Design]
+image: images/website-design.jpg
 ---
 
-![Building a Small Business Website]({{site.url}}/images/website-design.jpg "Building A Small Business Website")
+![Building a Small Business Website]({{site.url}}/{{ page.image }} "Building A Small Business Website")
 
 In keeping with my goal of Helping Small Businesses Navigate the Internet this article will highlight the steps required to get your small business online. There are many ways of doing this, but I want to show how you can do it yourself at a low cost while still preserving the professional appearance and functionality your business needs to stand out from the competition as well as rank well with the search engines. You do not have to sacrifice performance for low cost.
 
@@ -57,11 +58,11 @@ I recommend you start with the [Register a Domain Name][domainname] article, the
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.  
 
 
-[sublime]: https://www.sublimetext.com
-[cyberduck]: https://cyberduck.io
-[1Password]: https://1password.com
-[googleaccount]: https://accounts.google.com/SignUp
-[domainname]: {% post_url 2016-11-11-Register-a-Domain-Name %}
+[sublime]: https://www.sublimetext.com "Sublime Text Editor"
+[cyberduck]: https://cyberduck.io "Cyberduck File Transfer"
+[1Password]: https://1password.com "1Password Password Manager"
+[googleaccount]: https://accounts.google.com/SignUp "Signup for a Google Account"
+[domainname]: {% post_url 2016-11-11-Register-a-Domain-Name %} "Register your domain name"
 
 
 

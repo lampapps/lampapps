@@ -6,9 +6,10 @@ date:   2016-12-31 13:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Hosting]
+image: images/route-53.jpg
 ---
 
-![Point your domain name to AWS S3]({{site.url}}/images/route-53.jpg "Point your domain name to AWS S3")
+![Point your domain name to AWS S3]({{ site.url }}/{{ page.image }} "Point your domain name to AWS S3")
 
 This article is the last in the series. If you have followed all the steps leading up to this you have registered your domain name and uploaded all the edited files into an Amazon S3 bucket. You are now ready to point your domain name to the bucket so that it will be seen by the world using your companies domain name. You will then be able to conduct final testing and editing to make sure everything works right.
 
@@ -18,7 +19,7 @@ In this post we will configure Amazon Route 53 DNS to connect your registered do
 
 {% include seriesmenu.html %}
 
-### What is DNS
+### What is DNS?
 
 If you recall from a [previous post][domainname] DNS stands for Domain Name System. It is like a global phone book. It is a directory of domain names with their assigned IP addresses. The server in which you host your website has a number called an IP address assigned. DNS provides the address of your site when a person types in a domain name in their browser.
 
@@ -41,15 +42,15 @@ Log in to [AWS] and head over to Route 53.
 5. You now have to tell your domain name registrar where to send all requests for your website. Log into the service where your domain name is registered (my example is Google Domains) and select **Custom Name Servers**. Enter each Name Server **Exactly** as it appears at Route 53 in the NS record. You will notice a period `.` at the end of the NS records at Route 53. Route 53 presents that to you and it is required, but some services add it by default and do not show it to you. Google Domains strips it off if you add it.
 ![Create a Hosted Zone - Step 5]({{site.url}}/images/dns-5.jpg "Create a Hosted Zone- Step 5")
 
-6. You now have `www.example.com` and `example.com` set up to serve your website. But you will have to wait to see it for yourself. DNS can take up to 24 hours or more to propagate around the world to all the DNS services. In addition, if your domain was setup to another hosting services, you may have that still cached in your computer, router, or with your Internet Service Provider (ISP). You can track the progress and also avoid the cache issue until everything sorts itself out.
-* You can track the [DNS propagation][dns]. Enter in your domain name, select NS and see if it comes back to the Name Servers you entered at your domain name registrar. It takes time, so be patient.
-* You can use a proxy browser to circumnavigate the cached data from your old DNS. Google "Proxy Browser". Many to choose form.
+6. You now have `www.example.com` and `example.com` set up to serve your website. But you will have to wait to see it for yourself. DNS can take up to 24 hours or more to propagate around the world to all the DNS services. In addition, if your domain was previously setup to point at another hosting services, you may have that cached (saved) in your computer, router, or with your Internet Service Provider (ISP). This means that your computer won't show the most recent updates until he cache clears. This can take hours or days. However, You can track the progress of DNS propagation and also avoid the cache issue until everything sorts itself out.
+* Use this website track [DNS propagation][dns]. Enter in your domain name, select NS and see if it comes back to the Name Servers you entered at your domain name registrar. It takes time, so be patient.
+* You can use a proxy browser to circumnavigate the cached data from your old DNS. Search Google for "Proxy Browser". Many to choose from.
 
-Don't rush this process. If you do not see results in the first 30 minutes, it may take hours, if not a full day for your computer and everything else to refresh to the right DNS information. Reset the urge to go in and "fix" the settings. You will just start the entire process all over again.
+Don't rush this process. If you do not see results in the first 30 minutes it may take hours, if not a full day for your computer and everything else to refresh to the right DNS information. Resist the urge to go in and "fix" the settings. You will just start the entire process all over again each time.
 
 
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.  
 
-[aws]: https://aws.amazon.com/
-[dns]: https://www.whatsmydns.net/
-[domainname]: {{ site.url }}{% post_url 2016-11-11-Register-a-Domain-Name %}
+[aws]: https://aws.amazon.com/ "Amazon Web Services"
+[dns]: https://www.whatsmydns.net/ "Check DNS"
+[domainname]: {{ site.url }}{% post_url 2016-11-11-Register-a-Domain-Name %} "How to register a domain name"

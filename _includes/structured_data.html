@@ -1,0 +1,78 @@
+{% if page.section_id == "home" %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "https://twitter.com/{{ site.twitter }}",
+        "https://github.com/{{ site.github }}",
+        "https://facebook.com/{{ site.facebook }}"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{site.url}}/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+{% endif %}
+
+{% if page.layout == "post" %}
+<!-- http://pauldambra.github.io/structured-data-with-jekyll.html -->
+{% assign wordcount = page.content | number_of_words %}
+  <script type="application/ld+json">
+  {  
+     "@context":"http://schema.org",
+     "@type":"BlogPosting",
+     "headline":"{{ page.title }}",
+     "wordCount":"{{ wordcount }}",
+     "url":"{{ site.url }}{{ page.url }}",
+     "dateModified": "{{ page.date | | date: '%Y-%m-%d' }}",
+     "datePublished":"{{ page.date | | date: '%Y-%m-%d' }}",
+     "author":{  
+        "@type":"Person",
+        "name": "{{site.name}}",
+        "sameAs":[  
+          "https://twitter.com/{{site.twitter}}",
+          "https://github.com/{{site.github}}",
+          "https://facebook.com/{{ site.facebook }}"
+        ]
+     },
+     "publisher":{  
+        "@type":"Organization",
+        "name": "{{page.author}}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{site.url}}/images/logo.jpg",
+          "width": 53,
+          "height": 53
+          }
+     },
+     "image":{  
+        "@type":"ImageObject",
+        "contentUrl":"{{site.url}}/{{page.image}}",
+        "url":"{{site.url}}",
+        "height":"430",
+        "width":"980"
+     },
+     "mainEntityOfPage":{  
+        "@type":"WebPage",
+        "@id":"{{site.url}}{{page.url}}"
+     }
+  }
+  </script>
+  <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="{{ page.title }}" />
+  <meta property="og:description"   content="{{ page.metadesc }}" />
+  <meta property="og:image"         content="{{site.url}}/{{page.image}}" />
+  <meta name="twitter:card"         content="summary">
+  <meta name="twitter:site"         content="@{{ site.twitter }}">
+  <meta name="twitter:creator"      content="@{{ site.twitter }}">
+  <meta name="twitter:title"        content="{{ page.title }}">
+  <meta name="twitter:url"          content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:description"  content="{{ page.metadesc }}">
+  <meta name="twitter:image:src"    content="{{ site.url }}/{{ page.image }}">
+{% endif %}

@@ -6,9 +6,10 @@ date:   2016-12-26 12:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Design]
+image: images/web-design.jpg
 ---
 
-![Selecting your HTML Template]({{site.url}}/images/web-design.jpg "Selecting your HTML Template")
+![Selecting your HTML Template]({{ site.url }}/{{ page.image }} "Selecting your HTML Template")
 
 Creating a website from scratch takes creative skill and knowledge of HTML, CSS, and JavaScript. Paying a web design firm to do this for you can cost thousands of dollars. But you can do it yourself without learning CSS or JavaScript. You just need some very basic understanding of HTML. Simply purchase a professionally built template that already has the design and all the code done for you. You then replace the images and text with your own to customize the website for your needs. 
 
@@ -31,6 +32,12 @@ Responsive web design provides an optimal viewing experience no matter what devi
 > If you are reading this on a desktop computer, grab the right edge of your browser window with your cursor. Drag it to the left and watch as the web page adjusts to the window size. This is a responsive website.
 
 #### Latest Standards
+
+<!--aff link-->
+<div style="margin: 0 0 20px 20px; float: right;">
+<a href="https://themeforest.net/?ref=lampapps" target="_blank" style="outline:none;border:0;"><img src="/images/aff/theme_forest_250x250.jpg" alt="Themeforest" border="0" /></a>
+</div>
+<!--end-->
 
 The template should be written to a certain standard so it renders correctly in all browsers and can take advantage of the latest features. Look for HTML 5 and CSS 3.
 
@@ -64,12 +71,12 @@ Next step is to [edit your template][edittemplate].
 
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.  
 
-[themeforest]: https://themeforest.net/category/site-templates?ref=lampapps
-[w3counter]: https://www.w3counter.com/globalstats.php
-[bootstrap]: http://getbootstrap.com/
-[foundation]: http://foundation.zurb.com/
-[graphicriver]: https://graphicriver.net/?ref=lampapps
-[resources]: /resources.html#Graphics
-[edittemplate]: {{ site.url }}{% post_url 2016-12-29-Edit-a-HTML-Template %}
+[themeforest]: https://themeforest.net/category/site-templates?ref=lampapps "HTML Templates at Themeforest"
+[w3counter]: https://www.w3counter.com/globalstats.php "Browser Stats"
+[bootstrap]: http://getbootstrap.com/ "Bootstrap Website"
+[foundation]: http://foundation.zurb.com/ "Foundation Framework"
+[graphicriver]: https://graphicriver.net/?ref=lampapps "Images from Graphic River"
+[resources]: /resources.html#Graphics "Website Resources and Tools"
+[edittemplate]: {{ site.url }}{% post_url 2016-12-29-Edit-a-HTML-Template %} "How to Edit a HTML template"
 
 

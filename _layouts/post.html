@@ -24,30 +24,33 @@ section_id: blog
                 {{ page.tags | sort | join: ", " }}
               {% endif %}
         </span>
+       </p> 
         {% include share.html %}
-      </p>
+        <br />
   </div>
   <div class='content'>
     {{ content }}
           <hr >
           <div class='spacing'></div>
+
+      <!-- disqus Comments Go here -->
+      <div id="disqus_thread"></div>
+      <script>
+      var disqus_config = function () {
+      this.page.url = '{{ site.url }}{{ page.url }}';
+      this.page.identifier = '{{ page.id }}';
+      this.page.title ='{{ page.title }}';
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//lampapps.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>
+      <!-- disqus comments end here -->
+
   </div>
 </div>
-<!-- Comments Go here -->
-
-<div id="disqus_thread"></div>
-<script>
-var disqus_config = function () {
-this.page.url = '{{ site.url }}{{ page.url }}';
-this.page.identifier = '{{ page.id }}';
-this.page.title ='{{ page.title }}';
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = '//lampapps.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

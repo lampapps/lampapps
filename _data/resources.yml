@@ -2,12 +2,12 @@
   vendors:
     - title: "Gmail"
       desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage.
-      href: https://gsuite.google.com/landing/partners/referral/trial.html?utm_source=sign-up&utm_medium=referralbutton1&utm_campaign=apps-referral-program&utm_content=nCwWpT
+      href: https://goo.gl/nCwWpT
       cost: "$5 per month"
     - title: "Rack Space"
       desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
       href: https://www.rackspace.com/en-us/email-hosting
-      cost: "$2 per Month"
+      cost: "$2 per Month - Min of 10"
     - title: "Thunderbird"
       desc: "Thunderbird is a free email client that’s easy to download, set up and customize. This is not an email services, just the software to send and receive email from your computer."
       href: "https://www.mozilla.org/en-US/thunderbird/"
@@ -83,4 +83,4 @@
     - title: Cyberduck
       desc: "Cyberduck is an open source FTP/SFTP (SSH Secure File Transfer), WebDAV and Amazon S3 browser."
       href: https://cyberduck.io/
-      cost: "Free to try, $70 to buy"
+      cost: "Free"

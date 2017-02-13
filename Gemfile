@@ -22,6 +22,6 @@ gem "jekyll", "3.3.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-paginate"
-   gem "jekyll-sitemap"
+   gem 'jekyll-sitemap', '~> 1.0'
    gem "sass"
 end

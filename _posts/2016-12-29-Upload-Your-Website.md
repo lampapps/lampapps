@@ -6,9 +6,10 @@ date:   2016-12-29 13:00:00 -0500
 author: LampApps
 category: Quick-Start
 tags: [Hosting]
+image: images/transfer-files.jpg
 ---
 
-![Upload to Amazon S3]({{site.url}}/images/transfer-files.jpg "Upload to Amazon S3")
+![Upload to Amazon S3]({{ site.url }}/{{ page.image }} "Upload to Amazon S3")
 
 ### Upload Your Website to Amazon S3
 
@@ -83,8 +84,8 @@ Once your website is completed the next step is to point your domain name to you
 
 I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.  
 
-[aws]: https://aws.amazon.com/
-[awssetupstatic]: https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
-[cyberduck]: https://cyberduck.io/
-[IAM]: https://console.aws.amazon.com/iam/home#/users
-[statichost]: {{ site.url }}{% post_url 2016-11-13-Static-Website-Hosting %}
+[aws]: https://aws.amazon.com/ "Amazon Web Service Website"
+[awssetupstatic]: https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html "Amazon Web Services Instructions on how to host a static website"
+[cyberduck]: https://cyberduck.io/ "Cyberduck File Transfer"
+[IAM]: https://console.aws.amazon.com/iam/home#/users "IAM tool on Amazon Web Services"
+[statichost]: {{ site.url }}{% post_url 2016-11-13-Static-Website-Hosting %} "How to host a static website at Amazon Web Services S3"

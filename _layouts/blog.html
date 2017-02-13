@@ -5,7 +5,7 @@ section_id: blog
 <div class='full'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <h2>Our Blog</h2>
+      <h2>The Blog</h2>
       <p>The Business Owner's Guide to Creating their Internet Presence</p>
       <p class='shortline'></p>
     </div>
@@ -19,18 +19,18 @@ section_id: blog
         <div class="pager">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
-              <a href="/blog" class="older">Older Entries</a>
+              <a href="/blog" class="older button"><< Older Entries</a>
             {% else %}
-              <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a>
+              <a href="/blog/page{{ paginator.next_page }}" class="older button"><< Older Entries</a>
             {% endif %}
           {% else %}
             <span class="older">Older Entries</span>
           {% endif %}
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-              <a href="/blog" class="newer">Newer Entries</a>
+              <a href="/blog" class="newer button">Newer Entries >></a>
             {% else %}
-              <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
+              <a href="/blog/page{{ paginator.previous_page }}" class="newer button">Newer Entries >></a>
             {% endif %}
           {% else %}
             <span class="newer">Newer Entries</span>

@@ -9,7 +9,9 @@
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
       <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
-      <script src='{{ site.url }}/js/modernizr.js'></script>
+      <link rel="dns-prefetch" href="https://amazon-adsystem.com">
+      <!--<script src='{{ site.url }}/js/modernizr_min.js'></script>-->
+      {% include structured_data.html %}
     </head>
     <body>
       <div class='contain-to-grid sticky'>
@@ -17,11 +19,11 @@
           <ul class='title-area'>
             <li class='name'>
               <h1>
-                <a href='/'><img src='{{ site.url }}/images/logo.png' title="{{ site.name }}" alt="{{ site.name }}">&nbsp;{{ site.name }}</a>
+                <a href='/' title="{{ site.name }}"><img src='{{ site.url }}/images/logo.png' alt="{{ site.name }}">&nbsp;{{ site.name }}</a>
               </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
-              <a href='#'>Menu</a>
+              <a href='#' title="Home">Menu</a>
             </li>
           </ul>
           <section class='top-bar-section'>
@@ -34,18 +36,18 @@
                 {% endif %}
                 {% if item.children %}
                   <li class="has-dropdown {{active_class}}">
-                    <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                    <a href="{{site.url}}/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
                     <ul class='dropdown'>
                       {% for child in item.children %}
                         <li>
-                          <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                          <a href="{{site.url}}/{{ child.path }}" title="{{ child.name }}">{{ child.name }}</a>
                         </li>
                       {% endfor %}
                     </ul>
                   </li>
                 {% else %}
                   <li class="{{active_class}}">
-                    <a href="{{ site.url }}/{{ item.path }}">{{ item.name }}</a>
+                    <a href="{{ site.url }}/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -68,25 +70,27 @@
           <div class="small-6 medium-3 large-2 columns footerright">
             <h4>About</h4>
             <ul class="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about.html">About</a></li>
-              <li><a href="/tos.html">Terms of Service</a></li>
-              <li><a href="/privacypolicy.html"> Privacy Policy</a></li>
+              <li><a href="/" title="Home">Home</a></li>
+              <li><a href="/about.html" title="About">About</a></li>
+              <li><a href="/tos.html" title="Terms of Service">Terms of Service</a></li>
+              <li><a href="/privacypolicy.html" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
             <h4>Follow</h4>
               <div class='socials'>
-              <a href='https://www.facebook.com/lampapps' target="_blank"><i class='icon-facebook-rect'></i></a><br />
-              <a href='https://twitter.com/lampapps' target="_blank"><i class='icon-twitter-bird'></i></a><br />
-              <a href='https://github.com/lampapps' target="_blank"><i class='icon-github-circled'></i></a>
+              <a href='https://www.facebook.com/lampapps' target="_blank" title="Follow me on Facebook"><i class='icon-facebook-rect'></i></a><br />
+              <a href='https://twitter.com/lampapps' target="_blank" title="Follow me on Twitter"><i class='icon-twitter-bird'></i></a><br />
+              <a href='https://github.com/lampapps' target="_blank" title="Visit me on Github"><i class='icon-github-circled-1'></i></a><br />
+              <a href='http://www.lampapps.com/feed.xml' target="_blank" title="Subscribe to my feed"><i class='icon-rss'></i></a>
               </div>
           </div>
         </div>
       </footer>
       <script src='{{ site.url }}/js/jquery.min.js'></script>
       <script src='{{ site.url }}/js/foundation.min.js'></script>
-      <script src='{{ site.url }}/js/app.js'></script>
+      <script src='{{ site.url }}/js/jquery.appear_min.js'></script>
+      <script src='{{ site.url }}/js/app_min.js'></script>
       <!--Google -->
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

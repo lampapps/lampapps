@@ -1,10 +1,13 @@
 # Site settings
 language: ""
 name: LampApps
-description: "Site description"
+description: "Helping the average small business owner to maximize their online presence at the lowest cost. We do this by guiding you through the steps of building a website, choosing an email service, and other low cost (even free) online services that businesses of any size can use."
 google-verification: ""
 markdown: kramdown
 highlighter: rouge
+twitter: lampapps
+facebook: lampapps
+github: lampapps
 
 # Handling Reading
 include:
@@ -31,14 +34,17 @@ exclude:
   - "s3_website.yml"
 
 # Plugins
-gems: ["jekyll-sitemap", "jekyll-paginate", "sass"]
+gems: [jekyll-paginate, sass, jekyll-feed, jekyll-sitemap]
 
 # Conversion
 #incremental:      true
 
 # Serving
-url: "http://www.lampapps.com"
+url: http://www.lampapps.com
 # baseurl:  "" # does not include hostname
+
+# keep_files: 
+#   - css/pure.css
 
 sass:
   style: compressed
@@ -50,3 +56,4 @@ paginate: 3
 paginate_path: "blog/page:num"
 
 timezone: America/New_York
+
