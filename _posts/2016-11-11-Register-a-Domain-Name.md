@@ -5,7 +5,7 @@ metadesc: "Registering a domain name is easy, but selecting the right one is not
 date:   2016-11-11 12:00:00 -0500
 author: LampApps
 category: Quick-Start
-tags: [Domain Name]
+tags: [Domain-Name]
 image: images/domain-name.jpg
 ---
 ![Register a Domain Name]({{ site.url }}/{{ page.image }} "Register a Domain Name")

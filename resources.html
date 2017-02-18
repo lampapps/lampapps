@@ -4,12 +4,8 @@ metadesc: "Online services that small business owners can use to maximize their 
 title: Online resources that small business owners can use to maximize their web presence at the lowest cost
 section_id: resources
 permalink: resources.html
-categories:
-  - name: Email
-  - name: Graphics
-  - name: SEO
-  - name: Networking
-  - name: Development
+js: tag.js
+tags: [Hosting, Email, Domain-Name, Design]
 ---
 <div class='full'><!--full-->
   <div class='row'><!--Row-->
@@ -21,34 +17,11 @@ categories:
     </div>
   </div><!--Row-->
   <div class='row'><!--Row-->
-    <div class='large-12 columns'>
-      <ul class="tags centered-text">
-        {% for category in page.categories %}
-          <li><a class="tag" href='#{{category.name}}'>{{category.name}}</a></li>
-        {% endfor %}
-      </ul>
-        {% for entry in site.data.resources %}
-         <div class="two spacing"></div>
-          <span class="anchor" id="{{ entry.category }}"></span>
-          <h3>{{ entry.category }}</h3>
-            <div class="Table">
-              <div class="Table-row Table-header">
-                <div class="Table-row-item u-Flex-grow1">Website</div>
-                <div class="Table-row-item u-Flex-grow7">Description</div>
-                <div class="Table-row-item">Cost</div>
-              </div>
-                {% for vendor in entry.vendors %}
-              <div class="Table-row">  
-                  <span class="anchor" id="{{ vendor.title }}"></span>
-                  <div class="Table-row-item u-Flex-grow1" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
-                  <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
-                  <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
-              </div>
-                {% endfor %}
-            </div><!--Table-->
-            <div class="text-center"><a href="#top">Go to top</a></div>
-        {% endfor %}
-              <div class="two spacing"></div>
-    </div><!--Gallery Wrapper-->
+    <div class='large-9 columns'>
+      {% include resourcetable.html %}
+    </div>
+    <div class="large-3 columns">
+      {% include rightside.html %}
+    </div> 
   </div><!--Row-->
 </div><!--full-->

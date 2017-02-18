@@ -36,7 +36,7 @@
       href: "https://tools.pingdom.com/"
       cost: "Free Plan"
 
-- category: "Graphics"
+- category: "Design"
   vendors:
     - title: Pixabay
       desc: "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required."
@@ -55,7 +55,7 @@
       href: https://www.gimp.org/
       cost: "Free"
 
-- category: "Networking"
+- category: "Hosting"
   vendors:
     - title: MX Tool Box
       desc: "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly."

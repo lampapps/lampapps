@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Start Here to Build your Website"
-metadesc: "THis article will walk you through the steps of building a website for your small to medium size business. We focus on high performance at low cost."
+metadesc: "This article will walk you through the steps of building a website for your small to medium size business. We focus on high performance at low cost."
 date:   2016-10-01 12:00:00 -0500
 author: LampApps
 category: Quick-Start
-tags: [Hosting, Email, Domain Name, Design]
+tags: [Hosting, Email, Domain-Name, Design, SEO, Development]
 image: images/website-design.jpg
 ---
 

@@ -19,11 +19,13 @@ section_id: blog
         <span class='date'>{{ page.date | date: "%d" }},</span>
         <span class='date'>{{ page.date | date: "%Y" }}</span> - 
         <a href='{{ site.url }}{{ page.url }}#disqus_thread'></a>
-        <br />
-        <span>{% if page.tags.size > 0 %}Tag{% if page.tags.size > 1 %}s{% endif %}:
-                {{ page.tags | sort | join: ", " }}
-              {% endif %}
-        </span>
+        <br /><br />
+          {% if page.tags.size > 0 %}Tag{% if page.tags.size > 1 %}s{% endif %}:
+            {% assign sorted_tags = page.tags | sort %}
+              {% for tag in sorted_tags %}
+                <span class="tag"><a href="/tag.html#{{ tag }}">{{ tag }}</a></span>
+              {% endfor %}
+          {% endif %}
        </p> 
         {% include share.html %}
         <br />

@@ -1,5 +1,7 @@
 /* Theme Specific */
 
+img { border: 0; }
+
 h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -681,13 +683,21 @@ h1, h2, h3, h4 {
 .tag:hover {
   background-color: #fcbf31;
   color: #999;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .tag:hover::after {
    border-left-color: #fcbf31; 
 }
 
+.blog-tags-list li.active{
+  background-color: #fcbf31;
+  color: #999;
+}
+
+.blog-tags-list li.active::after {
+     border-left-color: #fcbf31; 
+}
 
 /* Youtube video */
 .videoWrapper {
@@ -747,4 +757,15 @@ a:hover, a:focus {
 .post-title {
   font-size: .8rem;
   line-height: 1.5;
+}
+
+/* for Post and tags */
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
+.blog-item-date {
+  padding-right: 5px;
+  color: #999;
 }

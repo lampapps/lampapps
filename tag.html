@@ -1,0 +1,58 @@
+---
+layout: tag
+title: Filter by Tags
+section_id: tag
+permalink: tag.html
+js: tag.js
+---
+<div class="row">
+  <div class="large-9 columns">
+      <!-- List All posts -->
+      <div class="blog-list-container" id="all-container">
+        <h3>All Blog Posts</h3>
+          <div class="Table">
+            <div class="Table-row Table-header">
+              <div class="Table-row-item u-Flex-grow3">Title</div>
+              <div class="Table-row-item u-Flex-grow5">Desc.</div>
+            </div>
+            {% for post in site.posts %}
+            <div class="Table-row">  
+                <div class="Table-row-item u-Flex-grow3" data-header="Title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                <div class="Table-row-item u-Flex-grow5" data-header=""><p>{{ post.metadesc }}</p></div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+      <!-- List Filtered Posts -->
+      {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+      <div class="blog-list-container hidden" id="{{ t }}-container">
+        <h3>{{ t | replace: '-', ' ' }} Blog Posts</h3>
+          <div class="Table">
+            <div class="Table-row Table-header">
+              <div class="Table-row-item u-Flex-grow3">Title</div>
+              <div class="Table-row-item u-Flex-grow5">Desc.</div>
+            </div>
+            {% for post in posts %}
+              {% if post.tags contains t %}
+              <div class="Table-row">  
+                <div class="Table-row-item u-Flex-grow3" data-header="Title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                <div class="Table-row-item u-Flex-grow5" data-header="">{{ post.metadesc }}</div>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+      </div>
+      {% endfor %}
+      <div class='spacing'></div>
+<div style="margin-bottom: 25px;">
+<a href="https://themeforest.net/?ref=lampapps" target="_blank" style="outline:none;border:0;"><img src="/images/aff/theme_forest_728x90.jpg" alt="Themeforest" /></a>
+</div>
+  {% include resourcetable.html %}
+  </div>
+  <div class="large-3 columns">
+  {% include rightside.html %}
+  </div>
+</div>
+<script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

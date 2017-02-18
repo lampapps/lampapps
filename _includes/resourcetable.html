@@ -1,0 +1,46 @@
+<!-- All Resources-->
+<div class="resource-list-container" id="all-container2">
+  {% for entry in site.data.resources %}
+      <h3>{{ entry.category }} Resources</h3>
+        <div class="Table">
+          <div class="Table-row Table-header">
+            <div class="Table-row-item u-Flex-grow2">Website</div>
+            <div class="Table-row-item u-Flex-grow6">Description</div>
+            <div class="Table-row-item">Cost</div>
+          </div>
+            {% for vendor in entry.vendors %}
+          <div class="Table-row">  
+              <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
+              <div class="Table-row-item u-Flex-grow6" data-header="">{{ vendor.desc }}</div>
+              <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
+          </div>
+            {% endfor %}
+        </div>
+        <div class="text-center"><a href="#top">Go to top</a></div>
+  {% endfor %}
+</div>
+<!-- List Filtered Resources -->
+{% for tag in site.tags %}
+{% assign t = tag | first %}
+  <div class="resource-list-container hidden" id="{{ t }}-container2">
+        {% for entry in site.data.resources %}
+          {% if entry.category contains t %}
+            <h3>{{ entry.category }} Resources</h3>
+            <div class="Table">
+              <div class="Table-row Table-header">
+                <div class="Table-row-item u-Flex-grow2">Website</div>
+                <div class="Table-row-item u-Flex-grow6">Description</div>
+                <div class="Table-row-item">Cost</div>
+              </div>
+                {% for vendor in entry.vendors %}
+              <div class="Table-row">  
+                  <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
+                  <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
+                  <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
+              </div>
+                {% endfor %}
+            </div><!--Table-->
+          {% endif %}
+        {% endfor %}
+  </div>
+{% endfor %}
