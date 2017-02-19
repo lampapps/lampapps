@@ -1,5 +1,5 @@
 # wwwlampapps
-A Jekyll website based on the Squarebox theme by honryou purchased form Themeforest.
+A Jekyll website based on the Squarebox theme by honryou purchased from Themeforest.
 
 Visit [www.lampapps.com]
 
