@@ -5,7 +5,7 @@ metadesc: "Learn the basics to editing a website template"
 date:   2016-12-28 12:00:00 -0500
 author: LampApps
 category: Quick-Start
-tags: [Design]
+tags: [Design, Tools]
 image: images/edit-html-template.jpg
 ---
 

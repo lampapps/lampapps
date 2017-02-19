@@ -66,7 +66,7 @@
       href: https://www.whatsmydns.net/
       cost: "Free"
 
-- category: "Development"
+- category: "Tools"
   vendors:
     - title: Fontello
       desc: "A icon font generator. An easy way to create a custom icon font for your site. Select images from their large collection, and make a webfont pack with one click."

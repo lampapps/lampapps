@@ -1,4 +1,4 @@
-<!-- All Resources-->
+<!-- List all Resources-->
 <div class="resource-list-container" id="all-container2">
   {% for entry in site.data.resources %}
       <h3>{{ entry.category }} Resources</h3>
@@ -10,7 +10,7 @@
           </div>
             {% for vendor in entry.vendors %}
           <div class="Table-row">  
-              <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
+              <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow">{{ vendor.title }}</a></div>
               <div class="Table-row-item u-Flex-grow6" data-header="">{{ vendor.desc }}</div>
               <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
           </div>
@@ -19,28 +19,41 @@
         <div class="text-center"><a href="#top">Go to top</a></div>
   {% endfor %}
 </div>
-<!-- List Filtered Resources -->
+<!-- List filtered Resources -->
 {% for tag in site.tags %}
 {% assign t = tag | first %}
-  <div class="resource-list-container hidden" id="{{ t }}-container2">
         {% for entry in site.data.resources %}
           {% if entry.category contains t %}
+          <div class="resource-list-container hidden" id="{{ t }}-container2">
             <h3>{{ entry.category }} Resources</h3>
-            <div class="Table">
-              <div class="Table-row Table-header">
-                <div class="Table-row-item u-Flex-grow2">Website</div>
-                <div class="Table-row-item u-Flex-grow6">Description</div>
-                <div class="Table-row-item">Cost</div>
-              </div>
+              <div class="Table">
+                <div class="Table-row Table-header">
+                  <div class="Table-row-item u-Flex-grow2">Website</div>
+                  <div class="Table-row-item u-Flex-grow6">Description</div>
+                  <div class="Table-row-item">Cost</div>
+                </div>
                 {% for vendor in entry.vendors %}
-              <div class="Table-row">  
-                  <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow"><strong>{{ vendor.title }}</strong></a></div>
-                  <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
-                  <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
-              </div>
+                <div class="Table-row">  
+                    <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow">{{ vendor.title }}</a></div>
+                    <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
+                    <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
+                </div>
                 {% endfor %}
-            </div><!--Table-->
+            </div>
+          </div>
           {% endif %}
         {% endfor %}
-  </div>
 {% endfor %}
+    <div id="emptymessage" style="display: none;">
+      <h3>Resources</h3>
+      <div class="Table">
+          <div class="Table-row Table-header">
+            <div class="Table-row-item u-Flex-grow2">Website</div>
+            <div class="Table-row-item u-Flex-grow6">Description</div>
+            <div class="Table-row-item">Cost</div>
+          </div>
+          <div class="Table-row">  
+              <div class="Table-row-item" data-header="Website">Sorry - nothing to display for this resource yet</div>
+          </div>
+      </div>
+    </div>

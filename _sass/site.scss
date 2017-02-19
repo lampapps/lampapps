@@ -94,6 +94,13 @@ h1, h2, h3, h4 {
 }
 
 /* header */
+
+div.contain-to-grid{
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 5px 10px -6px #777;
+}
+
 .top-bar .name h1 img {
   display: inline;
 }
@@ -293,9 +300,7 @@ h1, h2, h3, h4 {
   font-size: 24px;
   margin-bottom: 5px;
 }
-.post .info p {
-  font-size: 0.875rem;
-}
+
 .post .info p a {
   color: #333333;
 }
@@ -358,58 +363,6 @@ h1, h2, h3, h4 {
   color: #2A5DB0;
 }
 
-/*Home Page Hero*/
-.hero {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  background: url("/images/hero-min.jpg") no-repeat;
-  background-size: cover;
-  height: 40vh;
-  min-height: 300px;
-      }
-  
-  .hero .intro {
-    padding: 3rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); 
-    text-align: center;
-  }
-  .hero .herotitle {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: inline-block;
-    padding: 9px 10px 4px;
-    font-size: 1.5rem;
-    line-height: 1.5em;
-    letter-spacing: -0.025em;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "PT sans";
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero p {
-    color: #fff;
-    line-height: 1.75em;
-    font-weight: 200;
-    text-align: center;
-    margin-bottom: 2rem;
-    letter-spacing: 0.1em; 
-  }
-
-  @media only screen and (min-width: 40.063em) {
-    .hero .herotitle {
-      text-align: center;
-      font-size: 2.5rem; 
-    }
-    .hero p {
-      text-align: center; 
-    } 
-  }
 
 /*error page only*/
 .errorpage {
@@ -446,15 +399,6 @@ h1, h2, h3, h4 {
       font-size: 2rem; 
     }
   }
-
-/* A litle css to allow anchor move down from under the menu on the resources page.*/
-.anchor{
-  display: block;
-  height: 150px; /*same height as header*/
-  margin-top: -150px; /*same height as header*/
-  visibility: hidden;
-}
-
 
 /* Tables
 ================================== */
@@ -654,8 +598,11 @@ h1, h2, h3, h4 {
   margin: 0 0 5px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
-
+    text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
+.tag a {color: #000000;}
 
 .tag::before {
   background: #f6f6f6;
@@ -682,7 +629,7 @@ h1, h2, h3, h4 {
 
 .tag:hover {
   background-color: #fcbf31;
-  color: #999;
+  color: #000000;
   text-decoration: none !important;
 }
 
@@ -755,7 +702,6 @@ a:hover, a:focus {
 
 /* Posts Memu */
 .post-title {
-  font-size: .8rem;
   line-height: 1.5;
 }
 
@@ -769,3 +715,69 @@ a:hover, a:focus {
   padding-right: 5px;
   color: #999;
 }
+
+/* Foundation 6 Pagination */
+.pagination {
+  margin-left: 0;
+  margin-bottom: 1rem; 
+}
+
+.pagination::before, .pagination::after {
+    display: table;
+    content: ' '; }
+
+.pagination::after {
+    clear: both; }
+
+.pagination li {
+    margin-right: 0.0625rem;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    display: none; }
+
+.pagination li:last-child, .pagination li:first-child {
+      display: inline-block; }
+
+@media print, screen and (min-width: 40em) {
+      .pagination li {
+        display: inline-block; } }
+
+.pagination a, .pagination button {
+    display: block;
+    padding: 0.1875rem 0.625rem;
+    border-radius: 3px;
+    color: #0a0a0a; }
+
+.pagination a:hover, .pagination button:hover {
+      background: #e6e6e6; }
+
+.pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: #fcbf31;;
+    color: #fefefe;
+    cursor: default; }
+
+.pagination .disabled {
+    padding: 0.1875rem 0.625rem;
+    color: #cacaca;
+    cursor: not-allowed; }
+
+.pagination .disabled:hover {
+      background: transparent; }
+
+.pagination .ellipsis::after {
+    padding: 0.1875rem 0.625rem;
+    content: '\2026';
+    color: #0a0a0a; }
+
+.pagination-previous a::before, .pagination-previous.disabled::before {
+  display: inline-block;
+  margin-right: 0.5rem;
+   }
+
+.pagination-next a::after, .pagination-next.disabled::after {
+  display: inline-block;
+  margin-left: 0.5rem;
+  }
+
+

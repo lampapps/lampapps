@@ -41,7 +41,7 @@ gems: [jekyll-paginate, sass, jekyll-feed, jekyll-sitemap]
 
 # Serving
 url: http://www.lampapps.com
-# baseurl:  "" # does not include hostname
+baseurl: /
 
 # keep_files: 
 #   - css/pure.css

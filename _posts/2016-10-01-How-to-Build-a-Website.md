@@ -5,7 +5,7 @@ metadesc: "This article will walk you through the steps of building a website fo
 date:   2016-10-01 12:00:00 -0500
 author: LampApps
 category: Quick-Start
-tags: [Hosting, Email, Domain-Name, Design, SEO, Development]
+tags: [Hosting, Email, Domain-Name, Design, SEO, Tools]
 image: images/website-design.jpg
 ---
 

@@ -14,29 +14,10 @@ section_id: blog
   </div>
   <div class='row'>
     <div class='large-12 columns'>
+      {% include pagination.html %}
+      <div class='spacing'></div>
       {{ content }}
-      {% if paginator %}
-        <div class="pager">
-          {% if paginator.next_page %}
-            {% if paginator.next_page == 1 %}
-              <a href="/blog" class="older button"><< Older Entries</a>
-            {% else %}
-              <a href="/blog/page{{ paginator.next_page }}" class="older button">&lt;&lt; Older Entries</a>
-            {% endif %}
-          {% else %}
-            <span class="older">Older Entries</span>
-          {% endif %}
-          {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-              <a href="/blog" class="newer button">Newer Entries >></a>
-            {% else %}
-              <a href="/blog/page{{ paginator.previous_page }}" class="newer button">Newer Entries &gt;&gt;</a>
-            {% endif %}
-          {% else %}
-            <span class="newer">Newer Entries</span>
-          {% endif %}
-        </div>
-      {% endif %}
+      {% include pagination.html %}
     </div>
   </div>
 </div>

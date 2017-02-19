@@ -12,34 +12,46 @@ section_id: blog
           <span class='date'>{{ post.date | date: "%d" }}</span>
         </div>
         <div class='info'>
-          <h3>
-            <a href='{{post.url}}' style="color: #333333;">{{ post.title }}</a>
-          </h3>
-          <p>
+          <h3><a href='{{post.url}}' style="color: #333333;">{{ post.title }}</a></h3>
             <!--<span class='author'>{{post.author}}</span>-->
             Posted: 
             <span class='month'>{{ post.date | date: "%B" }}</span>
             <span class='date'>{{ post.date | date: "%d" }},</span>
             <span class='date'>{{ post.date | date: "%Y" }}</span> - 
             <a href='{{ post.url }}#disqus_thread'></a>
-            <br /><br />
-              {% if post.tags.size > 0 %}Tag{% if post.tags.size > 1 %}s{% endif %}:
-                {% assign sorted_tags = post.tags | sort %}
-                  {% for tag in sorted_tags %}
-                    <span class="tag"><a href="/tag.html#{{ tag }}">{{ tag }}</a></span>
-                  {% endfor %}
-              {% endif %}
-          </p>
+              <ul class="blog-tags-list" style="margin: 8px 0 5px 0;">
+                  {% assign sorted_tags = post.tags | sort %}
+                    {% for tag in sorted_tags %}
+                      <li class="blog-tag-item tag"><a href="/tag.html#{{ tag }}"><h4>{{ tag }}</h4></a></li>
+                    {% endfor %}
+              </ul>
         </div>
         <div class='content'>
           {{post.excerpt}}
-          <a class='button' href='{{post.url}}'>Read more</a>
+          <div class="text-center">
+            <a class='button' href='{{post.url}}'>Read more</a>
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
   <div class="large-3 columns">
     {% include rightside.html %}
+    <!-- Hosting On s3 Book -->
+    <div style="margin-bottom: 25px;">  
+    <a href="https://www.amazon.com/dp/B00X8ERWM4/ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=lampapps-20&linkId=d0fd8ce39baba591ff09ccfe1c7580b5" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00X8ERWM4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=B00X8ERWM4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+    </div>
+    <!-- Hosting on S3 Book -->
+    <!-- SEO Step By Step -->
+      <div style="margin-bottom: 25px;">  
+      <a href="https://www.amazon.com/gp/product/1497415020/ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=lampapps-20&linkId=28f279d0a77dc7176158d187b26eda4c" target="_blank"><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1497415020&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" alt="Seo Book" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=1497415020" width="1" height="1" alt="Seo Book" style="border:none !important; margin:0px !important;" />
+      </div>
+  <!-- End Seo Step by Step  -->
+  <!--Theme Forest link -->
+      <div style="margin-bottom: 25px;">
+      <a href="https://themeforest.net/?ref=lampapps" target="_blank" style="outline:none;border:0;"><img src="/images/aff/theme_forest_250x250.jpg" alt="Themeforest" /></a>
+      </div>
+  <!--end-->
   </div>
 </div>
 <script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

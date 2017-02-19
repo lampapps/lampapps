@@ -9,24 +9,19 @@ section_id: blog
     <span class='date'>{{ page.date | date: "%d" }}</span>
   </div> 
   <div class='info'>
-    <h3>
-      {{ page.title }}
-    </h3>
-      <p>
-        <!--<span class='author'>{{post.author}}</span>-->
-        Posted: 
-        <span class='month'>{{ page.date | date: "%B" }}</span>
-        <span class='date'>{{ page.date | date: "%d" }},</span>
-        <span class='date'>{{ page.date | date: "%Y" }}</span> - 
-        <a href='{{ site.url }}{{ page.url }}#disqus_thread'></a>
-        <br /><br />
-          {% if page.tags.size > 0 %}Tag{% if page.tags.size > 1 %}s{% endif %}:
-            {% assign sorted_tags = page.tags | sort %}
-              {% for tag in sorted_tags %}
-                <span class="tag"><a href="/tag.html#{{ tag }}">{{ tag }}</a></span>
-              {% endfor %}
-          {% endif %}
-       </p> 
+    <h3>{{ page.title }}</h3>
+          <!--<span class='author'>{{post.author}}</span>-->
+          Posted: 
+          <span class='month'>{{ page.date | date: "%B" }}</span>
+          <span class='date'>{{ page.date | date: "%d" }},</span>
+          <span class='date'>{{ page.date | date: "%Y" }}</span> - 
+          <a href='{{ post.url }}#disqus_thread'></a>
+            <ul class="blog-tags-list" style="margin: 8px 0 5px 0;">
+                {% assign sorted_tags = page.tags | sort %}
+                  {% for tag in sorted_tags %}
+                    <li class="blog-tag-item tag"><a href="/tag.html#{{ tag }}"><h4>{{ tag }}</h4></a></li>
+                  {% endfor %}
+            </ul>
         {% include share.html %}
         <br />
   </div>

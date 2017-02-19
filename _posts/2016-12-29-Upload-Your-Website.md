@@ -5,7 +5,7 @@ metadesc: "Learn how to upload to Amazon Web Services S3 using Cyberduck"
 date:   2016-12-29 13:00:00 -0500
 author: LampApps
 category: Quick-Start
-tags: [Hosting]
+tags: [Hosting, Tools]
 image: images/transfer-files.jpg
 ---
 
