@@ -41,7 +41,7 @@ gems: [jekyll-paginate, sass, jekyll-feed, jekyll-sitemap]
 
 # Serving
 url: http://www.lampapps.com
-baseurl: /
+# baseurl: 
 
 # keep_files: 
 #   - css/pure.css
@@ -53,7 +53,7 @@ sass:
 excerpt_separator: <!--more-->
 permalink: /:year/:month/:day/:title.html
 paginate: 3
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num"
 
 timezone: America/New_York
 
