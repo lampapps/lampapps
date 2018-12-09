@@ -33,27 +33,31 @@ exclude:
   #- "rev-manifest.json"
   - "s3_website.yml"
 
-# Plugins
-gems: [jekyll-paginate, sass, jekyll-feed, jekyll-sitemap]
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-paginate
+  - sass
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Conversion
 #incremental:      true
 
 # Serving
-url: http://www.lampapps.com
+url: "https://www.lampapps.com"
 # baseurl: 
 
 # keep_files: 
 #   - css/pure.css
 
 sass:
-  style: compressed
+  style: compressed # possible values: nested expanded compact compressed
 
 # Outputting
 excerpt_separator: <!--more-->
 permalink: /:year/:month/:day/:title.html
 paginate: 3
-paginate_path: "/blog/page:num"
+paginate_path: "/blog/page:num/"
 
 timezone: America/New_York
 

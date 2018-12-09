@@ -45,10 +45,6 @@ Not all the content you need to change is displayed in the browser, however. But
 </head>
 {% endhighlight %}
 
-<div style="margin-bottom: 25px; float: right; margin-left: 20px;">  
-<a href="https://www.amazon.com/Smarter-Way-Learn-HTML-CSS-ebook/dp/B00ULX5FT2/ref=as_li_ss_il?ie=UTF8&qid=1486319569&sr=8-2&keywords=learn+html&linkCode=li3&tag=lampapps-20&linkId=75a74f05f041e3dda03ec981bacf18e4" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ULX5FT2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=B00ULX5FT2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-</div>
-
 If you selected to edit between the `<title>` tags and the content in the description meta tag you are correct.
 
 The title tag provides the text that appears all the way at the top of the browser, or in the tabs if your browser has tabs. The description is very important as it will be visible in search engine results.

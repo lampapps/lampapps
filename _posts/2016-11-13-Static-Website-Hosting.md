@@ -40,12 +40,6 @@ And best of all, it can also host static web sites so your website will load fas
 
 >I will be using the domain name `www.example.com` to demonstrate how to set this up. You should substitute your domain name. You may also refer to the [AWS instructions][awssetupstatic]. The AWS instructions have you placing your web pages in the  `example.com` bucket. The steps below have you placing them in the `www.example.com` bucket. Either will work.
 
-<!-- Aff Link -->
-<div style="margin-bottom: 25px; float: right; margin-left: 20px;">     
-   <a href="https://www.amazon.com/Hosting-Static-Websites-AWS-Non-Geeks-ebook/dp/B00X8ERWM4/ref=as_li_ss_il?_encoding=UTF8&psc=1&refRID=6J76RSQQ3SX7QDP5NVXY&linkCode=li3&tag=lampapps-20&linkId=3c58f65c700997cb98b985d9b595f831" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00X8ERWM4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lampapps-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=lampapps-20&l=li3&o=1&a=B00X8ERWM4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-</div>
-<!-- Aff end link -->
-
 1. If you do not have a Amazon Web Service account you will need to [create one][aws].
 
 2. Once logged in, navigate to the S3 management console and create a bucket named exactly the same as your domain name with the `www` placed in front, for example: `www.example.com`. Select the region closest to your business. For those in the the USA, select **US Standard**. Make sure to click **Create**.

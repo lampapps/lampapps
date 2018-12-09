@@ -2,7 +2,7 @@
   path: index.html
   section_id: home
 - name: Blog
-  path: blog/
+  path: blog/index.html
   section_id: blog
 - name: Resources
   path: resources.html
