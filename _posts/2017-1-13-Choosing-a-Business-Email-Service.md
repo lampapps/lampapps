@@ -25,7 +25,7 @@ tfeatures:
     RackSpace: 100%
     Zoho: 99.99%
   - title: "Cost"
-    GSuite: $5 per user
+    GSuite: $6 per user
     RackSpace: $2 per user (minimum of 5 Users)
     Zoho: $0
 cfeatures:

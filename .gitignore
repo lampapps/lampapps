@@ -40,7 +40,6 @@ npm-debug.log
 # Jekyll
 _site
 .jekyll-metadata
-s3_website.yml
 
 # Vendor directory
 assets/vendor/
@@ -50,3 +49,6 @@ Gemfile.lock
 
 # Composer
 composer.lock
+
+# Scripts
+s3_sync.sh

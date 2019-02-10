@@ -3,7 +3,7 @@
     - title: "Gmail"
       desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage.
       href: https://goo.gl/nCwWpT
-      cost: "$5 per month"
+      cost: "$6 per month"
     - title: "Rack Space"
       desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
       href: https://www.rackspace.com/en-us/email-hosting
@@ -19,10 +19,6 @@
       desc: "Add social media share buttons to your website"
       href: https://www.addthis.com/
       cost: "Free Plan"
-    - title: "Hootsuite"
-      desc: ""
-      href: "https://hootsuite.com"
-      cost: "Free Plan"
     - title: "SEORCH"
       desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank."
       href: http://seorch.eu/
@@ -30,10 +26,6 @@
     - title: "GTmetrix"
       desc: "GTmetrix gives you insight on how well your site loads and provides actionable recommendations on how to optimize it."
       href: "https://gtmetrix.com/"
-      cost: "Free Plan"
-    - title: "Pingdom"
-      desc: "Pingdom makes it easy to monitor your websites and servers. Get alerts when your website is down and insights to its performance and functionality."
-      href: "https://tools.pingdom.com/"
       cost: "Free Plan"
 
 - category: "Design"

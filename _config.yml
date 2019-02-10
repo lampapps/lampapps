@@ -31,7 +31,7 @@ exclude:
   #- "package.json"
   - "README.md"
   #- "rev-manifest.json"
-  - "s3_website.yml"
+  - "s3_sync.sh"
 
 # This will require each of these plugins automatically.
 plugins:
