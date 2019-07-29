@@ -1,0 +1,31 @@
+---
+layout: default
+title: Contact Me
+metadesc: "Helping the small business owner maximize their online presence at the lowest cost. Guiding you through the steps of building an effective website."
+section_id: contact
+permalink: contact.html
+js: formsend.js
+---
+<div class='full'>
+  <div class='row'>
+    <div class='large-10 small-centered columns'>
+      <div class='special-title centered-text'>
+        <h2>Get In touch with us</h2>
+        <p>We are happy to talk to you, est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class='form'>
+    <div class='row'>
+      <form id="recaptcha-contact" action="https://vseqdfvynk.execute-api.us-east-1.amazonaws.com/dev/lampapps" novalidate method="POST">
+        <div id="form-messages" class="hidemsg"></div>
+        <input required type="text" id="name" name="name" placeholder="Name" size="50"><br />
+        <input required type="email" id="email" name="_replyto" placeholder="Email" size="50"><br />
+        <textarea required name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea><br />
+        <div class="g-recaptcha" data-sitekey="6LchgZMUAAAAAGfCJPJd06ywKx6PmzHYEhqTtPjv"></div><br />
+        <input type="submit" value="Send" class="button">
+      </form>
+    </div>
+</div>
+<br />

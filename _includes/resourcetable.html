@@ -1,7 +1,7 @@
 <!-- List all Resources-->
 <div class="resource-list-container" id="all-container2">
   {% for entry in site.data.resources %}
-      <h3>{{ entry.category }} Resources</h3>
+      <h3>{{ entry.category }}</h3>
         <div class="Table">
           <div class="Table-row Table-header">
             <div class="Table-row-item u-Flex-grow2">Website</div>
@@ -25,7 +25,7 @@
         {% for entry in site.data.resources %}
           {% if entry.category contains t %}
           <div class="resource-list-container hidden" id="{{ t }}-container2">
-            <h3>{{ entry.category }} Resources</h3>
+            <h3>{{ entry.category }}</h3>
               <div class="Table">
                 <div class="Table-row Table-header">
                   <div class="Table-row-item u-Flex-grow2">Website</div>

@@ -8,7 +8,10 @@
       <meta name="description" content="{{ page.metadesc }}">
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
       <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic%7CDroid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
+      <link href='/css/style.css' rel='stylesheet'>
+      {% if page.section_id == "contact" %}
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+      {% endif %}
       <!--<link rel="dns-prefetch" href="https://amazon-adsystem.com">-->
       <!--<script src='{{ site.url }}/js/modernizr_min.js'></script>-->
       {% include structured_data.html %}
@@ -19,7 +22,7 @@
           <ul class='title-area'>
             <li class='name'>
               <h1>
-                <a href='/' title="{{ site.name }}"><img src='{{ site.url }}/images/logo.png' alt="{{ site.name }}">&nbsp;{{ site.name }}</a>
+                <a href='/' title="{{ site.name }}"><img src='/images/logo.png' alt="{{ site.name }}">&nbsp;{{ site.name }}</a>
               </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
@@ -36,18 +39,18 @@
                 {% endif %}
                 {% if item.children %}
                   <li class="has-dropdown {{active_class}}">
-                    <a href="{{site.url}}/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
+                    <a href="/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
                     <ul class='dropdown'>
                       {% for child in item.children %}
                         <li>
-                          <a href="{{site.url}}/{{ child.path }}" title="{{ child.name }}">{{ child.name }}</a>
+                          <a href="/{{ child.path }}" title="{{ child.name }}">{{ child.name }}</a>
                         </li>
                       {% endfor %}
                     </ul>
                   </li>
                 {% else %}
                   <li class="{{active_class}}">
-                    <a href="{{ site.url }}/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
+                    <a href="/{{ item.path }}" title="{{ item.name }}">{{ item.name }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -65,7 +68,7 @@
           <div class="small-12 medium-3 large-4 columns footerleft">
           <h4>Note</h4>
             <p>Recommendations of products or services are based on our experience using these products and services or research of their features and customer support. {{ site.name }} does not provide or support any products or services we recommend. </p>
-            <p class="copyright">Copyright 2017 {{ site.name }}</p>
+            <p class="copyright">Copyright 2019 {{ site.name }}</p>
           </div>
           <div class="small-6 medium-3 large-2 columns footerright">
             <h4>About</h4>
@@ -79,20 +82,22 @@
           <div class="small-6 medium-3 large-2 columns footerright">
             <h4>Follow</h4>
               <div class='socials'>
+                <!--
               <a href='https://www.facebook.com/lampapps' target="_blank" title="Follow me on Facebook"><i class='icon-facebook-rect'></i></a><br />
               <a href='https://twitter.com/lampapps' target="_blank" title="Follow me on Twitter"><i class='icon-twitter-bird'></i></a><br />
+                -->
               <a href='https://github.com/lampapps' target="_blank" title="Visit me on Github"><i class='icon-github-circled-1'></i></a><br />
               <a href='http://www.lampapps.com/feed.xml' target="_blank" title="Subscribe to my feed"><i class='icon-rss'></i></a>
               </div>
           </div>
         </div>
       </footer>
-      <script src='{{ site.url }}/js/jquery.min.js'></script>
-      <script src='{{ site.url }}/js/foundation.min.js'></script>
-      <script src='{{ site.url }}/js/jquery.appear_min.js'></script>
-      <script src='{{ site.url }}/js/app_min.js'></script>
+      <script src='/js/jquery.min.js'></script>
+      <script src='/js/foundation.min.js'></script>
+      <script src='/js/jquery.appear_min.js'></script>
+      <script src='/js/app_min.js'></script>
     {% for file in page.js %}
-      <script src="{{ site.url }}/js/{{ file }}"></script>
+      <script src="/js/{{ file }}"></script>
     {% endfor %}
       <!--Google -->
       <script>

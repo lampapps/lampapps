@@ -30,6 +30,10 @@
 
 - category: "Design"
   vendors:
+    - title: PXHere
+      desc: "Free of copyrights under CC0. Do whatever you want."
+      href: https://pxhere.com/
+      cost: "Free"
     - title: Pixabay
       desc: "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required."
       href: https://pixabay.com/
@@ -42,12 +46,8 @@
       desc: This online image optimizer uses a smart combination of the best optimization and lossy compression algorithms to shrink JPEG and PNG images to the minimum possible size while keeping the required level of quality.
       href: http://optimizilla.com/
       cost: "Free"
-    - title: Gimp
-      desc: "GIMP is a image editor available for Linux, OS X, and Windows. It is very similair to Photoshop. You can scale, crop, and edit images very easily wiht Gimp."
-      href: https://www.gimp.org/
-      cost: "Free"
 
-- category: "Hosting"
+- category: "Tools"
   vendors:
     - title: MX Tool Box
       desc: "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly."
@@ -57,13 +57,17 @@
       desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records."
       href: https://www.whatsmydns.net/
       cost: "Free"
-
-- category: "Tools"
-  vendors:
+    - title: S3 Routing Rules Builder
+      desc: "Build S3 conditional routing rules using a simple syntax."
+      href: https://alahmadiq8.github.io/S3-Routing-Rules-Builder/
+      cost: "Free"
     - title: Fontello
       desc: "A icon font generator. An easy way to create a custom icon font for your site. Select images from their large collection, and make a webfont pack with one click."
       href: http://fontello.com/
       cost: "Free"
+
+- category: "Apps"
+  vendors:
     - title: Atom
       desc: "A full featured, cross browser text editor. It has a large following and is well supported. Includes file browser, auto completion, and syntax highlighting."
       href: https://atom.io/
@@ -75,4 +79,8 @@
     - title: Cyberduck
       desc: "Cyberduck is an open source FTP/SFTP (SSH Secure File Transfer), WebDAV and Amazon S3 browser."
       href: https://cyberduck.io/
+      cost: "Free"
+    - title: Gimp
+      desc: "GIMP is a image editor available for Linux, OS X, and Windows. It is very similair to Photoshop. You can scale, crop, and edit images very easily wiht Gimp."
+      href: https://www.gimp.org/
       cost: "Free"
