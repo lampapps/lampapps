@@ -1,12 +1,18 @@
 ---
 layout: post
-title:  "Example Markdown"
-date:   2016-11-11 16:49:53
+title:  "What is IMAP, POP, and SMTP?"
+metadesc: "This post provides a very basic understanding of IMAP, POP and SMTP as they relate to email."
+date:   2019-08-03 16:49:53
 author: LampApps
-category: test
+category: Email
 tags: [Hosting, Email]
+image: images/whatisimappopsmtp.jpg
 ---
-If you are going to use an email client other than the web based one provided by the email service, like Gmail, you will need to understand how email services talk with email clients. You will need a very basic understanding of IMAP, POP and SMTP.
+![What is IMAP POP and SMTP]({{site.url}}/{{ page.image }} "What is IMAP, POP, and SMTP?")
+
+If you are going to configure an email client other than the web based one provided by the email service, like Gmail, you will need to understand how email services talk with email clients. You will need a very basic understanding of IMAP, POP and SMTP.
+
+<!--more-->
 
 ### IMAP and POP Explained
 
@@ -41,3 +47,6 @@ My recommendation for email service is Google's [G Suite][gsuite]. G Suite is th
 [rackspace]: https://www.rackspace.com/en-us/email-hosting "Rack Space EMail Service"
 [zoho]: https://www.zoho.com/mail/zohomail-pricing2.html "Zoho Mail Free Email"
 [tbird]: https://www.mozilla.org/en-US/thunderbird/ "Thunderbird Email Client"
+
+*[client]: An app or software that you interact with to manage your email, Outlook is a good example
+*[service]: An email server is the service that interacts with your email client to receive and send you email from your email client

@@ -44,10 +44,10 @@ plugins:
 #incremental:      true
 
 # Serving
-url: "https://www.lampapps.com"
-# baseurl: 
+url: "https://lampapps.com"
+# baseurl:
 
-# keep_files: 
+# keep_files:
 #   - css/pure.css
 
 sass:
@@ -60,4 +60,3 @@ paginate: 3
 paginate_path: "/blog/page:num/"
 
 timezone: America/New_York
-

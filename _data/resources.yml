@@ -84,3 +84,14 @@
       desc: "GIMP is a image editor available for Linux, OS X, and Windows. It is very similair to Photoshop. You can scale, crop, and edit images very easily wiht Gimp."
       href: https://www.gimp.org/
       cost: "Free"
+
+- category: "Hosting"
+  vendors:
+    - title: Simply Explained - Savjee (YouTube)
+      desc: "Simply Explained by Savjee provides an excellent tutorial on static websites hosted at AWS S3"
+      href: https://www.youtube.com/playlist?list=PLzvRQMJ9HDiSaiCYWnEMdQvldmXrdUOmv
+      cost: "Free"
+    - title: Simply Explained - Savjee (YouTube)
+      desc: "Simply Explained by Savjee provides an excellent tutorial on the Serverless framework"
+      href: https://www.youtube.com/playlist?list=PLzvRQMJ9HDiT5b4OsmIBiMbsPjfp4kfg3
+      cost: "Free"

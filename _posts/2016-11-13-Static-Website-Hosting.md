@@ -85,7 +85,7 @@ Use this for testing until we point your domain name to your bucket.
 
 Next step is to [select a HTML template][html].
 
-I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter. 
+I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.
 
 
 
@@ -96,4 +96,3 @@ I would love to hear from you. Please leave your comments below. You can also sh
 [awssetupstatic]: https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html "Amazon Web Services instructions for setting up static website hosting"
 [html]: {{ site.url }}{% post_url 2016-12-26-Select-a-HTML-Template %} "How to select a website template"
 [awsfree]: https://aws.amazon.com/free/ "Amazon Web Service Free Tier"
-
