@@ -11,7 +11,7 @@ image: images/website-design.jpg
 
 ![Building a Small Business Website]({{site.url}}/{{ page.image }} "Building A Small Business Website")
 
-Configure AWS Cloudfront to serve to serve your website with SSL and gZip
+Configure AWS Cloudfront to serve your website with SSL and gZip
 
 
 <!--more-->
