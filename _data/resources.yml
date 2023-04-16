@@ -67,7 +67,7 @@
 
 - category: "Apps"
   vendors:
-    - title: Visual Studio
+    - title: VS Code
       desc: "A standalone source code editor that runs on Windows, macOS, and Linux."
       href: https://visualstudio.microsoft.com/free-developer-offers/
       cost: "Free"
