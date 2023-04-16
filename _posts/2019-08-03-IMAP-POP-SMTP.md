@@ -22,7 +22,7 @@ Many people these days use many devices such as their smart phone, tablet, and d
 
 Using POP (you may also see it referred to as POP3), does not maintain synchronization between the email service and all your email clients. When you access the email service using an email client using POP, that email client will download the entire email to your device (phone, laptop, etc...). You can then read it, delete it or save it for as long as you like. But, whatever you did to that email will only be reflected on that one device. You can not see the changes on other devices you may be using. So if you want to use your smart phone and desktop to view your email you will get confusing results, as the two will not remain in sync.
 
-One advantage of using POP is that you can use less expensive email services that offer lower storage space. This is because you can download the email to your computer, removing it off the server. You can then preserve that email as long as you want instead of deleting it to make room for newer email on the server. 
+One advantage of using POP is that you can use less expensive email services that offer lower storage space. This is because you can download the email to your computer, removing it off the server. You can then preserve that email as long as you want instead of deleting it to make room for newer email on the server.
 
 Another option for saving storage space using IMAP is to use a filter on your desktop computer to find all emails that are older than 30 days. Select those emails and download them to a separate folder on your hard drive. They will then be removed from the server, freeing up space.
 
@@ -32,7 +32,7 @@ SMTP is a protocol used to **send** email. When you click the send button it wil
 
 ### Can I use One Email Client to Manage Mail From Two or More Services?
 
-Yes, you can setup Gmail and Thunderbird, for example, to reach out to other email addresses (inboxes) and bring it into the Gmail inbox so you manage it. Just know that if you reply to any of those emails, it will be from your Gmail account. This could confuse the recipient as the email address will be different from what they may expect, resulting in unread email. It may also expose your private email to your customers, which may look unprofessional. 
+Yes, you can setup Gmail and Thunderbird, for example, to reach out to other email addresses (inboxes) and bring it into the Gmail inbox so you manage it. Just know that if you reply to any of those emails, it will be from your Gmail account. This could confuse the recipient as the email address will be different from what they may expect, resulting in unread email. It may also expose your private email to your customers, which may look unprofessional.
 
 > You can setup Gmail, and other email clients, to have multiple profiles so that it appears you are sending from another email address. But make sure you understand and use that appropriately.
 
@@ -40,11 +40,11 @@ Yes, you can setup Gmail and Thunderbird, for example, to reach out to other ema
 
 Your main email address has one inbox associated with it where all the email goes for you to read. An alias email address does not have its own inbox. This allows you to set up another email address using your domain name, but when someone sends to that email address the email ends up in your primary email address inbox. With email alias, you can have multiple email addresses that send to one inbox. But remember, when you reply to that email, it will come from your main email address. Alias email address are often used for info@mybusiness.com, or support@mybusiness.com. This allows you to have an email address to publicize that won't change when your employees leave.
 
-My recommendation for email service is Google's [G Suite][gsuite]. G Suite is the business class paid version of the free Gmail service. There are other options such as [Zoho Mail][zoho] or [Rack Space][rackspace] if you have different needs.
+My recommendation for email service is Google's [Workspace][workspace]. Workspace is the business class paid version of the free Gmail service. There are other options such as [Zoho Mail][zoho] or [Rack Space][rackspace] if you have different needs.
 
 
-[gsuite]: https://goo.gl/nCwWpT "Google's GSuite"
-[rackspace]: https://www.rackspace.com/en-us/email-hosting "Rack Space EMail Service"
+[workspace]: https://goo.gl/nCwWpT "Google's Workspace"
+[rackspace]: https://www.rackspace.com/en-us/email-hosting "Rack Space Email Service"
 [zoho]: https://www.zoho.com/mail/zohomail-pricing2.html "Zoho Mail Free Email"
 [tbird]: https://www.mozilla.org/en-US/thunderbird/ "Thunderbird Email Client"
 

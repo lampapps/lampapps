@@ -1,24 +1,23 @@
 - category: "Email"
   vendors:
     - title: "Gmail"
-      desc: Google's G Suite includes Gmail and other Google services to help teams communicate. Simple to set up and manage.
+      desc: Google's Workspace includes Gmail and other Google services to help teams communicate. Simple to set up and manage.
       href: https://goo.gl/nCwWpT
-      cost: "$6 per month"
+      cost: "$$"
     - title: "Rack Space"
       desc: "Rackspace has a wide choice of industry-leading email and productivity solutions including Exchange and Office 365. "
       href: https://www.rackspace.com/en-us/email-hosting
-      cost: "$2 per Month - Min of 10"
+      cost: "$$"
+    - title: "Zoho Mail"
+      desc: "Host your business email on a secure, encrypted, privacy-guaranteed, and ad-free email service."
+      href: https://www.zoho.com/mail/
+      cost: "$"
     - title: "Thunderbird"
       desc: "Thunderbird is a free email client that’s easy to download, set up and customize. This is not an email services, just the software to send and receive email from your computer."
       href: "https://www.mozilla.org/en-US/thunderbird/"
       cost: "Free"
-
 - category: "SEO"
   vendors:
-    - title: "AddThis"
-      desc: "Add social media share buttons to your website"
-      href: https://www.addthis.com/
-      cost: "Free Plan"
     - title: "SEORCH"
       desc: "Great SEO tool that scans and checks your page for onpage factors. Provides hints  on how to increase your page rank."
       href: http://seorch.eu/
@@ -31,7 +30,7 @@
 - category: "Design"
   vendors:
     - title: PXHere
-      desc: "Free of copyrights under CC0. Do whatever you want."
+      desc: "Free of copyrights under CCO. Do whatever you want."
       href: https://pxhere.com/
       cost: "Free"
     - title: Pixabay
@@ -46,17 +45,13 @@
       desc: This online image optimizer uses a smart combination of the best optimization and lossy compression algorithms to shrink JPEG and PNG images to the minimum possible size while keeping the required level of quality.
       href: http://optimizilla.com/
       cost: "Free"
+    - title: ThemeForest
+      desc: Professional Website Templates for any project. Discover thousands of easy to customize templates made by world-class developers.
+      href: https://themeforest.net/
+      cost: "$$"
 
 - category: "Tools"
   vendors:
-    - title: MX Tool Box
-      desc: "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly."
-      href: http://mxtoolbox.com/
-      cost: "Free"
-    - title: DNS Propagation Checker
-      desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records."
-      href: https://www.whatsmydns.net/
-      cost: "Free"
     - title: S3 Routing Rules Builder
       desc: "Build S3 conditional routing rules using a simple syntax."
       href: https://alahmadiq8.github.io/S3-Routing-Rules-Builder/
@@ -65,19 +60,23 @@
       desc: "A icon font generator. An easy way to create a custom icon font for your site. Select images from their large collection, and make a webfont pack with one click."
       href: http://fontello.com/
       cost: "Free"
+      title: DNS Leak test
+      desc: "Test routing to find DNS leaks while using VPN. Also provides your IP and DNS when not using VPN."
+      href: https://www.dnsleaktest.com/
+      cost: "Free"
 
 - category: "Apps"
   vendors:
-    - title: Atom
-      desc: "A full featured, cross browser text editor. It has a large following and is well supported. Includes file browser, auto completion, and syntax highlighting."
-      href: https://atom.io/
+    - title: Visual Studio
+      desc: "A standalone source code editor that runs on Windows, macOS, and Linux."
+      href: https://visualstudio.microsoft.com/free-developer-offers/
       cost: "Free"
     - title: Sublime Text
-      desc: "One of the best text editors out there. Easy to use, full featured. They provide an unlimited free trial."
+      desc: "One of the best text editors out there. Easy to use, full featured. For Windows, Mac and Linux."
       href: https://www.sublimetext.com/
-      cost: "Free to try, $70 to buy"
+      cost: "$$"
     - title: Cyberduck
-      desc: "Cyberduck is an open source FTP/SFTP (SSH Secure File Transfer), WebDAV and Amazon S3 browser."
+      desc: "Cyberduck is a libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure & OneDrive, Google Drive and Dropbox."
       href: https://cyberduck.io/
       cost: "Free"
     - title: Gimp
@@ -91,7 +90,30 @@
       desc: "Simply Explained by Savjee provides an excellent tutorial on static websites hosted at AWS S3"
       href: https://www.youtube.com/playlist?list=PLzvRQMJ9HDiSaiCYWnEMdQvldmXrdUOmv
       cost: "Free"
+    - title: Severless
+      desc: "All-in-one development solution for auto-scaling apps on AWS Lambda"
+      href: https://www.serverless.com/
+      cost: "Free"
     - title: Simply Explained - Savjee (YouTube)
       desc: "Simply Explained by Savjee provides an excellent tutorial on the Serverless framework"
       href: https://www.youtube.com/playlist?list=PLzvRQMJ9HDiT5b4OsmIBiMbsPjfp4kfg3
+      cost: "Free"
+    - title: Free Code Camp
+      desc: "Article describing setup of the Serverless on Linux"
+      href: https://www.freecodecamp.org/news/building-serverless-contact-form-for-static-websites/
+      cost: "Free"
+      
+- category: "Domain-Name"
+  vendors:
+    - title: Google Domain
+      desc: "Simple pricing. Extras included. Email forwarding, privacy protection, one-click DNSSEC, Google 2-Step Verification, and more included."
+      href: https://domains.google/
+      cost: "$$"
+    - title: MX Tool Box
+      desc: "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly."
+      href: http://mxtoolbox.com/
+      cost: "Free"
+    - title: DNS Propagation Checker
+      desc: "This allows you to check the current state of DNS propagation after having made changes to your domains records."
+      href: https://www.whatsmydns.net/
       cost: "Free"

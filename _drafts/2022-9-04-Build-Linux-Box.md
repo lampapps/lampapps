@@ -2,7 +2,7 @@
 layout: post
 title: "My Development Environment"
 metadesc: "I build static websites using Jekyll, Amazon Web Services, and Github. This post provides the steps to set these tools up on your computer."
-date: 2019-12-05 12:00:00 -0500
+date: 2022-9-04 12:00:00 -0500
 author: LampApps
 category: misc
 tags: [Tools]
@@ -13,13 +13,12 @@ image: images/website-design.jpg
 
 I build static websites using Jekyll, Amazon Web Services, Atom text editor, and Github. This post provides the steps to set these tools up on your computer.
 <!--more-->
-Jekyll is a great static website generator that makes building fast websites easy. Amazon Web Services (AWS) provides very inexpensive hosting, DNS and SSL certificates. Static sites can be hosted on AWS S3 for very little money. SSL certificates are free. This website is hosted at AWS using S3 and costs just a few dollars each month. This compares to Wordpress or other content management systems that need a full server with PHP and a database installed. Even on an inexpensive shared server these setups will cost 10 times the amount as AWS S3 static web hosting. Sites hosted in conventional shared hosting environments will also be slower because a static website generator like Jekyll does all the work to create your website on your computer, you then upload the static html, css, and javascript files to S3 which then serves them out to the internet. No preprocessing of scripts, calls to databases or other processing required at the server on AWS S3 website hosting. This makes these static websites much faster that other sites.
+Jekyll is a great static website generator that makes building fast websites easy. Amazon Web Services (AWS) provides very inexpensive hosting, DNS and SSL certificates. Static sites can be hosted on AWS S3 for very little money. SSL certificates are free. This website is hosted at AWS using S3 and costs just a few dollars each month. This compares to Wordpress or other content management systems that need a full server with PHP and a database installed. Even on an inexpensive shared server these setups will cost 10 times the amount as AWS S3 static web hosting. Sites hosted in conventional shared hosting environments will also be slower because a static website generator like Jekyll does all the work to create your website on your computer, you then upload the static html, css, and javascript files to S3 which then serves them out to the internet. No preprocessing of scripts, calls to databases or other processing required at the server on AWS S3 website hosting. This makes these static websites much faster than other sites.
 
 
 
 ### Requirements
 * AWS account
-* Github account
 * A computer with a text editor and terminal, any OS flavor will do. I am using Linux Mint.
 
 ### Optional software to install

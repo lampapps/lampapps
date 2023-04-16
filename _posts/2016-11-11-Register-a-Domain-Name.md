@@ -10,7 +10,7 @@ image: images/domain-name.jpg
 ---
 ![Register a Domain Name]({{ site.url }}/{{ page.image }} "Register a Domain Name")
 
-A domain name is your trademark on the Internet. It is the human readable address used to find your website, for example `freshapples.com`. It is what you want people to remember and what you want people to find when they search on the Internet. As important as it is, you do not need to spend a lot of money to obtain one. It can be as little as $12 a year. It is easy to register your domain name, but not very easy to choose the right one. 
+A domain name is your trademark on the Internet. It is the human readable address used to find your website, for example `freshapples.com`. It is what you want people to remember and what you want people to find when they search on the Internet. As important as it is, you do not need to spend a lot of money to obtain one. It can be as little as $12 a year. It is easy to register your domain name, but not very easy to choose the right one.
 
 This article will describe how domain names work, how to choose one, and how to register one for your website and email.
 
@@ -22,7 +22,7 @@ This article will describe how domain names work, how to choose one, and how to 
 
 You may have heard that an Internet address is just a bunch of numbers. That is essentially true. But humans can't interpret those easily, so a system was developed to translate the numbers into words that you and I can read and remember easily. You can reach a website by typing into the browser's address bar the numbers (known as an IP address) or the domain name. For example: [104.43.142.34][msip] will take you to the same website as [microsoft.com][microsoft]. When you type in the domain name a service called Domain Name System (DNS) translates the name into the number and sends you to the right place. This all takes place in  milliseconds.
 
-When you register a domain name it is yours to keep as long as you keep your registration current. The IP address is assigned to the hosting provider that owns the server that hosts your website. This allows the domain name owner to change the physical location of their website or email without changing their "trademark" on the Internet. Your email and website can even be at separate hosting services as we will demonstrate later. 
+When you register a domain name it is yours to keep as long as you keep your registration current. The IP address is assigned to the hosting provider that owns the server that hosts your website. This allows the domain name owner to change the physical location of their website or email without changing their "trademark" on the Internet. Your email and website can even be at separate hosting services as we will demonstrate later.
 
 It is important to understand that there are thousands of people who are willing to take your money to host your site and register your domain name. There is an entire industry of resellers out there (I was one). Some are great, some, not so much. I have personally seen a small business loose their domain name because the developer of their website registered it for them. The developer never told the customer where it was registered or when it would expire, nor did the small business owner know to ask. When that developer disappeared, so did the domain name, email and website. Their business was wiped off the Internet in seconds. Once lost a domain name can be very difficult to get back. It can take weeks and costs hundreds of dollars if it can be done at all.
 
@@ -42,7 +42,7 @@ Keep your domain name short. The easier it is to remember the better. One of the
 
 Don't get fancy with words. For example `bikes4sale.com`. Unless you own both `bikesforsale.com` and `bikes4sale.com` you may send your customers to your competitors website. You can use a dash to separate words within a domain name. For example: `charleston-locksmith.com` but I recommend against it as it will often get left out when conveying it verbally, such as when sharing your email address. Remember, your domain name is part of your email too.
 
-If you decide to buy a domain name that describes your business, use one, two, or maybe three key words. Again, the shorter the better. `charlestonlocksmith.com` is a great example of a domain name for a local locksmith in Charleston. Customers will use those two words to search for that service in Charleston. We want to optimize our website for the search engines. The domain name is part of that. More on search engine optimization, also known as SEO, in a future post. 
+If you decide to buy a domain name that describes your business, use one, two, or maybe three key words. Again, the shorter the better. `charlestonlocksmith.com` is a great example of a domain name for a local locksmith in Charleston. Customers will use those two words to search for that service in Charleston. We want to optimize our website for the search engines. The domain name is part of that. More on search engine optimization, also known as SEO, in a future post.
 
 You will find that most of the great domain names are taken. `charlestonlocksmith.com` is already registered and, at the time of this writing, is being offered for sale for $599. This is an example of a "Premium Domain Name".
 
@@ -60,11 +60,11 @@ Start the process at [Google's Domain Name Registration page][googledomain]. The
 
 ![Registering a Domain Name with Google]({{site.url}}/images/googledomain.jpg "Registering a Domain Name with Google")
 
-The returned results will let you know if the name you want is available or not. If it is, you can place it in your basket and purchase it. If not, you can see suggestions for similar names. See the `Add Extension` link? There you can find all the new top level domains that are now available. Play around with variations of your business name or key words describing your business until you find one you like and then buy it. 
+The returned results will let you know if the name you want is available or not. If it is, you can place it in your basket and purchase it. If not, you can see suggestions for similar names. See the `Add Extension` link? There you can find all the new top level domains that are now available. Play around with variations of your business name or key words describing your business until you find one you like and then buy it.
 
 > If you already own a domain name elsewhere and want to transfer it to Google you can follow the same process. You will see the opposing arrow icon to start the transfer process. Transferring a domain can take days to a week or more. In addition, there is a 90 day waiting period after you purchase or modify a domain name's registration. So if you recently registered a new domain name you will have to wait to transfer it. That is not an issue, you can still set everything up now and transfer it later. It will not result in any downtime for your website or email.
 
-Once your registration is completed you can return to [Google Domains][googledomain] and manage your new domain name. 
+Once your registration is completed you can return to [Google Domains][googledomain] and manage your new domain name.
 
 ![Google Domain Manager]({{site.url}}/images/domain-manager.jpg "Google Domain Manager")
 
@@ -79,7 +79,7 @@ Leave everything else alone for now. We will connect your new website to this do
 
 Next step is to learn more about [hosting services][hostinglearn]. Or, go right to setting up an [Amazon S3][hostingsetup] service to host your static website.
 
-I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter. 
+I would love to hear from you. Please leave your comments below. You can also share this post on Facebook and Twitter.
 
 
 

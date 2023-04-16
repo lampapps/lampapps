@@ -4,7 +4,7 @@ title:  "Web Form for Static Web Sites"
 metadesc: ""
 date:   2019-08-05 12:00:00 -0500
 author: LampApps
-category: misc	
+category: misc
 tags: [Hosting, Tools]
 image: images/website-design.jpg
 ---
@@ -26,7 +26,7 @@ You will need to setup an account or install the following:
 4. [Google reCAPTCHA][recap] account
 
 ### Optional
-	
+
 In this post I incorporate [Jekyll] [jekyll] static website generator. Hosting is at AWS S3 but it could be any hosting provider.
 
 ### Credit
@@ -34,8 +34,8 @@ In this post I incorporate [Jekyll] [jekyll] static website generator. Hosting i
 [Rishabh Joshi][joshi]
 
 
-[joshi] https://www.rishabh.me/
-[jekyll] https://jekyllrb.com/
+[joshi]: https://www.rishabh.me/
+[jekyll]: https://jekyllrb.com/
 [aws]: https://aws.amazon.com
 [node]: https://nodejs.org/en/download/package-manager/
 [sls]: https://serverless.com/

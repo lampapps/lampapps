@@ -14,11 +14,13 @@ section_id: blog
         <div class='info'>
           <h3><a href='{{post.url}}' style="color: #333333;">{{ post.title }}</a></h3>
             <!--<span class='author'>{{post.author}}</span>-->
-            Posted: 
+            Posted:
             <span class='month'>{{ post.date | date: "%B" }}</span>
             <span class='date'>{{ post.date | date: "%d" }},</span>
-            <span class='date'>{{ post.date | date: "%Y" }}</span> - 
-            <a href='{{ post.url }}#disqus_thread'></a>
+            <span class='date'>{{ post.date | date: "%Y" }}</span>
+            <!--
+            - <a href='{{ post.url }}#disqus_thread'></a>
+            -->
               <ul class="blog-tags-list" style="margin: 8px 0 5px 0;">
                   {% assign sorted_tags = post.tags | sort %}
                     {% for tag in sorted_tags %}
@@ -37,11 +39,6 @@ section_id: blog
   </div>
   <div class="large-3 columns">
     {% include rightside.html %}
-  <!--Theme Forest link -->
-      <div style="margin-bottom: 25px;">
-      <a href="https://themeforest.net/?ref=lampapps" target="_blank" style="outline:none;border:0;"><img src="/images/aff/theme_forest_250x250.jpg" alt="Themeforest" /></a>
-      </div>
-  <!--end-->
   </div>
 </div>
 <script id="dsq-count-scr" src="//lampapps.disqus.com/count.js" async></script>

@@ -373,12 +373,12 @@ div.contain-to-grid{
   background-size: cover;
   height: 60vh;
       }
-  
+
   .errorpage .intro {
     padding: 3rem;
     position: relative;
     top: 50%;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
     text-align: center;
   }
 
@@ -390,13 +390,13 @@ div.contain-to-grid{
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 300;
-    text-align: center; 
+    text-align: center;
   }
 
   @media only screen and (min-width: 40.063em) {
     .errorpage p {
       text-align: center;
-      font-size: 2rem; 
+      font-size: 2rem;
     }
   }
 
@@ -578,7 +578,7 @@ div.contain-to-grid{
 .tags {
   list-style: none;
   margin: 0;
-  overflow: hidden; 
+  overflow: hidden;
   padding: 0;
 }
 
@@ -634,7 +634,7 @@ div.contain-to-grid{
 }
 
 .tag:hover::after {
-   border-left-color: #fcbf31; 
+   border-left-color: #fcbf31;
 }
 
 .blog-tags-list li.active{
@@ -643,7 +643,7 @@ div.contain-to-grid{
 }
 
 .blog-tags-list li.active::after {
-     border-left-color: #fcbf31; 
+     border-left-color: #fcbf31;
 }
 
 /* Youtube video */
@@ -664,7 +664,7 @@ div.contain-to-grid{
 /* Insert Menu in Blog body */
 @media only screen and (min-width: 40.063em) {
   .insertmenu {
-    float: right; 
+    float: right;
     margin: 0 0 20px 60px;
   }
 }
@@ -719,7 +719,7 @@ a:hover, a:focus {
 /* Foundation 6 Pagination */
 .pagination {
   margin-left: 0;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .pagination::before, .pagination::after {

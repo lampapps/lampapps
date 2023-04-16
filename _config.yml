@@ -11,6 +11,7 @@ github: lampapps
 
 # Handling Reading
 include:
+  -
   #- ".htaccess"
   #- "_pages"
 

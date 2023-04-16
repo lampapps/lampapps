@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configuring AWS CLoudfront"
+title: "Configuring AWS Cloudfront"
 metadesc: ""
 date: 2019-08-07 12:00:00 -0500
 author: LampApps
@@ -46,9 +46,9 @@ Configure AWS Cloudfront to serve your website with SSL and gZip
   * Enter your naked domain name and with www. prefix for Alternate Domain Names. ie: example.com, www.example.com
   * Select Custom SSL Certificate, choose the certificate your create and validated
   * Enter the Default Root Object, ie: index.html
-  * you can setup logging id desired
+  * you can setup logging if desired
   * Click Create Distribution
 
 #### Route 53
-1. Edit the the A records to point to eh cludfront Distribution
-2. Create AAAA records and also point to the CLoudfront Distribution
+1. Edit the the A records to point to the cloudfront Distribution
+2. Create AAAA records and also point to the Cloudfront Distribution

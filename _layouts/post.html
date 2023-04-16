@@ -7,22 +7,23 @@ section_id: blog
   <div class='timestamp left text-center'>
     <span class='month'>{{ page.date | date: "%h" }}</span>
     <span class='date'>{{ page.date | date: "%d" }}</span>
-  </div> 
+  </div>
   <div class='info'>
     <h3>{{ page.title }}</h3>
           <!--<span class='author'>{{post.author}}</span>-->
-          Posted: 
+          Posted:
           <span class='month'>{{ page.date | date: "%B" }}</span>
           <span class='date'>{{ page.date | date: "%d" }},</span>
-          <span class='date'>{{ page.date | date: "%Y" }}</span> - 
-          <a href='{{ post.url }}#disqus_thread'></a>
+          <span class='date'>{{ page.date | date: "%Y" }}</span>
+          <!--
+          - <a href='{{ post.url }}#disqus_thread'></a>
+          -->
             <ul class="blog-tags-list" style="margin: 8px 0 5px 0;">
                 {% assign sorted_tags = page.tags | sort %}
                   {% for tag in sorted_tags %}
-                    <li class="blog-tag-item tag"><a href="/tag.html#{{ tag }}"><h4>{{ tag }}</h4></a></li>
+                    <li class="blog-tag-item tag"><a href="/tag.html#{{ tag }}"><h4>{{ tag | replace: '-', ' '}}</h4></a></li>
                   {% endfor %}
             </ul>
-        {% include share.html %}
         <br />
   </div>
   <div class='content'>

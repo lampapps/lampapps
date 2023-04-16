@@ -1,7 +1,7 @@
 <!-- List all Resources-->
 <div class="resource-list-container" id="all-container2">
   {% for entry in site.data.resources %}
-      <h3>{{ entry.category }}</h3>
+      <h3>{{ entry.category | replace: '-', ' '}} Resources</h3>
         <div class="Table">
           <div class="Table-row Table-header">
             <div class="Table-row-item u-Flex-grow2">Website</div>
@@ -9,7 +9,7 @@
             <div class="Table-row-item">Cost</div>
           </div>
             {% for vendor in entry.vendors %}
-          <div class="Table-row">  
+          <div class="Table-row">
               <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow">{{ vendor.title }}</a></div>
               <div class="Table-row-item u-Flex-grow6" data-header="">{{ vendor.desc }}</div>
               <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
@@ -25,7 +25,7 @@
         {% for entry in site.data.resources %}
           {% if entry.category contains t %}
           <div class="resource-list-container hidden" id="{{ t }}-container2">
-            <h3>{{ entry.category }}</h3>
+            <h3>{{ entry.category | replace: '-', ' ' }} Resources</h3>
               <div class="Table">
                 <div class="Table-row Table-header">
                   <div class="Table-row-item u-Flex-grow2">Website</div>
@@ -33,7 +33,7 @@
                   <div class="Table-row-item">Cost</div>
                 </div>
                 {% for vendor in entry.vendors %}
-                <div class="Table-row">  
+                <div class="Table-row">
                     <div class="Table-row-item u-Flex-grow2" data-header="Website"><a href="{{ vendor.href }}" target="_blank" rel="nofollow">{{ vendor.title }}</a></div>
                     <div class="Table-row-item u-Flex-grow7" data-header="">{{ vendor.desc }}</div>
                     <div class="Table-row-item" data-header="Cost">{{ vendor.cost }}</div>
@@ -52,7 +52,7 @@
             <div class="Table-row-item u-Flex-grow6">Description</div>
             <div class="Table-row-item">Cost</div>
           </div>
-          <div class="Table-row">  
+          <div class="Table-row">
               <div class="Table-row-item" data-header="Website">Sorry - nothing to display for this resource yet</div>
           </div>
       </div>

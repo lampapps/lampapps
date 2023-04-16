@@ -24,7 +24,7 @@ As risky as that may be, I am going to make several assumptions about you, the s
 * You need a simple website to showcase the services you provide.
 * You are comfortable downloading and installing software on your computer, or have someone in your family or business who is.
 * You are willing to learn something new.
-* You do not have thousands of dollars to pay a web developer. 
+* You do not have thousands of dollars to pay a web developer.
 
 After we are done getting the basic website and email set up, I will post articles where you can learn how to add more functionality to your website. Even if you do not end up doing the work yourself, these articles will give you a better understanding of the basics so when your developer makes recommendations you will understand the level of work and associated costs that go with it. If you do hire a developer, please heed my advice about [domain names][domainname].
 
@@ -44,12 +44,12 @@ After we are done getting the basic website and email set up, I will post articl
 2. Register your domain name - This is your address on the Internet, for example `lampapps.com`.
 3. Sign up for a hosting service - This is a system of web services that serves your website out to the Internet. I use Amazon S3.
 4. Select a template  - A template comes complete with all layout and code that is needed for your website.
-5. Edit your template - Change the content and images that came with your template. This will be the most time consuming part. 
+5. Edit your template - Change the content and images that came with your template. This will be the most time consuming part.
 6. Upload you content to your hosting service - Very easy with the right software.
 7. Point your domain name to your hosted website content - You will use a Domain Name Service (DNS) to do this.
 8. Email - Not to be overlooked, you need a professional email address. Please don't use AOL for your business email.
 
-The details of each are covered in the separate articles, but in general, your uploaded content includes all the formatting, images, and words your customers will see. All this is uploaded to your account at a hosting company of your choice. When a customer types your domain name into a browser, or more likely, finds your business using a search engine like Google, they are directed to your account at the hosting company where they will see your content displayed on their computer or mobile device. This all happens in a fraction of a second. 
+The details of each are covered in the separate articles, but in general, your uploaded content includes all the formatting, images, and words your customers will see. All this is uploaded to your account at a hosting company of your choice. When a customer types your domain name into a browser, or more likely, finds your business using a search engine like Google, they are directed to your account at the hosting company where they will see your content displayed on their computer or mobile device. This all happens in a fraction of a second.
 
 Like your website, email is also dependent on your domain name, but is handled very differently. I will show you how to setup an email account and provide tips on using it effectively.
 
@@ -63,7 +63,3 @@ I would love to hear from you. Please leave your comments below. You can also sh
 [1Password]: https://1password.com "1Password Password Manager"
 [googleaccount]: https://accounts.google.com/SignUp "Signup for a Google Account"
 [domainname]: {% post_url 2016-11-11-Register-a-Domain-Name %} "Register your domain name"
-
-
-
-
